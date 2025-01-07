@@ -1,0 +1,315 @@
+[01-07 04:45:22]: [INFO] Created column 'regdate' and set the current timestamp, 1736225122367, to all 0 rows
+[01-07 04:45:22]: [INFO] SQLite Setup finished
+[01-07 04:45:22]: [INFO] No supported permissions system found! Permissions are disabled!
+[01-07 04:45:23]: [INFO] Hooked successfully into Essentials
+[01-07 04:45:23]: [INFO] Essentials spawn file not found: '/workspaces/FPSFullGay/servidor_minecraft/plugins/Essentials/spawn.yml'
+[01-07 04:45:23]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[01-07 04:45:24]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2642 successfully enabled!
+[01-07 04:45:26]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[01-07 04:45:26]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[01-07 04:45:26]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[01-07 04:45:26]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[01-07 04:45:26]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19)
+	at com.maxmind.db.Reader.<init>(Reader.java:119)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:104)
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:233)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:183)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[01-07 04:46:01]: [FINE] Toppo_Z registered 127.102.84.29
+[01-07 04:46:31]: [FINE] Ely__Z registered 127.110.95.48
+[01-07 04:46:31]: [FINE] Ely__Z logged in 127.110.95.48
+[01-07 04:46:32]: [FINE] Toppo_Z logged in 127.102.84.29
+[01-07 04:46:33]: [FINE] benja0806 registered 127.174.62.101
+[01-07 04:46:33]: [FINE] benja0806 logged in 127.174.62.101
+[01-07 04:46:40]: [FINE] nachoto227 registered 127.203.4.180
+[01-07 04:46:40]: [FINE] nachoto227 logged in 127.203.4.180
+[01-07 04:46:49]: [FINE] ZoreteDeCabra registered 127.212.28.94
+[01-07 04:46:49]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 04:47:48]: [FINE] santimax521 registered 127.160.224.64
+[01-07 04:47:48]: [FINE] santimax521 logged in 127.160.224.64
+[01-07 04:49:07]: [FINE] bananadunk registered 127.18.231.167
+[01-07 04:49:07]: [FINE] bananadunk logged in 127.18.231.167
+[01-07 04:49:59]: [FINE] UnPibee registered 127.171.241.83
+[01-07 04:49:59]: [FINE] UnPibee logged in 127.171.241.83
+[01-07 04:51:02]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2642 disabled!
+[01-07 04:51:17]: [INFO] SQLite Setup finished
+[01-07 04:51:17]: [INFO] No supported permissions system found! Permissions are disabled!
+[01-07 04:51:17]: [INFO] Hooked successfully into Essentials
+[01-07 04:51:17]: [INFO] Essentials spawn file not found: '/workspaces/FPSFullGay/servidor_minecraft/plugins/Essentials/spawn.yml'
+[01-07 04:51:18]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2642 successfully enabled!
+[01-07 04:51:21]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[01-07 04:51:21]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[01-07 04:51:21]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[01-07 04:51:21]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[01-07 04:51:21]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19)
+	at com.maxmind.db.Reader.<init>(Reader.java:119)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:104)
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:233)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:183)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[01-07 04:51:21]: [FINE] benja0806 logged in 127.174.62.101
+[01-07 04:51:31]: [FINE] nachoto227 logged in 127.203.4.180
+[01-07 04:51:33]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 04:51:40]: [FINE] UnPibee logged in 127.171.241.83
+[01-07 04:51:43]: [FINE] Toppo_Z logged in 127.102.84.29
+[01-07 04:51:50]: [FINE] bolcarion registered 127.160.224.64
+[01-07 04:51:50]: [FINE] The user bolcarion has 2 accounts:
+[01-07 04:51:50]: [FINE] §7§asantimax521§7, §abolcarion§7.
+[01-07 04:51:50]: [FINE] bolcarion logged in 127.160.224.64
+[01-07 04:51:52]: [FINE] bananadunk logged in 127.18.231.167
+[01-07 04:52:11]: [FINE] The user santimax521 has 2 accounts:
+[01-07 04:52:11]: [FINE] §7§asantimax521§7, §abolcarion§7.
+[01-07 04:52:11]: [FINE] santimax521 logged in 127.160.224.64
+[01-07 04:52:14]: [FINE] Ely__Z logged in 127.110.95.48
+[01-07 04:52:14]: [FINE] faculag4566 logged in 127.31.27.232
+[01-07 04:52:14]: [FINE] faculag4566 registered 127.31.27.232
+[01-07 04:52:35]: [FINE] bananadunk logged in 127.18.231.167
+[01-07 04:52:56]: [FINE] The user bolcarion has 2 accounts:
+[01-07 04:52:56]: [FINE] §7§asantimax521§7, §abolcarion§7.
+[01-07 04:52:56]: [FINE] bolcarion logged in 127.160.224.64
+[01-07 04:53:17]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 04:53:45]: [FINE] bananadunk logged in 127.18.231.167
+[01-07 04:54:29]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 04:54:45]: [FINE] benja0806 logged in 127.174.62.101
+[01-07 04:55:24]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 04:55:34]: [FINE] benja0806 logged in 127.174.62.101
+[01-07 04:57:04]: [FINE] xDogSaur registered 127.40.116.104
+[01-07 04:57:04]: [FINE] xDogSaur logged in 127.40.116.104
+[01-07 04:57:36]: [FINE] benja0806 logged in 127.174.62.101
+[01-07 04:58:43]: [FINE] benja0806 logged in 127.174.62.101
+[01-07 04:59:00]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2642 disabled!
+[01-07 04:59:13]: [INFO] SQLite Setup finished
+[01-07 04:59:13]: [INFO] No supported permissions system found! Permissions are disabled!
+[01-07 04:59:13]: [INFO] Hooked successfully into Essentials
+[01-07 04:59:13]: [INFO] Essentials spawn file not found: '/workspaces/FPSFullGay/servidor_minecraft/plugins/Essentials/spawn.yml'
+[01-07 04:59:13]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2642 successfully enabled!
+[01-07 04:59:16]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[01-07 04:59:16]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[01-07 04:59:16]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[01-07 04:59:16]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[01-07 04:59:16]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19)
+	at com.maxmind.db.Reader.<init>(Reader.java:119)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:104)
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:233)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:183)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[01-07 04:59:16]: [FINE] benja0806 logged in 127.174.62.101
+[01-07 04:59:17]: [FINE] xDogSaur used the wrong password
+[01-07 04:59:20]: [FINE] nachoto227 logged in 127.203.4.180
+[01-07 04:59:22]: [FINE] xDogSaur logged in 127.40.116.104
+[01-07 04:59:23]: [FINE] The user santimax521 has 2 accounts:
+[01-07 04:59:23]: [FINE] §7§asantimax521§7, §abolcarion§7.
+[01-07 04:59:23]: [FINE] santimax521 logged in 127.160.224.64
+[01-07 04:59:28]: [FINE] The user bolcarion has 2 accounts:
+[01-07 04:59:28]: [FINE] §7§asantimax521§7, §abolcarion§7.
+[01-07 04:59:28]: [FINE] bolcarion logged in 127.160.224.64
+[01-07 04:59:31]: [FINE] Ely__Z logged in 127.110.95.48
+[01-07 04:59:38]: [FINE] UnPibee logged in 127.171.241.83
+[01-07 04:59:41]: [FINE] bananadunk logged in 127.18.231.167
+[01-07 04:59:42]: [FINE] Toppo_Z logged in 127.102.84.29
+[01-07 05:00:02]: [FINE] faculag4566 used the wrong password
+[01-07 05:00:25]: [FINE] faculag4566 used the wrong password
+[01-07 05:00:37]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 05:00:47]: [FINE] benja0806 logged in 127.174.62.101
+[01-07 05:01:53]: [FINE] benja0806 logged in 127.174.62.101
+[01-07 05:02:06]: [FINE] faculag4566 used the wrong password
+[01-07 05:02:12]: [FINE] faculag4566 used the wrong password
+[01-07 05:02:20]: [FINE] faculag4566 used the wrong password
+[01-07 05:02:29]: [FINE] faculag4566 logged in 127.31.27.232
+[01-07 05:03:02]: [FINE] benja0806 logged in 127.174.62.101
+[01-07 05:04:21]: [FINE] benja0806 logged in 127.174.62.101
+[01-07 05:05:06]: [FINE] benja0806 logged in 127.174.62.101
+[01-07 05:06:21]: [FINE] benja0806 logged in 127.174.62.101
+[01-07 05:06:25]: [FINE] Zxta registered 127.115.136.31
+[01-07 05:06:25]: [FINE] Zxta logged in 127.115.136.31
+[01-07 05:10:22]: [FINE] Zxta used the wrong password
+[01-07 05:11:06]: [FINE] Zxta used the wrong password
+[01-07 05:11:10]: [FINE] Zxta used the wrong password
+[01-07 05:12:05]: [FINE] Zxta used the wrong password
+[01-07 05:12:09]: [FINE] mams4 registered 127.129.19.124
+[01-07 05:12:09]: [FINE] mams4 logged in 127.129.19.124
+[01-07 05:12:37]: [FINE] Zxta used the wrong password
+[01-07 05:13:00]: [FINE] Zxta used the wrong password
+[01-07 05:14:01]: [FINE] benja0806 logged in 127.174.62.101
+[01-07 05:14:40]: [FINE] Zxta used the wrong password
+[01-07 05:15:14]: [FINE] Zxta used the wrong password
+[01-07 05:15:33]: [FINE] Zxta used the wrong password
+[01-07 05:15:36]: [FINE] Zxta used the wrong password
+[01-07 05:15:39]: [FINE] Zxta used the wrong password
+[01-07 05:17:13]: [FINE] Zxta used the wrong password
+[01-07 05:17:35]: [FINE] bananadunk logged in 127.18.231.167
+[01-07 05:17:46]: [FINE] Zxta used the wrong password
+[01-07 05:17:51]: [FINE] Zxta logged in 127.115.136.31
+[01-07 05:18:57]: [FINE] bananadunk logged in 127.18.231.167
+[01-07 05:19:36]: [FINE] bananadunk logged in 127.18.231.167
+[01-07 05:20:29]: [FINE] bananadunk logged in 127.18.231.167
+[01-07 05:21:25]: [FINE] bananadunk logged in 127.18.231.167
+[01-07 05:22:52]: [FINE] The user bolcarion has 2 accounts:
+[01-07 05:22:52]: [FINE] §7§asantimax521§7, §abolcarion§7.
+[01-07 05:22:52]: [FINE] bolcarion logged in 127.160.224.64
+[01-07 05:25:26]: [FINE] bananadunk logged in 127.18.231.167
+[01-07 05:28:19]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 05:30:07]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 05:37:24]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 05:37:39]: [FINE] Toppo_Z logged in 127.102.84.29
+[01-07 05:49:07]: [FINE] bananadunk logged in 127.18.231.167
+[01-07 05:49:52]: [FINE] benja0806 logged in 127.174.62.101
+[01-07 05:50:10]: [FINE] bananadunk logged in 127.18.231.167
+[01-07 05:54:48]: [FINE] Zeta registered 127.115.136.31
+[01-07 05:54:48]: [FINE] The user Zeta has 2 accounts:
+[01-07 05:54:48]: [FINE] §7zxta, §aZeta§7.
+[01-07 05:54:48]: [FINE] Zeta logged in 127.115.136.31
+[01-07 05:55:34]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 05:56:20]: [FINE] Ely__Z logged in 127.110.95.48
+[01-07 05:57:29]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 06:00:51]: [FINE] The user bolcarion has 2 accounts:
+[01-07 06:00:51]: [FINE] §7§asantimax521§7, §abolcarion§7.
+[01-07 06:00:51]: [FINE] bolcarion logged in 127.160.224.64
+[01-07 06:05:02]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 06:08:24]: [FINE] Zeta used the wrong password
+[01-07 06:08:28]: [FINE] The user Zeta has 2 accounts:
+[01-07 06:08:28]: [FINE] §7zxta, §aZeta§7.
+[01-07 06:08:28]: [FINE] Zeta logged in 127.115.136.31
+[01-07 06:10:12]: [FINE] The user bolcarion has 2 accounts:
+[01-07 06:10:12]: [FINE] §7§asantimax521§7, §abolcarion§7.
+[01-07 06:10:12]: [FINE] bolcarion logged in 127.160.224.64
+[01-07 06:18:00]: [FINE] xDogSaur logged in 127.40.116.104
+[01-07 06:24:51]: [FINE] UnPibee logged in 127.171.241.83
+[01-07 06:26:06]: [FINE] UnPibee logged in 127.171.241.83
+[01-07 06:30:02]: [FINE] Ely__Z logged in 127.110.95.48
+[01-07 06:31:58]: [FINE] Ely__Z logged in 127.110.95.48
+[01-07 06:32:28]: [FINE] The user Zeta has 2 accounts:
+[01-07 06:32:28]: [FINE] §7zxta, §aZeta§7.
+[01-07 06:32:28]: [FINE] Zeta logged in 127.115.136.31
+[01-07 06:41:49]: [FINE] ZoreteDeCabra used the wrong password
+[01-07 06:41:55]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 06:44:34]: [FINE] The user bolcarion has 2 accounts:
+[01-07 06:44:34]: [FINE] §7§asantimax521§7, §abolcarion§7.
+[01-07 06:44:34]: [FINE] bolcarion logged in 127.160.224.64
+[01-07 07:01:42]: [FINE] The user bolcarion has 2 accounts:
+[01-07 07:01:42]: [FINE] §7§asantimax521§7, §abolcarion§7.
+[01-07 07:01:42]: [FINE] bolcarion logged in 127.160.224.64
+[01-07 07:03:41]: [FINE] The user bolcarion has 2 accounts:
+[01-07 07:03:41]: [FINE] §7§asantimax521§7, §abolcarion§7.
+[01-07 07:03:41]: [FINE] bolcarion logged in 127.160.224.64
+[01-07 07:04:27]: [FINE] The user bolcarion has 2 accounts:
+[01-07 07:04:27]: [FINE] §7§asantimax521§7, §abolcarion§7.
+[01-07 07:04:27]: [FINE] bolcarion logged in 127.160.224.64
+[01-07 07:04:57]: [FINE] The user Zeta has 2 accounts:
+[01-07 07:04:57]: [FINE] §7zxta, §aZeta§7.
+[01-07 07:04:57]: [FINE] Zeta logged in 127.115.136.31
+[01-07 07:10:05]: [FINE] The user santimax521 has 2 accounts:
+[01-07 07:10:05]: [FINE] §7§asantimax521§7, §abolcarion§7.
+[01-07 07:10:05]: [FINE] santimax521 logged in 127.160.224.64
+[01-07 07:13:21]: [FINE] benja0806 logged in 127.174.62.101
+[01-07 07:30:22]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 07:30:48]: [FINE] faculag4566 used the wrong password
+[01-07 07:30:54]: [FINE] faculag4566 logged in 127.31.27.232
+[01-07 07:33:49]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 07:41:26]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 07:43:29]: [FINE] benja0806 logged in 127.174.62.101
+[01-07 07:45:27]: [FINE] The user santimax521 has 2 accounts:
+[01-07 07:45:27]: [FINE] §7§asantimax521§7, bolcarion.
+[01-07 07:45:27]: [FINE] santimax521 logged in 127.160.224.64
+[01-07 07:49:44]: [FINE] mams4 logged in 127.129.19.124
+[01-07 08:02:52]: [FINE] benja0806 logged in 127.174.62.101
+[01-07 08:14:26]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 08:20:11]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 08:20:36]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 08:20:57]: [FINE] The user Zeta has 2 accounts:
+[01-07 08:20:57]: [FINE] §7zxta, §aZeta§7.
+[01-07 08:20:57]: [FINE] Zeta logged in 127.115.136.31
+[01-07 08:21:50]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 08:22:14]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 08:22:52]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 08:23:21]: [FINE] xDogSaur logged in 127.40.116.104
+[01-07 08:23:26]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 08:23:35]: [FINE] xDogSaur logged in 127.40.116.104
+[01-07 08:23:45]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 08:24:36]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 08:26:26]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 08:26:52]: [FINE] The user santimax521 has 2 accounts:
+[01-07 08:26:52]: [FINE] §7§asantimax521§7, bolcarion.
+[01-07 08:26:52]: [FINE] santimax521 logged in 127.160.224.64
+[01-07 08:28:22]: [FINE] xDogSaur logged in 127.40.116.104
+[01-07 08:28:59]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2642 disabled!
+[01-07 08:29:13]: [INFO] SQLite Setup finished
+[01-07 08:29:13]: [INFO] No supported permissions system found! Permissions are disabled!
+[01-07 08:29:13]: [INFO] Hooked successfully into Essentials
+[01-07 08:29:13]: [INFO] Essentials spawn file not found: '/workspaces/FPSFullGay/servidor_minecraft/plugins/Essentials/spawn.yml'
+[01-07 08:29:13]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2642 successfully enabled!
+[01-07 08:29:16]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[01-07 08:29:16]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[01-07 08:29:16]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[01-07 08:29:16]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[01-07 08:29:16]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19)
+	at com.maxmind.db.Reader.<init>(Reader.java:119)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:104)
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:233)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:183)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[01-07 08:29:17]: [FINE] xDogSaur logged in 127.40.116.104
+[01-07 08:29:19]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 08:29:21]: [FINE] mams4 logged in 127.129.19.124
+[01-07 08:29:21]: [FINE] The user santimax521 has 2 accounts:
+[01-07 08:29:21]: [FINE] §7§asantimax521§7, bolcarion.
+[01-07 08:29:21]: [FINE] santimax521 logged in 127.160.224.64
+[01-07 08:29:21]: [FINE] nachoto227 logged in 127.203.4.180
+[01-07 08:29:42]: [FINE] benja0806 logged in 127.174.62.101
+[01-07 08:29:50]: [FINE] faculag4566 logged in 127.31.27.232
+[01-07 08:37:34]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 08:40:34]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 08:46:48]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 08:47:21]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 08:48:15]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 08:49:10]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 08:50:29]: [FINE] ZoreteDeCabra logged in 127.212.28.94
+[01-07 09:15:36]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2642 disabled!

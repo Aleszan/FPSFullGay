@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.212.28.94
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1736239832862
+  login: 1736239822993
+money: '0'
+last-account-name: ZoreteDeCabra
+logoutlocation:
+  world: 1b21c5bd-00f9-410f-9897-a77a68046137
+  world-name: world
+  x: -89.73548307288904
+  y: 67.0
+  z: 71.64688814984991
+  yaw: 109.08503723144531
+  pitch: -12.897293090820312

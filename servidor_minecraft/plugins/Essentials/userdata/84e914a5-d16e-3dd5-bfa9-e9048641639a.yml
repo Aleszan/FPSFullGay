@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.40.116.104
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1736239594746
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1736241314089
+  login: 1736238396439
+money: '0'
+last-account-name: xDogSaur
+lastlocation:
+  world: fdb8e6c7-a610-4907-a5ff-d71a9e6690fd
+  world-name: world_nether
+  x: -328.28655911230254
+  y: 83.32533448891023
+  z: -253.6155898996282
+  yaw: -80.3309326171875
+  pitch: 13.983295440673828
+logoutlocation:
+  world: 1b21c5bd-00f9-410f-9897-a77a68046137
+  world-name: world
+  x: -2662.178478553382
+  y: 73.0
+  z: -1766.8906929042685
+  yaw: 88.367919921875
+  pitch: 36.08642578125

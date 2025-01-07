@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.102.84.29
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1736232645083
+  login: 1736228252849
+money: '0'
+last-account-name: Toppo_Z
+logoutlocation:
+  world: 1b21c5bd-00f9-410f-9897-a77a68046137
+  world-name: world
+  x: 1719.876985229631
+  y: 63.0
+  z: 191.30000001192093
+  yaw: 107.62648010253906
+  pitch: 22.34990119934082

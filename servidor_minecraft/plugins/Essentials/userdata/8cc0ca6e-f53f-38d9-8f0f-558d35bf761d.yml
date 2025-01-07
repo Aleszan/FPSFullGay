@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.110.95.48
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1736233902229
+  login: 1736231511299
+money: '0'
+last-account-name: Ely__Z
+logoutlocation:
+  world: 1b21c5bd-00f9-410f-9897-a77a68046137
+  world-name: world
+  x: -1410.8809354959933
+  y: 67.9375
+  z: -304.59515998090615
+  yaw: 92.84317016601562
+  pitch: 33.14997100830078

@@ -1,0 +1,16 @@
+name: LaMercedez
+description: ''
+open: false
+pvp: false
+home: ''
+color: m
+chests: []
+players:
+- 5c846ced-deb7-364e-b862-e5c64616ef3f,OWNER
+- 2bc131e5-b440-3fd2-b2fb-2c45cc6aaa3b,DEFAULT
+- 5d22e4e7-7593-329b-91e8-bf4956477f5b,DEFAULT
+- c436878c-0061-3ffb-8e60-7f9e3d49a017,DEFAULT
+- bfec446e-b332-37dc-95bb-fc16b424021a,DEFAULT
+level: 1
+tag: ''
+score: 0

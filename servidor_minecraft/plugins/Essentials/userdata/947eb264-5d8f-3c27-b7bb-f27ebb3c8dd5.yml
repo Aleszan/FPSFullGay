@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.115.136.31
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1736227168839
+  login: 1736227013666
+money: '0'
+last-account-name: Zxta
+logoutlocation:
+  world: 1b21c5bd-00f9-410f-9897-a77a68046137
+  world-name: world
+  x: -61.01058549947894
+  y: 71.0
+  z: 134.43233239325986
+  yaw: -35.77983093261719
+  pitch: 5.644415378570557

@@ -1,0 +1,13 @@
+name: Libertarios
+description: ''
+open: false
+pvp: false
+home: ''
+color: '6'
+chests: []
+players:
+- 03502d61-75c0-3984-8dec-353fa3007fdf,DEFAULT
+- b05eba41-1809-3193-83d8-06393137f486,OWNER
+- 8fea8e32-9eaf-3803-80f6-384288240716,DEFAULT
+level: 1
+tag: ''
