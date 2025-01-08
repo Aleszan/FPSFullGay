@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1736301723344
+  logout: 1736304391993
   login: 1736301729683
 money: '0'
 last-account-name: mams4
 logoutlocation:
   world: 1b21c5bd-00f9-410f-9897-a77a68046137
   world-name: world
-  x: -2644.836487569205
-  y: 64.0
-  z: -1774.6675236301114
-  yaw: 15.607976913452148
-  pitch: 55.72730255126953
+  x: -2673.907985279973
+  y: 55.0
+  z: -1776.9767564417111
+  yaw: -91.2047119140625
+  pitch: 8.849859237670898

@@ -24,7 +24,7 @@ echest:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: GOLD_INGOT
-    amount: 14
+    amount: 20
   '4':
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -94,12 +94,12 @@ echest:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: DIAMOND
-    amount: 14
+    amount: 11
   '7':
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: EMERALD
-    amount: 16
+    amount: 24
   '8':
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -109,11 +109,7 @@ echest:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: LAPIS_BLOCK
-    amount: 17
-  '6':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: LAPIS_LAZULI
+    amount: 16
   '9':
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -134,13 +130,18 @@ echest:
     v: 3953
     type: GOLDEN_APPLE
     amount: 3
-  '11':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: IRON_INGOT
-    amount: 8
   '25':
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE
+    amount: 5
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: IRON_INGOT
+    amount: 8
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: LAPIS_LAZULI
     amount: 5
