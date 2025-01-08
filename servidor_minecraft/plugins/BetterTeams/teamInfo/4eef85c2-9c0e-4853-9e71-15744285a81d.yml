@@ -14,3 +14,112 @@ players:
 level: 1
 tag: ''
 score: 0
+echest:
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: POPPY
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: POPPY
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: PUMPKIN_PIE
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: POPPY
+  '22':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: POPPY
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ROTTEN_FLESH
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ROTTEN_FLESH
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ROTTEN_FLESH
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ROTTEN_FLESH
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ROTTEN_FLESH
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ROTTEN_FLESH
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ROTTEN_FLESH
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ROTTEN_FLESH
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ROTTEN_FLESH
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ROTTEN_FLESH
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ROTTEN_FLESH
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ROTTEN_FLESH
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ROTTEN_FLESH
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ROTTEN_FLESH
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ROTTEN_FLESH
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ROTTEN_FLESH
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ROTTEN_FLESH
+  '21':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ROTTEN_FLESH
+  '23':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ROTTEN_FLESH
+  '24':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ROTTEN_FLESH
+  '25':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ROTTEN_FLESH
+  '26':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ROTTEN_FLESH
