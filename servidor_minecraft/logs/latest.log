@@ -907,3 +907,14 @@
 [05:30:00] [Server thread/INFO]: LaMercedez bolcarion was slain by Iron Golem
 [05:30:37] [Server thread/INFO]: LaMercedez nachoto227 has made the advancement [Take Aim]
 [05:31:59] [Server thread/INFO]: LaMercedez santimax521 has made the advancement [Take Aim]
+[05:46:40] [User Authenticator #39/INFO]: UUID of player faculag4566 is bfec446e-b332-37dc-95bb-fc16b424021a
+[05:46:41] [Server thread/INFO]: faculag4566 joined the game
+[05:46:41] [Server thread/INFO]: faculag4566[/127.31.27.232:46909] logged in with entity id 189595 at ([world]1214.914854566552, 66.0, -2712.225726328737)
+[05:46:52] [Server thread/INFO]: LaMercedez bolcarion has completed the challenge [Hot Tourist Destinations]
+[05:46:54] [Craft Scheduler Thread - 325 - AuthMe/INFO]: [AuthMe] faculag4566 logged in 127.31.27.232
+[05:47:52] [Server thread/INFO]: nachoto227 issued server command: /team chat -300 85 -335
+[05:47:52] [Craft Scheduler Thread - 326 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f nachoto227§f: -300 85 -335 
+[05:58:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2804ms or 56 ticks behind
+[06:00:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3613ms or 72 ticks behind
+[06:04:15] [Server thread/INFO]: santimax521 issued server command: /team chat -9877 100 -70
+[06:04:15] [Craft Scheduler Thread - 332 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f **santimax521§f: -9877 100 -70 

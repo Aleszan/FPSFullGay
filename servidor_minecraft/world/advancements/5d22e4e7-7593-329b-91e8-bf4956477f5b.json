@@ -489,7 +489,8 @@
       "cooked_beef": "2025-01-07 05:11:57 +0000",
       "cod": "2025-01-08 02:20:32 +0000",
       "melon_slice": "2025-01-07 05:32:40 +0000",
-      "pumpkin_pie": "2025-01-08 03:27:28 +0000"
+      "pumpkin_pie": "2025-01-08 03:27:28 +0000",
+      "carrot": "2025-01-08 05:40:20 +0000"
     },
     "done": false
   },
@@ -784,6 +785,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-01-07 05:18:26 +0000",
+      "minecraft:piglin": "2025-01-08 05:38:44 +0000",
       "minecraft:enderman": "2025-01-08 03:17:41 +0000",
       "minecraft:spider": "2025-01-07 05:19:12 +0000",
       "minecraft:zombie": "2025-01-07 05:17:26 +0000",
@@ -1387,12 +1389,13 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2025-01-08 05:46:52 +0000",
       "minecraft:nether_wastes": "2025-01-07 06:24:44 +0000",
       "minecraft:soul_sand_valley": "2025-01-07 06:28:09 +0000",
       "minecraft:basalt_deltas": "2025-01-07 06:31:16 +0000",
       "minecraft:warped_forest": "2025-01-07 06:33:17 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/misc/gold_ingot_from_nuggets": {
     "criteria": {
@@ -2295,9 +2298,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2025-01-08 05:37:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2025-01-08 06:02:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/carrot_on_a_stick": {
     "criteria": {
       "has_carrot": "2025-01-08 05:05:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2025-01-08 05:37:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2025-01-08 06:02:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2025-01-08 05:37:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+    "criteria": {
+      "has_warped_fungus": "2025-01-08 05:51:01 +0000"
     },
     "done": true
   },
