@@ -13,12 +13,14 @@
       "minecraft:taiga": "2025-01-07 06:18:14 +0000",
       "minecraft:deep_ocean": "2025-01-07 05:36:23 +0000",
       "minecraft:deep_cold_ocean": "2025-01-07 05:39:43 +0000",
+      "minecraft:frozen_ocean": "2025-01-08 06:32:14 +0000",
       "minecraft:frozen_river": "2025-01-07 06:41:38 +0000",
       "minecraft:ocean": "2025-01-07 05:35:47 +0000",
       "minecraft:jungle": "2025-01-07 05:06:13 +0000",
       "minecraft:sunflower_plains": "2025-01-07 06:16:18 +0000",
       "minecraft:birch_forest": "2025-01-07 06:18:12 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-01-07 06:46:46 +0000",
+      "minecraft:snowy_beach": "2025-01-08 06:32:04 +0000",
       "minecraft:flower_forest": "2025-01-07 06:15:45 +0000",
       "minecraft:savanna_plateau": "2025-01-07 04:59:39 +0000",
       "minecraft:beach": "2025-01-07 05:03:27 +0000",
@@ -2328,9 +2330,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_sandstone": "2025-01-08 06:35:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
     "criteria": {
       "has_raw_gold": "2025-01-08 05:58:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
+    "criteria": {
+      "has_sandstone": "2025-01-08 06:35:52 +0000"
     },
     "done": true
   },
@@ -2418,6 +2432,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2025-01-08 06:33:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/brew_potion": {
     "criteria": {
       "potion": "2025-01-08 04:14:41 +0000"
@@ -2448,6 +2468,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-01-08 06:35:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/netherite_scrap_from_blasting": {
     "criteria": {
       "has_ancient_debris": "2025-01-08 05:12:32 +0000"
@@ -2466,9 +2492,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-01-08 06:35:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_tuff_slab_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2025-01-08 05:58:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone": {
+    "criteria": {
+      "has_sandstone": "2025-01-08 06:35:52 +0000"
     },
     "done": true
   },
@@ -2490,9 +2528,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2025-01-08 06:33:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/snow": {
     "criteria": {
       "has_snowball": "2025-01-08 04:21:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-01-08 06:35:52 +0000"
     },
     "done": true
   },
@@ -2517,6 +2567,24 @@
   "minecraft:recipes/building_blocks/crimson_planks": {
     "criteria": {
       "has_logs": "2025-01-08 06:07:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-01-08 06:35:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone": {
+    "criteria": {
+      "has_sandstone": "2025-01-08 06:35:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-01-08 06:35:52 +0000"
     },
     "done": true
   },
@@ -2658,6 +2726,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-01-08 06:33:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-01-08 06:35:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/tuff_brick_stairs_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2025-01-08 05:58:46 +0000"
@@ -2670,6 +2750,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/sandstone_wall": {
+    "criteria": {
+      "has_sandstone": "2025-01-08 06:35:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/quartz_pillar": {
     "criteria": {
       "has_quartz_block": "2025-01-08 05:41:34 +0000"
@@ -2679,6 +2765,12 @@
   "minecraft:nether/obtain_ancient_debris": {
     "criteria": {
       "ancient_debris": "2025-01-08 05:12:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-01-08 06:33:54 +0000"
     },
     "done": true
   },

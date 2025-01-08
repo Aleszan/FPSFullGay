@@ -29,5 +29,5 @@ echest:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: DIAMOND
-    amount: 3
+    amount: 6
 score: 0
