@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1736302295049
-  login: 1736302072656
+  logout: 1736305094856
+  login: 1736305113946
 money: '0'
 last-account-name: bananadunk
 logoutlocation:
   world: 1b21c5bd-00f9-410f-9897-a77a68046137
   world-name: world
-  x: -376.69999998807907
+  x: -375.66384453687783
   y: 98.0
-  z: 881.0500000119209
-  yaw: -170.5501251220703
-  pitch: 34.499996185302734
+  z: 879.7803724494246
+  yaw: -88.95006561279297
+  pitch: 60.00001525878906

@@ -770,3 +770,20 @@
 [02:41:27] [Async Chat Thread - #44/INFO]: [BetterTeams]§b[Team]§f benja0806§f: team chat bien ahi
 [02:46:31] [Server thread/INFO]: mams4 lost connection: Disconnected
 [02:46:32] [Server thread/INFO]: Peronistas mams4 left the game
+[02:51:16] [Async Chat Thread - #46/INFO]: [Not Secure] [LaMercedez] <bolcarion> zz
+[02:51:18] [Async Chat Thread - #47/INFO]: [Not Secure] [LaMercedez] <bolcarion> zz
+[02:55:13] [User Authenticator #27/INFO]: UUID of player bananadunk is 8fea8e32-9eaf-3803-80f6-384288240716
+[02:55:16] [Server thread/INFO]: bananadunk joined the game
+[02:55:16] [Server thread/INFO]: bananadunk[/127.30.151.4:53357] logged in with entity id 116855 at ([world]-376.69999998807907, 98.0, 881.0500000119209)
+[02:55:49] [Craft Scheduler Thread - 220 - AuthMe/INFO]: [AuthMe] bananadunk logged in 127.30.151.4
+[02:56:16] [Server thread/INFO]: benja0806 lost connection: Timed out
+[02:56:16] [Server thread/INFO]: LaMercedez benja0806 left the game
+[02:56:27] [User Authenticator #28/INFO]: UUID of player benja0806 is 2bc131e5-b440-3fd2-b2fb-2c45cc6aaa3b
+[02:56:28] [Server thread/INFO]: LaMercedez benja0806 joined the game
+[02:56:28] [Server thread/INFO]: benja0806[/127.174.62.101:36469] logged in with entity id 117573 at ([world]1159.9769042883065, 114.9375, -2970.5245438812367)
+[02:57:06] [Craft Scheduler Thread - 223 - AuthMe/INFO]: [AuthMe] benja0806 logged in 127.174.62.101
+[02:58:14] [Server thread/INFO]: bananadunk lost connection: Timed out
+[02:58:14] [Server thread/INFO]: Libertarios bananadunk left the game
+[02:58:31] [User Authenticator #29/INFO]: UUID of player bananadunk is 8fea8e32-9eaf-3803-80f6-384288240716
+[02:58:33] [Server thread/INFO]: bananadunk joined the game
+[02:58:33] [Server thread/INFO]: bananadunk[/127.30.151.4:49429] logged in with entity id 118711 at ([world]-375.66384453687783, 98.0, 879.7803724494246)
