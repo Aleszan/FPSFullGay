@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1736305272002
-  login: 1736305315858
+  logout: 1736312417839
+  login: 1736312583659
 money: '0'
 last-account-name: bolcarion
 logoutlocation:
   world: 1b21c5bd-00f9-410f-9897-a77a68046137
   world-name: world
-  x: 1159.9499911112691
+  x: 1214.1438994064752
   y: 69.0
-  z: -2710.4120736299938
-  yaw: 152.8646240234375
-  pitch: 22.350006103515625
+  z: -2710.2757230942116
+  yaw: -162.44989013671875
+  pitch: 51.75004196166992

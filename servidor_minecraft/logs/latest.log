@@ -883,3 +883,19 @@
 [04:44:08] [Server thread/INFO]: santimax521 issued server command: /team echest
 [04:45:46] [Server thread/INFO]: bolcarion issued server command: /team echest
 [04:48:07] [Server thread/INFO]: LaMercedez bolcarion was slain by Iron Golem
+[05:00:14] [Server thread/INFO]: santimax521 lost connection: Disconnected
+[05:00:14] [Server thread/INFO]: LaMercedez santimax521 left the game
+[05:00:17] [Server thread/INFO]: bolcarion lost connection: Disconnected
+[05:00:17] [Server thread/INFO]: LaMercedez bolcarion left the game
+[05:00:27] [User Authenticator #37/INFO]: UUID of player santimax521 is 5c846ced-deb7-364e-b862-e5c64616ef3f
+[05:00:31] [Server thread/INFO]: LaMercedez santimax521 joined the game
+[05:00:31] [Server thread/INFO]: santimax521[/127.82.62.189:56625] logged in with entity id 175549 at ([world]1200.572263916053, 66.0, -2712.7957196729317)
+[05:00:40] [Craft Scheduler Thread - 302 - AuthMe/INFO]: [AuthMe] The user santimax521 has 2 accounts:
+[05:00:40] [Craft Scheduler Thread - 302 - AuthMe/INFO]: [AuthMe] §7§asantimax521§7, bolcarion.
+[05:00:40] [Craft Scheduler Thread - 302 - AuthMe/INFO]: [AuthMe] santimax521 logged in 127.82.62.189
+[05:03:01] [User Authenticator #38/INFO]: UUID of player bolcarion is 5d22e4e7-7593-329b-91e8-bf4956477f5b
+[05:03:03] [Server thread/INFO]: LaMercedez bolcarion joined the game
+[05:03:03] [Server thread/INFO]: bolcarion[/127.82.62.189:35301] logged in with entity id 176346 at ([world]1214.1438994064752, 69.0, -2710.2757230942116)
+[05:03:14] [Craft Scheduler Thread - 307 - AuthMe/INFO]: [AuthMe] The user bolcarion has 2 accounts:
+[05:03:14] [Craft Scheduler Thread - 307 - AuthMe/INFO]: [AuthMe] §7§asantimax521§7, §abolcarion§7.
+[05:03:14] [Craft Scheduler Thread - 307 - AuthMe/INFO]: [AuthMe] bolcarion logged in 127.82.62.189
