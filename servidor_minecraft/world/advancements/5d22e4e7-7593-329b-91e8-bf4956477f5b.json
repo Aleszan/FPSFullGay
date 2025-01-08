@@ -2177,21 +2177,27 @@
     },
     "done": true
   },
-  "minecraft:husbandry/tame_an_animal": {
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
     "criteria": {
-      "tamed_animal": "2025-01-08 02:14:54 +0000"
+      "has_cod": "2025-01-08 02:12:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2025-01-08 02:12:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2025-01-08 02:12:06 +0000"
     },
     "done": true
   },
   "minecraft:recipes/food/cooked_salmon_from_smoking": {
     "criteria": {
       "has_salmon": "2025-01-08 02:12:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_cod_from_smoking": {
-    "criteria": {
-      "has_cod": "2025-01-08 02:12:06 +0000"
     },
     "done": true
   },
@@ -2207,33 +2213,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+  "minecraft:husbandry/tame_an_animal": {
     "criteria": {
-      "has_cod": "2025-01-08 02:12:06 +0000"
+      "tamed_animal": "2025-01-08 02:14:54 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/red_dye_from_poppy": {
+  "minecraft:husbandry/complete_catalogue": {
     "criteria": {
-      "has_poppy": "2025-01-08 02:51:04 +0000"
+      "minecraft:black": "2025-01-08 02:14:54 +0000"
     },
-    "done": true
-  },
-  "minecraft:husbandry/plant_seed": {
-    "criteria": {
-      "wheat": "2025-01-08 02:30:51 +0000"
-    },
-    "done": true
+    "done": false
   },
   "minecraft:recipes/food/bread": {
     "criteria": {
       "has_wheat": "2025-01-08 02:30:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_cod": {
-    "criteria": {
-      "has_cod": "2025-01-08 02:12:06 +0000"
     },
     "done": true
   },
@@ -2243,11 +2237,17 @@
     },
     "done": true
   },
-  "minecraft:husbandry/complete_catalogue": {
+  "minecraft:husbandry/plant_seed": {
     "criteria": {
-      "minecraft:black": "2025-01-08 02:14:54 +0000"
+      "wheat": "2025-01-08 02:30:51 +0000"
     },
-    "done": false
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2025-01-08 02:51:04 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3953
 }
