@@ -953,3 +953,51 @@
 [06:37:15] [Server thread/WARN]: Oak Boat (vehicle of bolcarion) moved wrongly! 0.33880072331020017
 [06:37:29] [Server thread/INFO]: UnPibee issued server command: /minecraft:msg santimax521 ahi ta
 [06:37:43] [Server thread/INFO]: santimax521 issued server command: /minecraft:msg UnPibee GOD
+[06:40:21] [Server thread/INFO]: bolcarion lost connection: Timed out
+[06:40:22] [Server thread/INFO]: LaMercedez bolcarion left the game
+[06:41:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2512ms or 50 ticks behind
+[06:41:16] [User Authenticator #41/INFO]: UUID of player bolcarion is 5d22e4e7-7593-329b-91e8-bf4956477f5b
+[06:41:17] [Server thread/INFO]: LaMercedez bolcarion joined the game
+[06:41:17] [Server thread/INFO]: bolcarion[/127.82.62.189:55493] logged in with entity id 224571 at ([world]-9607.304597942357, 62.110764312744145, -71.92552534713079)
+[06:41:23] [Craft Scheduler Thread - 362 - AuthMe/INFO]: [AuthMe] The user bolcarion has 2 accounts:
+[06:41:23] [Craft Scheduler Thread - 362 - AuthMe/INFO]: [AuthMe] §7§asantimax521§7, §abolcarion§7.
+[06:41:23] [Craft Scheduler Thread - 362 - AuthMe/INFO]: [AuthMe] bolcarion logged in 127.82.62.189
+[06:43:02] [Server thread/INFO]: nachoto227 issued server command: /team chat -10000 73 -214
+[06:43:02] [Craft Scheduler Thread - 363 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f nachoto227§f: -10000 73 -214 
+[06:43:27] [Server thread/INFO]: UnPibee issued server command: /team echest
+[06:43:31] [Server thread/WARN]: Oak Boat (vehicle of bolcarion) moved wrongly! 0.3068031947655826
+[06:44:34] [Server thread/INFO]: santimax521 issued server command: /team echest
+[06:44:45] [Server thread/INFO]: bolcarion issued server command: /team echest
+[06:44:56] [Server thread/INFO]: bolcarion issued server command: /team echest
+[06:45:21] [Server thread/INFO]: bolcarion issued server command: /team echest
+[06:45:48] [Server thread/INFO]: bolcarion issued server command: /team echest
+[06:48:16] [Server thread/INFO]: UnPibee issued server command: /minecraft:msg santimax521 fueron hasta las coords?
+[06:49:07] [Server thread/INFO]: bolcarion issued server command: /team chat -300 85 -335
+[06:49:07] [Craft Scheduler Thread - 370 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f bolcarion§f: -300 85 -335 
+[06:49:32] [Server thread/INFO]: bolcarion issued server command: /team echest
+[06:49:37] [Server thread/INFO]: bolcarion issued server command: /team echest
+[06:49:42] [Server thread/INFO]: santimax521 issued server command: /team echest
+[06:50:08] [Server thread/INFO]: LaMercedez bolcarion tried to swim in lava
+[06:53:56] [Server thread/INFO]: bolcarion issued server command: /team echest
+[06:54:44] [Server thread/INFO]: bolcarion issued server command: /team echest
+[06:57:35] [Server thread/INFO]: bolcarion issued server command: /version
+[06:58:27] [Server thread/INFO]: UnPibee issued server command: /team echest
+[07:00:13] [Server thread/INFO]: bolcarion issued server command: /team echest
+[07:02:53] [Server thread/INFO]: UnPibee issued server command: /team echest
+[07:03:27] [Server thread/INFO]: UnPibee issued server command: /team echest
+[07:04:29] [Server thread/INFO]: UnPibee issued server command: /team echest
+[07:04:48] [Server thread/INFO]: bolcarion lost connection: Timed out
+[07:04:48] [Server thread/INFO]: LaMercedez bolcarion left the game
+[07:06:02] [Server thread/INFO]: UnPibee issued server command: /team echest
+[07:08:00] [Server thread/INFO]: UnPibee issued server command: /team echest
+[07:08:26] [Server thread/INFO]: santimax521 issued server command: /team chat 151 336
+[07:08:26] [Craft Scheduler Thread - 388 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f **santimax521§f: 151 336 
+[07:08:35] [Server thread/INFO]: santimax521 issued server command: /team chat 151 -336
+[07:08:35] [Craft Scheduler Thread - 389 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f **santimax521§f: 151 -336 
+[07:10:51] [Server thread/INFO]: UnPibee issued server command: /team echest
+[07:14:57] [Server thread/INFO]: LaMercedez nachoto227 has completed the challenge [Subspace Bubble]
+[07:15:32] [Server thread/INFO]: UnPibee issued server command: /team echest
+[07:15:57] [Server thread/INFO]: UnPibee issued server command: /team echest
+[07:17:19] [Server thread/INFO]: UnPibee issued server command: /team echest
+[07:18:57] [Server thread/INFO]: UnPibee issued server command: /team echest
+[07:22:39] [Server thread/INFO]: UnPibee issued server command: /team echest

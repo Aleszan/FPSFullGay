@@ -19,22 +19,10 @@ echest:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: POPPY
-  '14':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: POPPY
   '7':
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: POPPY
-  '15':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: POPPY
-  '3':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: NETHERRACK
   '0':
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -47,3 +35,60 @@ echest:
       ==: ItemMeta
       meta-type: ARMOR
       Damage: 33
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: GOLDEN_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      Damage: 44
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: GOLDEN_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 27
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: OAK_PLANKS
+    amount: 3
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIRT
+    amount: 5
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: STRING
+    amount: 2
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPRUCE_SAPLING
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: OAK_BOAT
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: WHITE_WOOL
+    amount: 4
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:water_breathing
+      custom-effects: []
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: TNT
