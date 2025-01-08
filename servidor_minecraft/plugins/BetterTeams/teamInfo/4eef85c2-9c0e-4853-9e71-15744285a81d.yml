@@ -15,70 +15,6 @@ level: 1
 tag: ''
 score: 0
 echest:
-  '4':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: POPPY
-  '7':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: POPPY
-  '0':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: GOLDEN_HELMET
-  '1':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: GOLDEN_BOOTS
-    meta:
-      ==: ItemMeta
-      meta-type: ARMOR
-      Damage: 33
-  '9':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: GOLDEN_BOOTS
-    meta:
-      ==: ItemMeta
-      meta-type: ARMOR
-      Damage: 44
-  '5':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: GOLDEN_SWORD
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      Damage: 27
-  '6':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: OAK_PLANKS
-    amount: 3
-  '8':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: DIRT
-    amount: 5
-  '13':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: STRING
-    amount: 2
-  '16':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: SPRUCE_SAPLING
-  '18':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: OAK_BOAT
-  '19':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: WHITE_WOOL
-    amount: 4
   '10':
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -92,3 +28,108 @@ echest:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: TNT
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: OAK_BOAT
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: WHEAT_SEEDS
+    amount: 4
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: LILAC
+    amount: 2
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: STICK
+    amount: 8
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: BIRCH_SAPLING
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SWEET_BERRIES
+    amount: 20
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ROSE_BUSH
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SUGAR_CANE
+    amount: 9
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: STRING
+    amount: 9
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: GOLD_NUGGET
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: PAPER
+    amount: 27
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: BOOK
+    amount: 64
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: BOOK
+    amount: 64
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: BOOK
+    amount: 64
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: BOOK
+    amount: 64
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: COAL
+    amount: 2
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: BOOK
+    amount: 64
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: BOOK
+    amount: 64
+  '21':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: BOOK
+    amount: 64
+  '22':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: COBBLED_DEEPSLATE
+  '23':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: BOOK
+    amount: 64
+  '24':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: BOOK
+    amount: 46

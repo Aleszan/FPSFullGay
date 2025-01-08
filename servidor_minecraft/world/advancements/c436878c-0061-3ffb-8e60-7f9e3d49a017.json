@@ -19,6 +19,7 @@
       "minecraft:jungle": "2025-01-07 05:06:13 +0000",
       "minecraft:sunflower_plains": "2025-01-07 06:16:18 +0000",
       "minecraft:birch_forest": "2025-01-07 06:18:12 +0000",
+      "minecraft:windswept_hills": "2025-01-08 07:38:45 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-01-07 06:46:46 +0000",
       "minecraft:snowy_beach": "2025-01-08 06:32:04 +0000",
       "minecraft:flower_forest": "2025-01-07 06:15:45 +0000",
@@ -31,6 +32,7 @@
       "minecraft:snowy_plains": "2025-01-07 05:43:16 +0000",
       "minecraft:dripstone_caves": "2025-01-07 05:54:02 +0000",
       "minecraft:snowy_taiga": "2025-01-07 06:39:13 +0000",
+      "minecraft:swamp": "2025-01-08 07:39:12 +0000",
       "minecraft:meadow": "2025-01-07 05:43:19 +0000",
       "minecraft:savanna": "2025-01-07 04:46:20 +0000",
       "minecraft:plains": "2025-01-07 05:04:20 +0000"
@@ -391,6 +393,7 @@
       "bread": "2025-01-07 07:06:31 +0000",
       "cooked_chicken": "2025-01-07 04:58:00 +0000",
       "cooked_mutton": "2025-01-07 05:20:08 +0000",
+      "sweet_berries": "2025-01-08 07:35:10 +0000",
       "cooked_beef": "2025-01-07 05:55:38 +0000",
       "baked_potato": "2025-01-08 06:54:03 +0000",
       "melon_slice": "2025-01-07 05:10:35 +0000"
@@ -407,15 +410,17 @@
     "criteria": {
       "minecraft:blaze": "2025-01-08 06:12:46 +0000",
       "minecraft:skeleton": "2025-01-07 05:19:53 +0000",
+      "minecraft:bogged": "2025-01-08 07:40:47 +0000",
+      "minecraft:ghast": "2025-01-08 05:36:49 +0000",
+      "minecraft:hoglin": "2025-01-08 07:08:16 +0000",
       "minecraft:piglin": "2025-01-07 07:33:53 +0000",
       "minecraft:enderman": "2025-01-07 05:26:31 +0000",
+      "minecraft:silverfish": "2025-01-08 08:04:36 +0000",
       "minecraft:spider": "2025-01-07 04:57:48 +0000",
       "minecraft:piglin_brute": "2025-01-07 07:55:33 +0000",
       "minecraft:zombie": "2025-01-07 04:57:01 +0000",
       "minecraft:creeper": "2025-01-07 07:45:15 +0000",
-      "minecraft:zombie_villager": "2025-01-07 05:05:07 +0000",
-      "minecraft:ghast": "2025-01-08 05:36:49 +0000",
-      "minecraft:hoglin": "2025-01-08 07:08:16 +0000"
+      "minecraft:zombie_villager": "2025-01-07 05:05:07 +0000"
     },
     "done": false
   },
@@ -2386,6 +2391,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-08 08:01:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_quartz": {
     "criteria": {
       "has_quartz_block": "2025-01-08 05:41:34 +0000"
@@ -2494,6 +2505,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-08 08:01:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-01-08 08:10:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/netherite_scrap_from_blasting": {
     "criteria": {
       "has_ancient_debris": "2025-01-08 05:12:32 +0000"
@@ -2506,9 +2529,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-08 08:01:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/sugar_from_sugar_cane": {
     "criteria": {
       "has_sugar_cane": "2025-01-08 04:19:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-08 08:01:37 +0000"
     },
     "done": true
   },
@@ -2527,6 +2562,18 @@
   "minecraft:recipes/building_blocks/smooth_sandstone": {
     "criteria": {
       "has_sandstone": "2025-01-08 06:35:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-01-08 08:01:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-08 08:01:37 +0000"
     },
     "done": true
   },
@@ -2578,6 +2625,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-08 08:01:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/spruce_sign": {
     "criteria": {
       "has_planks": "2025-01-08 04:52:53 +0000"
@@ -2587,6 +2640,12 @@
   "minecraft:recipes/building_blocks/tuff_stairs": {
     "criteria": {
       "has_tuff": "2025-01-08 05:58:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-08 08:01:37 +0000"
     },
     "done": true
   },
@@ -2632,6 +2691,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2025-01-08 08:10:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-01-08 08:10:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_trapdoor": {
     "criteria": {
       "has_planks": "2025-01-08 04:52:53 +0000"
@@ -2641,6 +2712,12 @@
   "minecraft:recipes/redstone/spruce_door": {
     "criteria": {
       "has_planks": "2025-01-08 04:52:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_tag": "2025-01-08 08:01:37 +0000"
     },
     "done": true
   },
@@ -2671,6 +2748,12 @@
   "minecraft:recipes/decorations/tuff_brick_wall_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2025-01-08 05:58:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-01-08 08:01:39 +0000"
     },
     "done": true
   },
@@ -2716,9 +2799,21 @@
     },
     "done": true
   },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2025-01-08 08:01:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/blaze_powder": {
     "criteria": {
       "has_blaze_rod": "2025-01-08 06:13:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2025-01-08 08:10:05 +0000"
     },
     "done": true
   },
@@ -2773,6 +2868,12 @@
   "minecraft:recipes/building_blocks/tuff_brick_stairs_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2025-01-08 05:58:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-01-08 08:01:39 +0000"
     },
     "done": true
   },
@@ -2842,6 +2943,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-01-08 08:01:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/note_block": {
     "criteria": {
       "has_redstone": "2025-01-08 05:22:58 +0000"
@@ -2884,9 +2991,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-01-08 08:01:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/paper": {
     "criteria": {
       "has_reeds": "2025-01-08 04:19:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-01-08 08:10:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-08 08:01:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-01-08 08:10:10 +0000"
     },
     "done": true
   },
@@ -2926,6 +3057,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-01-08 08:01:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/snow_block": {
     "criteria": {
       "has_snowball": "2025-01-08 04:21:47 +0000"
@@ -2935,6 +3072,12 @@
   "minecraft:recipes/redstone/daylight_detector": {
     "criteria": {
       "has_quartz": "2025-01-08 06:56:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-01-08 08:10:05 +0000"
     },
     "done": true
   },
