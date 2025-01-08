@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1736301668748
+  logout: 1736307340195
   login: 1736302920860
 money: '0'
 last-account-name: santimax521
 logoutlocation:
   world: 1b21c5bd-00f9-410f-9897-a77a68046137
   world-name: world
-  x: 1212.6490638750322
-  y: 69.0
-  z: -2710.109598002666
-  yaw: 96.60037231445312
-  pitch: -58.64997100830078
+  x: 1158.8372310400598
+  y: 113.0
+  z: -2946.300000011921
+  yaw: -1.3819580078125
+  pitch: -3.364454746246338
