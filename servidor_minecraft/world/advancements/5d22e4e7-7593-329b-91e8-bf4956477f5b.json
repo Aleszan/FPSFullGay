@@ -783,6 +783,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-01-07 05:18:26 +0000",
+      "minecraft:enderman": "2025-01-08 03:17:41 +0000",
       "minecraft:spider": "2025-01-07 05:19:12 +0000",
       "minecraft:zombie": "2025-01-07 05:17:26 +0000"
     },
@@ -2246,6 +2247,18 @@
   "minecraft:recipes/misc/red_dye_from_poppy": {
     "criteria": {
       "has_poppy": "2025-01-08 02:51:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2025-01-08 03:17:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2025-01-08 03:17:41 +0000"
     },
     "done": true
   },

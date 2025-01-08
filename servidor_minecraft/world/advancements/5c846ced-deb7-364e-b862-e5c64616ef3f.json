@@ -482,6 +482,7 @@
     "criteria": {
       "minecraft:skeleton": "2025-01-07 05:19:42 +0000",
       "minecraft:piglin": "2025-01-07 06:40:35 +0000",
+      "minecraft:zombified_piglin": "2025-01-08 03:25:04 +0000",
       "minecraft:enderman": "2025-01-07 07:58:49 +0000",
       "minecraft:spider": "2025-01-07 04:59:56 +0000",
       "minecraft:piglin_brute": "2025-01-07 08:22:16 +0000",
