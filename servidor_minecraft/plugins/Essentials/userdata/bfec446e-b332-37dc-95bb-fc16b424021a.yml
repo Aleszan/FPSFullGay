@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1736240893093
+  logout: 1736329551940
   login: 1736315201909
 money: '0'
 last-account-name: faculag4566
 logoutlocation:
   world: 1b21c5bd-00f9-410f-9897-a77a68046137
   world-name: world
-  x: 1214.914854566552
-  y: 66.0
-  z: -2712.225726328737
-  yaw: 113.40006256103516
-  pitch: 16.650001525878906
+  x: 1219.300000011921
+  y: 64.0
+  z: -2678.6917199003365
+  yaw: -93.78738403320312
+  pitch: 7.649967670440674

@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1736240869748
+  logout: 1736329710490
   login: 1736308101463
 money: '0'
 last-account-name: nachoto227
 logoutlocation:
   world: 1b21c5bd-00f9-410f-9897-a77a68046137
   world-name: world
-  x: 1168.9055081702147
-  y: 112.0
-  z: -2973.0401625061477
-  yaw: -73.17532348632812
-  pitch: 30.832035064697266
+  x: 1210.3159518517768
+  y: 67.0
+  z: -2700.7488087440433
+  yaw: -171.65260314941406
+  pitch: 12.646133422851562

@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1736305336947
+  logout: 1736329575739
   login: 1736321108197
 money: '0'
 last-account-name: benja0806
 logoutlocation:
   world: 1b21c5bd-00f9-410f-9897-a77a68046137
   world-name: world
-  x: 1208.8678220927557
-  y: 68.0
-  z: -2700.699999988079
-  yaw: 159.2989501953125
-  pitch: 50.029380798339844
+  x: 1225.3680163746033
+  y: 69.0
+  z: -2713.1956614481123
+  yaw: -90.3131103515625
+  pitch: -35.316925048828125
