@@ -15,6 +15,7 @@
       "minecraft:river": "2025-01-07 04:56:38 +0000",
       "minecraft:lukewarm_ocean": "2025-01-07 05:05:39 +0000",
       "minecraft:stony_shore": "2025-01-07 04:53:39 +0000",
+      "minecraft:snowy_plains": "2025-01-08 00:55:50 +0000",
       "minecraft:lush_caves": "2025-01-07 05:16:45 +0000",
       "minecraft:dripstone_caves": "2025-01-07 06:09:19 +0000",
       "minecraft:snowy_taiga": "2025-01-07 07:17:17 +0000",
@@ -283,6 +284,7 @@
     "criteria": {
       "cooked_porkchop": "2025-01-07 07:56:48 +0000",
       "mutton": "2025-01-07 05:34:57 +0000",
+      "apple": "2025-01-08 01:30:33 +0000",
       "bread": "2025-01-07 06:09:11 +0000",
       "rotten_flesh": "2025-01-07 05:23:12 +0000",
       "cooked_mutton": "2025-01-07 05:48:40 +0000",
@@ -483,7 +485,8 @@
       "minecraft:spider": "2025-01-07 04:59:56 +0000",
       "minecraft:piglin_brute": "2025-01-07 08:22:16 +0000",
       "minecraft:zombie": "2025-01-07 05:00:10 +0000",
-      "minecraft:creeper": "2025-01-07 06:19:21 +0000"
+      "minecraft:creeper": "2025-01-07 06:19:21 +0000",
+      "minecraft:zombie_villager": "2025-01-08 00:39:07 +0000"
     },
     "done": false
   },
@@ -2015,21 +2018,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/spruce_planks": {
+  "minecraft:story/shiny_gear": {
     "criteria": {
-      "has_logs": "2025-01-07 09:06:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/birch_button": {
-    "criteria": {
-      "has_planks": "2025-01-07 08:50:12 +0000"
+      "diamond_boots": "2025-01-07 08:46:36 +0000"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/birch_planks": {
     "criteria": {
       "has_logs": "2025-01-07 08:49:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2025-01-07 08:49:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_button": {
+    "criteria": {
+      "has_planks": "2025-01-07 08:50:12 +0000"
     },
     "done": true
   },
@@ -2051,33 +2060,9 @@
     },
     "done": true
   },
-  "minecraft:story/shiny_gear": {
-    "criteria": {
-      "diamond_boots": "2025-01-07 08:46:36 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/birch_sign": {
     "criteria": {
       "has_planks": "2025-01-07 08:50:12 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/birch_wood": {
-    "criteria": {
-      "has_log": "2025-01-07 08:49:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/spruce_wood": {
-    "criteria": {
-      "has_log": "2025-01-07 09:06:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
-    "criteria": {
-      "has_dandelion": "2025-01-07 09:05:40 +0000"
     },
     "done": true
   },
@@ -2102,6 +2087,126 @@
   "minecraft:recipes/building_blocks/birch_stairs": {
     "criteria": {
       "has_planks": "2025-01-07 08:50:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-01-07 09:05:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2025-01-07 09:06:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2025-01-07 09:06:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2025-01-08 00:32:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-01-08 00:32:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2025-01-08 00:32:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-01-08 00:32:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2025-01-08 00:32:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-01-08 00:32:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2025-01-08 00:32:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2025-01-08 00:32:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2025-01-08 00:32:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2025-01-08 00:36:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2025-01-08 00:38:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2025-01-08 00:42:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2025-01-08 00:49:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_hay_block": "2025-01-08 00:49:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2025-01-08 00:49:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2025-01-08 00:49:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-01-08 01:15:15 +0000"
     },
     "done": true
   },

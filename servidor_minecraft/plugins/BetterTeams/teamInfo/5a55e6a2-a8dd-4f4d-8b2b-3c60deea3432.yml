@@ -11,3 +11,23 @@ players:
 - 8fea8e32-9eaf-3803-80f6-384288240716,DEFAULT
 level: 1
 tag: ''
+echest:
+  '24':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: MELON_SLICE
+    amount: 64
+  '25':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: CARROT
+  '26':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: POTATO
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIAMOND
+    amount: 3
+score: 0

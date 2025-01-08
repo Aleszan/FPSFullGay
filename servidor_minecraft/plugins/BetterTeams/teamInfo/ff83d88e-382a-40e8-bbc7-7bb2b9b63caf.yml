@@ -18,53 +18,23 @@ echest:
   '0':
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: ENDER_PEARL
-    amount: 2
+    type: GOLD_BLOCK
+    amount: 25
   '1':
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: GOLDEN_APPLE
-    amount: 3
+    type: GOLD_INGOT
+    amount: 14
   '4':
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: MAGMA_CREAM
+    type: IRON_BLOCK
     amount: 8
-  '8':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: LAPIS_LAZULI
-    amount: 64
   '2':
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: GOLD_BLOCK
-    amount: 9
-  '3':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: RAW_GOLD
-    amount: 46
-  '5':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: GOLD_INGOT
-    amount: 64
-  '9':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: GOLD_INGOT
-    amount: 38
-  '12':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: FIRE_CHARGE
-    amount: 3
-  '17':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: LAPIS_LAZULI
-    amount: 64
+    type: DIAMOND_BLOCK
+    amount: 11
   '18':
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -76,21 +46,41 @@ echest:
   '19':
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: ENCHANTED_BOOK
+    type: OMINOUS_BOTTLE
     meta:
       ==: ItemMeta
-      meta-type: ENCHANTED
-      stored-enchants:
-        minecraft:piercing: 1
+      meta-type: OMINOUS_BOTTLE
+      ominous-bottle-amplifier: 2
   '20':
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: OMINOUS_BOTTLE
-    amount: 2
+    amount: 3
     meta:
       ==: ItemMeta
       meta-type: OMINOUS_BOTTLE
       ominous-bottle-amplifier: 3
+  '22':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: GOAT_HORN
+    meta:
+      ==: ItemMeta
+      meta-type: MUSIC_INSTRUMENT
+      instrument: minecraft:ponder_goat_horn
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: FIRE_CHARGE
+    amount: 3
+  '23':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: GOAT_HORN
+    meta:
+      ==: ItemMeta
+      meta-type: MUSIC_INSTRUMENT
+      instrument: minecraft:seek_goat_horn
   '21':
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -100,61 +90,57 @@ echest:
       ==: ItemMeta
       meta-type: OMINOUS_BOTTLE
       ominous-bottle-amplifier: 4
-  '15':
+  '3':
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: GOAT_HORN
-    meta:
-      ==: ItemMeta
-      meta-type: MUSIC_INSTRUMENT
-      instrument: minecraft:seek_goat_horn
-  '6':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: IRON_INGOT
-    amount: 50
-  '26':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: RAW_IRON
-    amount: 57
-  '24':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: ENCHANTED_BOOK
-    meta:
-      ==: ItemMeta
-      meta-type: ENCHANTED
-      stored-enchants:
-        minecraft:smite: 4
-  '11':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: LAPIS_LAZULI
-    amount: 10
-  '16':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: OMINOUS_BOTTLE
-    meta:
-      ==: ItemMeta
-      meta-type: OMINOUS_BOTTLE
-      ominous-bottle-amplifier: 2
-  '22':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: GOAT_HORN
-    meta:
-      ==: ItemMeta
-      meta-type: MUSIC_INSTRUMENT
-      instrument: minecraft:ponder_goat_horn
+    type: DIAMOND
+    amount: 14
   '7':
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: DIAMOND
-    amount: 64
+    type: EMERALD
+    amount: 16
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ENDER_PEARL
+    amount: 2
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: LAPIS_BLOCK
+    amount: 17
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: LAPIS_LAZULI
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: NETHERITE_INGOT
+    amount: 4
   '10':
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: DIAMOND
+    type: MAGMA_CREAM
+    amount: 8
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: NETHERITE_UPGRADE_SMITHING_TEMPLATE
+    amount: 6
+  '26':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: GOLDEN_APPLE
+    amount: 3
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: IRON_INGOT
+    amount: 8
+  '25':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE
     amount: 5
