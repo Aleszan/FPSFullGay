@@ -288,6 +288,7 @@
       "bread": "2025-01-07 06:09:11 +0000",
       "golden_apple": "2025-01-08 05:14:09 +0000",
       "rotten_flesh": "2025-01-07 05:23:12 +0000",
+      "cookie": "2025-01-08 05:22:06 +0000",
       "cooked_mutton": "2025-01-07 05:48:40 +0000",
       "cooked_beef": "2025-01-07 05:25:18 +0000",
       "beef": "2025-01-07 05:06:46 +0000",
@@ -2435,15 +2436,57 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2025-01-08 05:24:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2025-01-08 05:24:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2025-01-08 05:24:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-01-08 05:31:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2025-01-08 05:24:49 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite": {
     "criteria": {
       "has_quartz": "2025-01-08 05:09:19 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2025-01-08 05:24:49 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite": {
     "criteria": {
       "has_quartz": "2025-01-08 05:09:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2025-01-08 05:24:49 +0000"
     },
     "done": true
   },
@@ -2456,6 +2499,12 @@
   "minecraft:recipes/redstone/daylight_detector": {
     "criteria": {
       "has_quartz": "2025-01-08 05:09:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2025-01-08 05:24:49 +0000"
     },
     "done": true
   },
