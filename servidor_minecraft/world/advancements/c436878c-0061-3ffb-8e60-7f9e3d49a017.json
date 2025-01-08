@@ -413,6 +413,7 @@
       "minecraft:bogged": "2025-01-08 07:40:47 +0000",
       "minecraft:ghast": "2025-01-08 05:36:49 +0000",
       "minecraft:hoglin": "2025-01-08 07:08:16 +0000",
+      "minecraft:shulker": "2025-01-08 08:36:56 +0000",
       "minecraft:piglin": "2025-01-07 07:33:53 +0000",
       "minecraft:enderman": "2025-01-07 05:26:31 +0000",
       "minecraft:silverfish": "2025-01-08 08:04:36 +0000",
@@ -2343,6 +2344,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2025-01-08 08:17:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone_stairs": {
     "criteria": {
       "has_sandstone": "2025-01-08 06:35:52 +0000"
@@ -2676,6 +2683,18 @@
   "minecraft:recipes/redstone/dropper": {
     "criteria": {
       "has_redstone": "2025-01-08 05:22:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2025-01-08 08:36:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2025-01-08 08:17:26 +0000"
     },
     "done": true
   },
@@ -3036,6 +3055,12 @@
   "minecraft:recipes/building_blocks/polished_tuff_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2025-01-08 05:58:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2025-01-08 08:36:56 +0000"
     },
     "done": true
   },
