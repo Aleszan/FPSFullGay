@@ -786,7 +786,8 @@
       "minecraft:skeleton": "2025-01-07 05:18:26 +0000",
       "minecraft:enderman": "2025-01-08 03:17:41 +0000",
       "minecraft:spider": "2025-01-07 05:19:12 +0000",
-      "minecraft:zombie": "2025-01-07 05:17:26 +0000"
+      "minecraft:zombie": "2025-01-07 05:17:26 +0000",
+      "minecraft:creeper": "2025-01-08 03:53:19 +0000"
     },
     "done": false
   },
@@ -2251,6 +2252,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-01-08 03:47:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2025-01-08 03:47:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/glass": {
     "criteria": {
       "has_smelts_to_glass": "2025-01-08 03:17:41 +0000"
@@ -2260,6 +2273,24 @@
   "minecraft:recipes/building_blocks/sandstone": {
     "criteria": {
       "has_sand": "2025-01-08 03:17:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2025-01-08 03:53:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-01-08 03:53:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-01-08 03:47:47 +0000"
     },
     "done": true
   },

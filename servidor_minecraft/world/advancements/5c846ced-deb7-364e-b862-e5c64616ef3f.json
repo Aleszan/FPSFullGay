@@ -2212,6 +2212,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2025-01-08 02:47:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_bricks": {
     "criteria": {
       "has_stone": "2025-01-08 03:14:39 +0000"
@@ -2260,12 +2266,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/armor_stand": {
-    "criteria": {
-      "has_stone_slab": "2025-01-08 02:47:55 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/stone_button": {
     "criteria": {
       "has_stone": "2025-01-08 03:14:39 +0000"
@@ -2284,12 +2284,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/grindstone": {
-    "criteria": {
-      "has_stone_slab": "2025-01-08 03:14:46 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/smooth_stone": {
     "criteria": {
       "has_stone": "2025-01-08 03:14:39 +0000"
@@ -2305,6 +2299,12 @@
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_stone": "2025-01-08 03:14:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2025-01-08 03:14:46 +0000"
     },
     "done": true
   },

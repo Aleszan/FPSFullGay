@@ -833,3 +833,30 @@
 [03:35:45] [Server thread/INFO]: com.mojang.authlib.GameProfile@30e5a1fe[id=2bc131e5-b440-3fd2-b2fb-2c45cc6aaa3b,name=benja0806,properties={textures=[Property[name=textures, value=ewogICJ0aW1lc3RhbXAiIDogMTYzMzU0MDg4Mzg4NywKICAicHJvZmlsZUlkIiA6ICI0ZWQ4MjMzNzFhMmU0YmI3YTVlYWJmY2ZmZGE4NDk1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaXJlYnlyZDg4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRhNmY1ZDQxYzdiMmNhNWIxZDEyOTAwNjVmNTM4NDlmMGZjN2FiOGY1ZWZiZTdjMmZiODE0MDk2ZmQyNDIxZDEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==, signature=tOJe27PZqw8YQmnJkxyoKZbSZYzkBEwBKG9OFPuUfgGCnHUgjOUzgjynfLoX4Hm/b26pHtbu8rzS3y6X41xtMPP9Zj77V1wUIkIUlRI1RMOIvDq5apCh5feEKy8opScTSmwtVwLN6Oz4xU5pPdviOXTFK9H3h+cKZ/aCi5H8qPeG/VAC4j6PQlF7pSLXbgX5hWn7WZcDXuGXF5+j5dLy4mfJcR2cxqs3zsVEB6xwzdQ2y9N0rd0jAclWsyWeqR/X8J6/QUO0l5SR6mnwhrNp1FAVSOKamOpmzr166/gONIXjwZgFNEWXzXSymm+HsMOY2okxL1K2dLTzQdzyEOHgVUqRddcXL2LNa/pu3orwts/KMdNH/P4XMe1p0YKEMlgW7AsvtgjRZBiDbFguLelObM+1TyXkic4gFirJuD2KtgIxiwNd97o7ngTLE5UElFHS+amyuF8VFRHRQaUmqnWReE01FOJBRTALlLcDj3jhxa7RGEG+xhIP4KgfqBNWC5G2IDXxSEJLEDI/nAD9O0GyqGo7n+IAp3+VGMVPrNZVFS8DoSjKRPKrJeRHoYsjeV9WhXtSOL57S92PGFUnErDbL7ROuRwFD/QaSQztRhX023pBPzt9Sg57vhK99Y4WVt7pwjQW6J487aSlMSMVGsSYmpVUURPuDLcv+6iXE2NkzOY=]]}] lost connection: Disconnected
 [03:37:15] [Server thread/INFO]: bananadunk lost connection: Timed out
 [03:37:15] [Server thread/INFO]: Libertarios bananadunk left the game
+[03:45:53] [User Authenticator #33/INFO]: UUID of player santimax521 is 5c846ced-deb7-364e-b862-e5c64616ef3f
+[03:45:57] [Server thread/INFO]: LaMercedez santimax521 joined the game
+[03:45:57] [Server thread/INFO]: santimax521[/127.82.62.189:49777] logged in with entity id 137385 at ([world]1158.8372310400598, 113.0, -2946.300000011921)
+[03:46:04] [Craft Scheduler Thread - 259 - AuthMe/INFO]: [AuthMe] The user santimax521 has 2 accounts:
+[03:46:04] [Craft Scheduler Thread - 259 - AuthMe/INFO]: [AuthMe] §7§asantimax521§7, §abolcarion§7.
+[03:46:04] [Craft Scheduler Thread - 259 - AuthMe/INFO]: [AuthMe] santimax521 logged in 127.82.62.189
+[03:48:19] [User Authenticator #34/INFO]: UUID of player nachoto227 is c436878c-0061-3ffb-8e60-7f9e3d49a017
+[03:48:21] [Server thread/INFO]: nachoto227 joined the game
+[03:48:21] [Server thread/INFO]: nachoto227[/127.203.4.180:50859] logged in with entity id 138332 at ([world]1168.9055081702147, 112.0, -2973.0401625061477)
+[03:48:30] [Craft Scheduler Thread - 262 - AuthMe/INFO]: [AuthMe] nachoto227 logged in 127.203.4.180
+[03:50:45] [Server thread/INFO]: santimax521 lost connection: Disconnected
+[03:50:45] [Server thread/INFO]: LaMercedez santimax521 left the game
+[03:51:07] [User Authenticator #35/INFO]: UUID of player santimax521 is 5c846ced-deb7-364e-b862-e5c64616ef3f
+[03:51:10] [Server thread/INFO]: LaMercedez santimax521 joined the game
+[03:51:10] [Server thread/INFO]: santimax521[/127.82.62.189:58425] logged in with entity id 139231 at ([world]1156.8529606696754, 113.0, -2984.491384630596)
+[03:51:19] [Craft Scheduler Thread - 267 - AuthMe/INFO]: [AuthMe] The user santimax521 has 2 accounts:
+[03:51:19] [Craft Scheduler Thread - 267 - AuthMe/INFO]: [AuthMe] §7§asantimax521§7, §abolcarion§7.
+[03:51:19] [Craft Scheduler Thread - 267 - AuthMe/INFO]: [AuthMe] santimax521 logged in 127.82.62.189
+[03:52:51] [Server thread/INFO]: nachoto227 issued server command: /skins
+[03:52:55] [Folia Async Scheduler Thread #3/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:53:19] [Server thread/INFO]: santimax521 issued server command: /skins
+[03:53:34] [Server thread/INFO]: bolcarion issued server command: /skins
+[03:54:20] [Server thread/INFO]: bolcarion issued server command: /skins
+[03:54:30] [Server thread/INFO]: bolcarion issued server command: /skin farfadox
+[03:54:33] [Server thread/INFO]: bolcarion issued server command: /skin farfadox
+[03:56:14] [Server thread/INFO]: bolcarion issued server command: /team chat tomo prestados los hornos
+[03:56:14] [Craft Scheduler Thread - 269 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f bolcarion§f: tomo prestados los hornos 
