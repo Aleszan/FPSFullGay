@@ -1152,3 +1152,51 @@
 [08:36:48] [Server thread/INFO]: LaMercedez nachoto227 has made the advancement [The City at the End of the Game]
 [08:36:52] [Server thread/INFO]: LaMercedez faculag4566 has made the advancement [The City at the End of the Game]
 [08:38:31] [Server thread/INFO]: LaMercedez nachoto227 has reached the goal [Sky's the Limit]
+[08:45:41] [Server thread/WARN]: Spruce Boat (vehicle of benja0806) moved wrongly! 0.34824956230395243
+[08:46:55] [Server thread/WARN]: santimax521 moved wrongly!
+[08:54:53] [Server thread/INFO]: santimax521 issued server command: /team chat -384 59 2206
+[08:54:53] [Craft Scheduler Thread - 482 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f **santimax521§f: -384 59 2206 
+[08:55:00] [Server thread/INFO]: bolcarion lost connection: Timed out
+[08:55:00] [Server thread/INFO]: LaMercedez bolcarion left the game
+[08:56:00] [User Authenticator #45/INFO]: UUID of player bolcarion is 5d22e4e7-7593-329b-91e8-bf4956477f5b
+[08:56:02] [Server thread/INFO]: LaMercedez bolcarion joined the game
+[08:56:02] [Server thread/INFO]: bolcarion[/127.82.62.189:53029] logged in with entity id 320066 at ([world]1051.3119793273704, 65.0, -2659.8087779794378)
+[08:56:05] [Craft Scheduler Thread - 487 - AuthMe/INFO]: [AuthMe] The user bolcarion has 2 accounts:
+[08:56:05] [Craft Scheduler Thread - 487 - AuthMe/INFO]: [AuthMe] §7§asantimax521§7, §abolcarion§7.
+[08:56:05] [Craft Scheduler Thread - 487 - AuthMe/INFO]: [AuthMe] bolcarion logged in 127.82.62.189
+[08:58:26] [Server thread/INFO]: bolcarion lost connection: Disconnected
+[08:58:26] [Server thread/INFO]: LaMercedez bolcarion left the game
+[08:58:33] [User Authenticator #46/INFO]: UUID of player bolcarion is 5d22e4e7-7593-329b-91e8-bf4956477f5b
+[08:58:35] [Server thread/INFO]: LaMercedez bolcarion joined the game
+[08:58:35] [Server thread/INFO]: bolcarion[/127.82.62.189:41095] logged in with entity id 321719 at ([world]1093.6353243706583, 69.0, -2653.300000011921)
+[08:58:37] [Craft Scheduler Thread - 488 - AuthMe/INFO]: [AuthMe] The user bolcarion has 2 accounts:
+[08:58:37] [Craft Scheduler Thread - 488 - AuthMe/INFO]: [AuthMe] §7§asantimax521§7, §abolcarion§7.
+[08:58:37] [Craft Scheduler Thread - 488 - AuthMe/INFO]: [AuthMe] bolcarion logged in 127.82.62.189
+[08:59:56] [Server thread/INFO]: bolcarion issued server command: /team echest
+[09:00:04] [Server thread/INFO]: bolcarion issued server command: /team echest
+[09:00:05] [Server thread/INFO]: santimax521 issued server command: /team echest
+[09:02:08] [Server thread/INFO]: LaMercedez faculag4566 has reached the goal [Sky's the Limit]
+[09:03:04] [Server thread/INFO]: bolcarion issued server command: /team echest
+[09:03:07] [Server thread/INFO]: faculag4566 issued server command: /team echest
+[09:03:25] [Server thread/INFO]: benja0806 issued server command: /team echest
+[09:03:33] [Server thread/INFO]: bolcarion issued server command: /team echest
+[09:03:50] [Server thread/INFO]: faculag4566 issued server command: /team echest
+[09:04:19] [Server thread/INFO]: faculag4566 issued server command: /team echest
+[09:04:57] [Server thread/INFO]: bolcarion issued server command: /team echest
+[09:04:57] [Server thread/INFO]: santimax521 issued server command: /team echest
+[09:05:41] [Server thread/INFO]: LaMercedez faculag4566 has made the advancement [Local Brewery]
+[09:12:03] [Server thread/INFO]: LaMercedez santimax521 has made the advancement [Local Brewery]
+[09:12:24] [Server thread/INFO]: LaMercedez santimax521 has reached the goal [Sky's the Limit]
+[09:13:30] [Server thread/INFO]: faculag4566 issued server command: /team echest
+[09:14:14] [Server thread/INFO]: LaMercedez santimax521 has completed the challenge [Great View From Up Here]
+[09:14:52] [Server thread/INFO]: santimax521 issued server command: /team chat -384 59 2206
+[09:14:52] [Craft Scheduler Thread - 506 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f **santimax521§f: -384 59 2206 
+[09:16:47] [Server thread/INFO]: santimax521 lost connection: Disconnected
+[09:16:47] [Server thread/INFO]: LaMercedez santimax521 left the game
+[09:17:01] [Server thread/INFO]: bolcarion lost connection: Timed out
+[09:17:01] [Server thread/INFO]: LaMercedez bolcarion left the game
+[09:17:34] [Server thread/INFO]: faculag4566 issued server command: /team echest
+[09:18:38] [Server thread/INFO]: faculag4566 issued server command: /team echest
+[09:19:30] [Server thread/INFO]: faculag4566 issued server command: /team echest
+[09:19:54] [Server thread/INFO]: LaMercedez faculag4566 fell out of the world
+[09:20:06] [Server thread/INFO]: benja0806 issued server command: /team echest
