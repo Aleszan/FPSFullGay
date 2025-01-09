@@ -8,6 +8,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2025-01-07 05:39:05 +0000",
+      "minecraft:old_growth_pine_taiga": "2025-01-09 09:10:04 +0000",
       "minecraft:forest": "2025-01-07 05:12:39 +0000",
       "minecraft:taiga": "2025-01-08 07:31:29 +0000",
       "minecraft:deep_ocean": "2025-01-07 05:36:28 +0000",
@@ -956,6 +957,7 @@
       "minecraft:ender_dragon": "2025-01-08 08:15:13 +0000",
       "minecraft:shulker": "2025-01-08 08:22:39 +0000",
       "minecraft:piglin": "2025-01-07 07:32:33 +0000",
+      "minecraft:vindicator": "2025-01-09 09:16:08 +0000",
       "minecraft:enderman": "2025-01-07 08:05:28 +0000",
       "minecraft:magma_cube": "2025-01-07 08:14:48 +0000",
       "minecraft:spider": "2025-01-07 06:08:24 +0000",
@@ -3082,9 +3084,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2025-01-09 09:10:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2025-01-09 09:12:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2025-01-09 09:10:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-01-09 09:10:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/tame_an_animal": {
     "criteria": {
       "tamed_animal": "2025-01-09 07:17:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed": {
+    "criteria": {
+      "has_light_gray_wool": "2025-01-09 09:15:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-01-09 09:10:21 +0000"
     },
     "done": true
   },
@@ -3100,6 +3138,60 @@
     },
     "done": false
   },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2025-01-09 09:12:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-01-09 09:15:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2025-01-09 09:10:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2025-01-09 09:02:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_banner": {
+    "criteria": {
+      "has_light_gray_wool": "2025-01-09 09:15:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_carpet": {
+    "criteria": {
+      "has_light_gray_wool": "2025-01-09 09:15:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-01-09 09:10:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2025-01-09 09:10:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-01-09 09:10:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/breed_an_animal": {
     "criteria": {
       "bred": "2025-01-09 07:28:59 +0000"
@@ -3113,6 +3205,12 @@
       "minecraft:ragdoll": "2025-01-09 07:17:44 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2025-01-09 09:10:21 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {

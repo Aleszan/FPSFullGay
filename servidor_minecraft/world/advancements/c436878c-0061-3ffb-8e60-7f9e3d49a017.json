@@ -418,6 +418,7 @@
       "minecraft:hoglin": "2025-01-08 07:08:16 +0000",
       "minecraft:shulker": "2025-01-08 08:36:56 +0000",
       "minecraft:piglin": "2025-01-07 07:33:53 +0000",
+      "minecraft:vindicator": "2025-01-09 09:08:24 +0000",
       "minecraft:enderman": "2025-01-07 05:26:31 +0000",
       "minecraft:silverfish": "2025-01-08 08:04:36 +0000",
       "minecraft:spider": "2025-01-07 04:57:48 +0000",
@@ -3541,6 +3542,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2025-01-09 09:13:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/netherite_block": {
     "criteria": {
       "has_netherite_ingot": "2025-01-09 06:15:34 +0000"
@@ -3604,6 +3611,12 @@
   "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
     "criteria": {
       "has_iron_ore": "2025-01-09 08:13:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2025-01-09 09:13:07 +0000"
     },
     "done": true
   },
