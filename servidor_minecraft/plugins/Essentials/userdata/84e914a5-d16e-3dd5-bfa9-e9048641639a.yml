@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1736241314089
+  logout: 1736337216191
   login: 1736295101158
 money: '0'
 last-account-name: xDogSaur
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 1b21c5bd-00f9-410f-9897-a77a68046137
   world-name: world
-  x: -2662.178478553382
-  y: 73.0
-  z: -1766.8906929042685
-  yaw: 88.367919921875
-  pitch: 36.08642578125
+  x: -2659.6503014318932
+  y: 55.0
+  z: -1779.300000011921
+  yaw: -117.4970703125
+  pitch: 41.18946075439453

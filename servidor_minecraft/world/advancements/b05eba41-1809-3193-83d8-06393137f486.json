@@ -8,6 +8,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:flower_forest": "2025-01-07 06:03:22 +0000",
+      "minecraft:savanna_plateau": "2025-01-09 05:38:53 +0000",
       "minecraft:snowy_slopes": "2025-01-08 00:50:04 +0000",
       "minecraft:beach": "2025-01-07 06:02:03 +0000",
       "minecraft:forest": "2025-01-07 05:46:07 +0000",
@@ -2003,6 +2004,18 @@
   "minecraft:nether/obtain_ancient_debris": {
     "criteria": {
       "ancient_debris": "2025-01-08 02:11:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2025-01-09 05:36:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2025-01-09 05:36:00 +0000"
     },
     "done": true
   },

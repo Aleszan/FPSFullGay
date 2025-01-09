@@ -19,12 +19,7 @@ echest:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: GOLD_BLOCK
-    amount: 25
-  '1':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: GOLD_INGOT
-    amount: 20
+    amount: 22
   '4':
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -34,7 +29,7 @@ echest:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: DIAMOND_BLOCK
-    amount: 11
+    amount: 9
   '18':
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -90,11 +85,6 @@ echest:
       ==: ItemMeta
       meta-type: OMINOUS_BOTTLE
       ominous-bottle-amplifier: 4
-  '3':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: DIAMOND
-    amount: 11
   '7':
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -135,13 +125,13 @@ echest:
     v: 3953
     type: SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE
     amount: 5
-  '13':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: IRON_INGOT
-    amount: 8
   '6':
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: LAPIS_LAZULI
     amount: 5
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIAMOND
+    amount: 3

@@ -36,11 +36,6 @@ echest:
     v: 3953
     type: LAPIS_LAZULI
     amount: 45
-  '7':
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: IRON_INGOT
-    amount: 64
   '8':
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -56,4 +51,22 @@ echest:
     v: 3953
     type: GOLD_INGOT
     amount: 19
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: GOLD_BLOCK
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: LEAD
+    amount: 2
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: LEATHER
+    amount: 2
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: EMERALD
 score: 0

@@ -455,3 +455,67 @@
 [01-08 08:58:37]: [FINE] The user bolcarion has 2 accounts:
 [01-08 08:58:37]: [FINE] §7§asantimax521§7, §abolcarion§7.
 [01-08 08:58:37]: [FINE] bolcarion logged in 127.82.62.189
+[01-08 11:53:48]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2642 disabled!
+[01-09 05:22:06]: [INFO] SQLite Setup finished
+[01-09 05:22:07]: [INFO] No supported permissions system found! Permissions are disabled!
+[01-09 05:22:07]: [INFO] Hooked successfully into Essentials
+[01-09 05:22:07]: [INFO] Essentials spawn file not found: '/workspaces/FPSFullGay/servidor_minecraft/plugins/Essentials/spawn.yml'
+[01-09 05:22:09]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2642 successfully enabled!
+[01-09 05:22:17]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[01-09 05:22:17]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[01-09 05:22:17]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[01-09 05:22:17]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[01-09 05:22:17]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19)
+	at com.maxmind.db.Reader.<init>(Reader.java:119)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:104)
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:233)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:183)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[01-09 05:22:49]: [FINE] Toppo_Z logged in 127.102.84.29
+[01-09 05:22:52]: [FINE] The user Zeta has 2 accounts:
+[01-09 05:22:52]: [FINE] §7zxta, §aZeta§7.
+[01-09 05:22:52]: [FINE] Zeta logged in 127.115.136.31
+[01-09 05:23:05]: [FINE] nachoto227 logged in 127.203.4.180
+[01-09 05:23:16]: [FINE] UnPibee logged in 127.206.165.81
+[01-09 05:23:20]: [FINE] benja0806 logged in 127.174.62.101
+[01-09 05:23:40]: [FINE] The user Zeta has 2 accounts:
+[01-09 05:23:40]: [FINE] §7zxta, §aZeta§7.
+[01-09 05:23:40]: [FINE] Zeta logged in 127.115.136.31
+[01-09 05:24:57]: [FINE] The user Zeta has 2 accounts:
+[01-09 05:24:57]: [FINE] §7zxta, §aZeta§7.
+[01-09 05:24:57]: [FINE] Zeta logged in 127.115.136.31
+[01-09 05:27:13]: [FINE] The user Zeta has 2 accounts:
+[01-09 05:27:13]: [FINE] §7zxta, §aZeta§7.
+[01-09 05:27:13]: [FINE] Zeta logged in 127.115.136.31
+[01-09 05:28:29]: [FINE] benja0806 logged in 127.174.62.101
+[01-09 05:28:53]: [FINE] The user Zeta has 2 accounts:
+[01-09 05:28:53]: [FINE] §7zxta, §aZeta§7.
+[01-09 05:28:53]: [FINE] Zeta logged in 127.115.136.31
+[01-09 05:34:49]: [FINE] The user Zeta has 2 accounts:
+[01-09 05:34:49]: [FINE] §7zxta, §aZeta§7.
+[01-09 05:34:49]: [FINE] Zeta logged in 127.115.136.31
+[01-09 05:36:31]: [FINE] benja0806 logged in 127.174.62.101
+[01-09 05:37:25]: [FINE] The user Zeta has 2 accounts:
+[01-09 05:37:25]: [FINE] §7zxta, §aZeta§7.
+[01-09 05:37:25]: [FINE] Zeta logged in 127.115.136.31
+[01-09 05:40:03]: [FINE] The user Zeta has 2 accounts:
+[01-09 05:40:03]: [FINE] §7zxta, §aZeta§7.
+[01-09 05:40:03]: [FINE] Zeta logged in 127.115.136.31
+[01-09 05:46:27]: [FINE] The user Zeta has 2 accounts:
+[01-09 05:46:27]: [FINE] §7zxta, §aZeta§7.
+[01-09 05:46:27]: [FINE] Zeta logged in 127.115.136.31
+[01-09 06:03:54]: [FINE] nachoto227 logged in 127.203.4.180
+[01-09 06:14:06]: [FINE] faculag4566 logged in 127.31.27.232
+[01-09 06:31:20]: [FINE] benja0806 logged in 127.174.62.101

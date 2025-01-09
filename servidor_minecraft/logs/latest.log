@@ -1,1220 +1,386 @@
-[00:08:33] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[00:08:33] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[00:08:33] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[00:08:35] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
-[00:08:35] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+[05:21:08] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[05:21:08] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[05:21:09] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[05:21:13] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
+[05:21:13] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
  - AuthMe (5.7.0-SNAPSHOT-b2642), BetterTeams (4.10.0), Essentials (2.21.0-dev+154-667b0f7), Orebfuscator (5.5.2), ProtocolLib (5.3.0), SkinsRestorer (15.5.1)
-[00:08:45] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[00:08:49] [ServerMain/INFO]: Loaded 1290 recipes
-[00:08:50] [ServerMain/INFO]: Loaded 1399 advancements
-[00:08:51] [Server thread/INFO]: Starting minecraft server version 1.21
-[00:08:51] [Server thread/INFO]: Loading properties
-[00:08:51] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[00:08:52] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[00:08:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[00:08:52] [Server thread/INFO]: Using 4 threads for Netty based IO
-[00:08:54] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[00:08:56] [Server thread/INFO]: Default game type: SURVIVAL
-[00:08:56] [Server thread/INFO]: Generating keypair
-[00:08:56] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:08:56] [Server thread/INFO]: Using epoll channel type
-[00:08:56] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[00:08:56] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[00:08:57] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loading 17 libraries... please wait
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/ch/jalu/injector/1.0/injector-1.0.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/javax/inject/javax.inject/1/javax.inject-1.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/net/ricecode/string-similarity/1.0.0/string-similarity-1.0.0.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/com/maxmind/geoip2/geoip2/4.2.0/geoip2-4.2.0.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/com/maxmind/db/maxmind-db/3.1.0/maxmind-db-3.1.0.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/com/fasterxml/jackson/core/jackson-databind/2.16.0/jackson-databind-2.16.0.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/com/fasterxml/jackson/core/jackson-core/2.16.0/jackson-core-2.16.0.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/com/fasterxml/jackson/core/jackson-annotations/2.16.0/jackson-annotations-2.16.0.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/javatar/javatar/2.5/javatar-2.5.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/org/apache/commons/commons-email/1.6.0/commons-email-1.6.0.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/com/zaxxer/HikariCP/5.1.0/HikariCP-5.1.0.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/ch/jalu/datasourcecolumns/0.1.2/datasourcecolumns-0.1.2.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/com/mysql/mysql-connector-j/8.4.0/mysql-connector-j-8.4.0.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/com/google/protobuf/protobuf-java/3.25.1/protobuf-java-3.25.1.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/org/mariadb/jdbc/mariadb-java-client/3.4.0/mariadb-java-client-3.4.0.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/com/github/waffle/waffle-jna/3.3.0/waffle-jna-3.3.0.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/org/slf4j/jcl-over-slf4j/2.0.7/jcl-over-slf4j-2.0.7.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/com/google/errorprone/error_prone_annotations/2.10.0/error_prone_annotations-2.10.0.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/org/postgresql/postgresql/42.7.3/postgresql-42.7.3.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/de/rtner/PBKDF2/1.1.4/PBKDF2-1.1.4.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/org/picketbox/picketbox/4.0.21.Final/picketbox-4.0.21.Final.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/de/mkammerer/argon2-jvm-nolibs/2.11/argon2-jvm-nolibs-2.11.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/at/favre/lib/bcrypt/0.10.2/bcrypt-0.10.2.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/at/favre/lib/bytes/1.5.0/bytes-1.5.0.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/com/warrenstrange/googleauth/1.5.0/googleauth-1.5.0.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/commons-codec/commons-codec/1.14/commons-codec-1.14.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/ch/jalu/configme/1.3.1/configme-1.3.1.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/org/bstats/bstats-bukkit/3.0.2/bstats-bukkit-3.0.2.jar
-[00:08:59] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/org/bstats/bstats-base/3.0.2/bstats-base-3.0.2.jar
-[00:09:00] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
-[00:09:02] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+154-667b0f7
-[00:09:02] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.1
-[00:09:02] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.10.0
-[00:09:02] [Server thread/INFO]: [BetterTeams] Checking if the file config.yml is up to date
-[00:09:02] [Server thread/INFO]: [BetterTeams] File is up to date
-[00:09:02] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-SNAPSHOT-b2642
-[00:09:02] [Server thread/INFO]: [Orebfuscator] Loading server plugin Orebfuscator v5.5.2
-[00:09:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:09:02] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
-[00:09:02] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
-[00:09:05] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[00:09:07] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
-[00:09:09] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[00:09:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:09:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:09:09] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:09:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:09:09] [Server thread/INFO]: Preparing level "world"
-[00:09:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[00:09:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[00:09:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[00:09:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[00:09:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[00:09:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[00:09:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[00:09:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.1
-[00:09:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: d5d8613
-[00:09:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[00:09:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[00:09:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[00:09:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[00:09:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:09:15] [Server thread/INFO]: Time elapsed: 3181 ms
-[00:09:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[00:09:16] [Server thread/INFO]: Time elapsed: 1401 ms
-[00:09:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[00:09:17] [Server thread/INFO]: Time elapsed: 427 ms
-[00:09:17] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+154-667b0f7
-[00:09:19] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[00:09:21] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[00:09:21] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[00:09:21] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[00:09:21] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[00:09:22] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[00:09:22] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[00:09:22] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[00:09:22] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[00:09:22] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[00:09:22] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[00:09:22] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[00:09:22] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[00:09:22] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[00:09:22] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[00:09:22] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[00:09:22] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[00:09:22] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[00:09:22] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[00:09:22] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[00:09:22] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[00:09:22] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[00:09:22] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[00:09:22] [Server thread/INFO]: [Essentials] Selected Reflection Spawner Block Provider as the provider for SpawnerBlockProvider
-[00:09:23] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
-[00:09:23] [Server thread/INFO]: [Essentials] Using locale en
-[00:09:23] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[00:09:24] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[00:09:24] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[00:09:24] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.10.0
-[00:09:24] [Server thread/INFO]: [BetterTeams] Checking if the file messages.yml is up to date
-[00:09:24] [Server thread/INFO]: [BetterTeams] File is up to date
-[00:09:26] [Server thread/INFO]: Display team name config value: prefix
-[00:09:26] [Server thread/INFO]: Loading below name. Type: PREFIX
-[00:09:26] [Server thread/INFO]: teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@6bd70e2a
-[00:09:26] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.7.0-SNAPSHOT-b2642
-[00:09:27] [Server thread/INFO]: [AuthMe] SQLite Setup finished
-[00:09:28] [Server thread/INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
-[00:09:28] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
-[00:09:28] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: '/workspaces/FPSFullGay/servidor_minecraft/plugins/Essentials/spawn.yml'
-[00:09:30] [Server thread/INFO]: [AuthMe] AuthMe 5.7.0-SNAPSHOT build n.2642 successfully enabled!
-[00:09:30] [Server thread/INFO]: [Orebfuscator] Enabling Orebfuscator v5.5.2
-[00:09:37] [Server thread/INFO]: [spark] Starting background profiler...
-[00:09:38] [Server thread/INFO]: Done preparing level "world" (28.787s)
-[00:09:38] [Server thread/INFO]: Running delayed init tasks
-[00:09:38] [Craft Scheduler Thread - 5 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
-[00:09:38] [Craft Scheduler Thread - 5 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
-[00:09:38] [Craft Scheduler Thread - 5 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
-[00:09:38] [Craft Scheduler Thread - 5 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
-[00:09:38] [Craft Scheduler Thread - 4 - Essentials/INFO]: [Essentials] Fetching version information...
-[00:09:38] [Server thread/INFO]: Done (67.711s)! For help, type "help"
-[00:09:38] [Server thread/INFO]: Timings Reset
-[00:11:36] [User Authenticator #0/INFO]: UUID of player xDogSaur is 84e914a5-d16e-3dd5-bfa9-e9048641639a
-[00:11:39] [Server thread/INFO]: xDogSaur joined the game
-[00:11:40] [Server thread/INFO]: xDogSaur[/127.40.116.104:42391] logged in with entity id 13 at ([world]-2662.178478553382, 73.0, -1766.8906929042685)
-[00:11:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2689ms or 53 ticks behind
-[00:11:49] [Craft Scheduler Thread - 11 - AuthMe/INFO]: [AuthMe] xDogSaur logged in 127.40.116.104
-[00:12:09] [User Authenticator #0/INFO]: UUID of player Toppo_Z is b05eba41-1809-3193-83d8-06393137f486
-[00:12:12] [Server thread/INFO]: Toppo_Z joined the game
-[00:12:12] [Server thread/INFO]: Toppo_Z[/127.102.84.29:40839] logged in with entity id 207 at ([world]1719.876985229631, 63.0, 191.30000001192093)
-[00:12:16] [Async Chat Thread - #0/INFO]: [Not Secure] [Peronistas] <xDogSaur> q rapido
-[00:12:23] [Craft Scheduler Thread - 15 - AuthMe/INFO]: [AuthMe] Toppo_Z logged in 127.102.84.29
-[00:12:34] [Async Chat Thread - #0/INFO]: [Not Secure] [Libertarios] <Toppo_Z> vengo de boxeo
-[00:12:37] [Async Chat Thread - #0/INFO]: [Not Secure] [Libertarios] <Toppo_Z> me culearonm
-[00:14:03] [Server thread/INFO]: xDogSaur issued server command: /summon minecraft:cat
-[00:14:03] [Server thread/INFO]: [Peronistas xDogSaur: Summoned new Cat]
-[00:14:04] [Server thread/INFO]: xDogSaur issued server command: /summon minecraft:cat
-[00:14:04] [Server thread/INFO]: [Peronistas xDogSaur: Summoned new Cat]
-[00:14:06] [Server thread/INFO]: xDogSaur issued server command: /summon minecraft:cat
-[00:14:06] [Server thread/INFO]: [Peronistas xDogSaur: Summoned new Cat]
-[00:14:07] [User Authenticator #1/INFO]: UUID of player bananadunk is 8fea8e32-9eaf-3803-80f6-384288240716
-[00:14:14] [Server thread/INFO]: bananadunk joined the game
-[00:14:14] [Server thread/INFO]: bananadunk[/127.30.151.4:55999] logged in with entity id 1026 at ([world]690.8550136097548, 70.0, -213.69152600016847)
-[00:14:57] [Craft Scheduler Thread - 19 - AuthMe/INFO]: [AuthMe] bananadunk logged in 127.30.151.4
-[00:15:46] [Server thread/INFO]: Libertarios bananadunk has made the advancement [Sweet Dreams]
-[00:15:52] [Async Chat Thread - #2/INFO]: [Not Secure] [Libertarios] <bananadunk> zz
-[00:15:52] [Async Chat Thread - #2/INFO]: [Not Secure] [Libertarios] <bananadunk> z
-[00:15:53] [Async Chat Thread - #3/INFO]: [Not Secure] [Libertarios] <bananadunk> z
-[00:15:53] [Async Chat Thread - #3/INFO]: [Not Secure] [Libertarios] <bananadunk> z
-[00:15:53] [Async Chat Thread - #3/INFO]: [Not Secure] [Libertarios] <bananadunk> z
-[00:15:53] [Async Chat Thread - #3/INFO]: [Not Secure] [Libertarios] <bananadunk> z
-[00:15:54] [Async Chat Thread - #3/INFO]: [Not Secure] [Libertarios] <bananadunk> z
-[00:15:54] [Async Chat Thread - #3/INFO]: [Not Secure] [Libertarios] <bananadunk> zzzzz
-[00:15:55] [Async Chat Thread - #3/INFO]: [Not Secure] [Libertarios] <bananadunk> z
-[00:15:55] [Async Chat Thread - #3/INFO]: [Not Secure] [Libertarios] <bananadunk> z
-[00:15:55] [Async Chat Thread - #2/INFO]: [Not Secure] [Libertarios] <bananadunk> z
-[00:15:55] [Async Chat Thread - #2/INFO]: [Not Secure] [Libertarios] <bananadunk> z
-[00:16:16] [Async Chat Thread - #2/INFO]: [Not Secure] [Libertarios] <bananadunk> salgan oduerman
-[00:16:17] [Server thread/INFO]: Toppo_Z lost connection: Disconnected
-[00:16:17] [Server thread/INFO]: Libertarios Toppo_Z left the game
-[00:16:27] [Async Chat Thread - #2/INFO]: [Not Secure] [Peronistas] <xDogSaur> zx
-[00:16:27] [Async Chat Thread - #2/INFO]: [Not Secure] [Peronistas] <xDogSaur> z
-[00:16:27] [Async Chat Thread - #2/INFO]: [Not Secure] [Peronistas] <xDogSaur> z
-[00:16:27] [Async Chat Thread - #2/INFO]: [Not Secure] [Peronistas] <xDogSaur> z
-[00:16:27] [Async Chat Thread - #2/INFO]: [Not Secure] [Peronistas] <xDogSaur> z
-[00:16:28] [Async Chat Thread - #2/INFO]: [Not Secure] [Peronistas] <xDogSaur> z
-[00:16:28] [Async Chat Thread - #2/INFO]: [Not Secure] [Peronistas] <xDogSaur> z
-[00:16:28] [Async Chat Thread - #2/INFO]: [Not Secure] [Peronistas] <xDogSaur> z
-[00:16:28] [Async Chat Thread - #2/INFO]: [Not Secure] [Peronistas] <xDogSaur> z
-[00:16:28] [Async Chat Thread - #2/INFO]: [Not Secure] [Peronistas] <xDogSaur> z
-[00:16:28] [Async Chat Thread - #2/INFO]: [Not Secure] [Peronistas] <xDogSaur> z
-[00:16:29] [Async Chat Thread - #2/INFO]: [Not Secure] [Peronistas] <xDogSaur> z
-[00:16:29] [Async Chat Thread - #2/INFO]: [Not Secure] [Peronistas] <xDogSaur> z
-[00:16:29] [Async Chat Thread - #2/INFO]: [Not Secure] [Peronistas] <xDogSaur> z
-[00:16:29] [Async Chat Thread - #3/INFO]: [Not Secure] [Peronistas] <xDogSaur> z
-[00:16:29] [Async Chat Thread - #3/INFO]: [Not Secure] [Peronistas] <xDogSaur> z
-[00:16:29] [Async Chat Thread - #3/INFO]: [Not Secure] [Peronistas] <xDogSaur> zz
-[00:16:30] [Async Chat Thread - #3/INFO]: [Not Secure] [Peronistas] <xDogSaur> z
-[00:16:30] [Async Chat Thread - #3/INFO]: [Not Secure] [Peronistas] <xDogSaur> zz
-[00:16:30] [Async Chat Thread - #3/INFO]: [Not Secure] [Peronistas] <xDogSaur> z
-[00:16:32] [Async Chat Thread - #3/INFO]: [Not Secure] [Libertarios] <bananadunk> zz
-[00:16:32] [Async Chat Thread - #3/INFO]: [Not Secure] [Libertarios] <bananadunk> z
-[00:16:32] [Async Chat Thread - #3/INFO]: [Not Secure] [Libertarios] <bananadunk> z
-[00:16:40] [Async Chat Thread - #3/INFO]: [Not Secure] [Libertarios] <bananadunk> buena chaval
-[00:16:47] [Async Chat Thread - #3/INFO]: [Not Secure] [Peronistas] <xDogSaur> buenisima
-[00:16:54] [Server thread/INFO]: xDogSaur issued server command: /gamemode creative
-[00:17:25] [User Authenticator #2/INFO]: UUID of player Toppo_Z is b05eba41-1809-3193-83d8-06393137f486
-[00:17:27] [Server thread/INFO]: Libertarios Toppo_Z joined the game
-[00:17:27] [Server thread/INFO]: Toppo_Z[/127.102.84.29:44953] logged in with entity id 2675 at ([world]1756.695243642403, 61.445661010064974, -70.71157021375788)
-[00:17:31] [Async Chat Thread - #3/INFO]: [Not Secure] [Peronistas] <xDogSaur> bueno a chillear una granja de hierro de 74 pisos
-[00:17:33] [Craft Scheduler Thread - 24 - AuthMe/INFO]: [AuthMe] Toppo_Z logged in 127.102.84.29
-[00:17:57] [Async Chat Thread - #3/INFO]: [Not Secure] [Libertarios] <Toppo_Z> para bejetta
-[00:18:04] [Async Chat Thread - #3/INFO]: [Not Secure] [Peronistas] <xDogSaur> d chill
-[00:18:41] [Async Chat Thread - #3/INFO]: [Not Secure] [Libertarios] <Toppo_Z> banana
-[00:18:55] [Async Chat Thread - #3/INFO]: [Not Secure] [Libertarios] <bananadunk> q
-[00:18:58] [Async Chat Thread - #3/INFO]: [Not Secure] [Libertarios] <Toppo_Z> lau te paso unas coordenadas?
-[00:19:12] [Async Chat Thread - #3/INFO]: [Not Secure] [Libertarios] <bananadunk> sipue
-[00:19:20] [Async Chat Thread - #3/INFO]: [Not Secure] [Libertarios] <Toppo_Z> estas yendo para alla?
-[00:19:24] [Async Chat Thread - #2/INFO]: [Not Secure] [Libertarios] <bananadunk> sep
-[00:19:27] [Async Chat Thread - #2/INFO]: [Not Secure] [Libertarios] <Toppo_Z> ok
-[00:19:30] [Async Chat Thread - #2/INFO]: [Not Secure] [Libertarios] <Toppo_Z> ya me mando
-[00:19:32] [Async Chat Thread - #2/INFO]: [Not Secure] [Peronistas] <xDogSaur> q cords aver
-[00:19:48] [Async Chat Thread - #2/INFO]: [Not Secure] [Libertarios] <Toppo_Z> 0 60 0
-[00:19:50] [Async Chat Thread - #2/INFO]: [Not Secure] [Libertarios] <bananadunk> 23203924 60 429783942
-[00:20:05] [Async Chat Thread - #2/INFO]: [Not Secure] [Peronistas] <xDogSaur> =/
-[00:20:25] [User Authenticator #3/INFO]: UUID of player UnPibee is 03502d61-75c0-3984-8dec-353fa3007fdf
-[00:20:27] [Server thread/INFO]: UnPibee joined the game
-[00:20:27] [Server thread/INFO]: UnPibee[/127.220.248.178:49429] logged in with entity id 4661 at ([world]-365.30000001192093, 103.0, 891.2767824844339)
-[00:20:29] [Async Chat Thread - #2/INFO]: [Not Secure] [Peronistas] <xDogSaur> la caña crecia ahsta 3 nomas?
-[00:20:43] [Craft Scheduler Thread - 29 - AuthMe/INFO]: [AuthMe] UnPibee logged in 127.220.248.178
-[00:20:46] [Async Chat Thread - #2/INFO]: [Not Secure] [Libertarios] <UnPibee> wenaaas
-[00:20:51] [Async Chat Thread - #2/INFO]: [Not Secure] [Peronistas] <xDogSaur> bom dia
-[00:20:57] [Async Chat Thread - #2/INFO]: [Not Secure] [Libertarios] <UnPibee> pero si estan los mas facheros conectados
-[00:21:01] [Async Chat Thread - #2/INFO]: [Not Secure] [Libertarios] <bananadunk> entro un chavalin
-[00:21:24] [Async Chat Thread - #2/INFO]: [Not Secure] [Libertarios] <Toppo_Z> entro mi tio que toca la gaita
-[00:21:37] [Async Chat Thread - #2/INFO]: [Not Secure] [Peronistas] <xDogSaur> lei entro mi tio q toca la gatita..
-[00:21:43] [Async Chat Thread - #2/INFO]: [Not Secure] [Libertarios] <UnPibee> jajajaja
-[00:21:54] [Async Chat Thread - #2/INFO]: [Not Secure] [Libertarios] <Toppo_Z> la toca y se la guarad
-[00:21:56] [Server thread/INFO]: UnPibee issued server command: /team chat eu llegaron al pueblo?
-[00:21:56] [Craft Scheduler Thread - 30 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f UnPibee§f: eu llegaron al pueblo? 
-[00:22:16] [Server thread/INFO]: Toppo_Z issued server command: /team chat no todavía
-[00:22:16] [Craft Scheduler Thread - 31 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f **Toppo_Z§f: no todavía 
-[00:22:32] [Async Chat Thread - #2/INFO]: [Not Secure] [Libertarios] <UnPibee> es increible q tiro musica aleatoria en spoti y me tira a la primera "luna feid"
-[00:22:42] [Async Chat Thread - #2/INFO]: [Not Secure] [Peronistas] <xDogSaur> llora
-[00:22:43] [Async Chat Thread - #2/INFO]: [Not Secure] [Libertarios] <UnPibee> me voy a ahogar al agua
-[00:22:59] [Async Chat Thread - #3/INFO]: [Not Secure] [Libertarios] <bananadunk> cuando fue la ultima vez q te vi sonreir
-[00:23:03] [Async Chat Thread - #3/INFO]: [Not Secure] [Libertarios] <bananadunk> te decia mi reina
-[00:23:22] [Async Chat Thread - #3/INFO]: [Not Secure] [Libertarios] <UnPibee> maquina le estoy escuchando a feid no hace falta q me digas la letra
-[00:23:27] [Async Chat Thread - #3/INFO]: [Not Secure] [Libertarios] <bananadunk> jajajaja
-[00:23:53] [Server thread/INFO]: bananadunk lost connection: Disconnected
-[00:23:53] [Server thread/INFO]: Libertarios bananadunk left the game
-[00:24:43] [User Authenticator #4/INFO]: UUID of player bananadunk is 8fea8e32-9eaf-3803-80f6-384288240716
-[00:24:45] [Server thread/INFO]: Libertarios bananadunk joined the game
-[00:24:45] [Server thread/INFO]: bananadunk[/127.30.151.4:40345] logged in with entity id 9527 at ([world]332.43045980212764, 108.0, 440.30000001192093)
-[00:24:51] [Craft Scheduler Thread - 35 - AuthMe/INFO]: [AuthMe] bananadunk logged in 127.30.151.4
-[00:25:07] [Server thread/INFO]: bananadunk lost connection: Disconnected
-[00:25:07] [Server thread/INFO]: Libertarios bananadunk left the game
-[00:25:42] [Server thread/INFO]: xDogSaur issued server command: /gamemode survival
-[00:25:45] [User Authenticator #5/INFO]: UUID of player bananadunk is 8fea8e32-9eaf-3803-80f6-384288240716
-[00:25:47] [Server thread/INFO]: Libertarios bananadunk joined the game
-[00:25:47] [Server thread/INFO]: bananadunk[/127.30.151.4:55683] logged in with entity id 10816 at ([world]332.32167994585353, 108.0, 439.90812521444207)
-[00:25:49] [User Authenticator #5/INFO]: UUID of player mams4 is c7391e30-02c4-3239-82b3-26af4e43464d
-[00:25:51] [Server thread/INFO]: mams4 joined the game
-[00:25:51] [Server thread/INFO]: mams4[/127.129.19.124:33469] logged in with entity id 10948 at ([world]-2646.4705622677498, 63.0, -1784.8272269430142)
-[00:25:54] [Server thread/INFO]: xDogSaur issued server command: /effect give xDogSaur minecraft:haste infinite 3 true
-[00:25:54] [Server thread/INFO]: [Peronistas xDogSaur: Applied effect Haste to Peronistas xDogSaur]
-[00:25:54] [Craft Scheduler Thread - 38 - AuthMe/INFO]: [AuthMe] bananadunk logged in 127.30.151.4
-[00:25:56] [Async Chat Thread - #4/INFO]: [Not Secure] [Libertarios] <Toppo_Z> ds petes?
-[00:26:01] [Craft Scheduler Thread - 38 - AuthMe/INFO]: [AuthMe] mams4 logged in 127.129.19.124
-[00:26:04] [Async Chat Thread - #4/INFO]: [Not Secure] [Libertarios] <UnPibee> el loco mati se unio
-[00:26:11] [Async Chat Thread - #4/INFO]: [Not Secure] [Libertarios] <UnPibee> ds se
-[00:26:11] [Async Chat Thread - #5/INFO]: [Not Secure] [Peronistas] <mams4> nashe
-[00:26:24] [Server thread/INFO]: xDogSaur issued server command: /give xDogSaur diamond_shovel 1
-[00:26:30] [Async Chat Thread - #4/INFO]: [Not Secure] [Libertarios] <bananadunk> ds con todos menos con unpibe
-[00:26:32] [Async Chat Thread - #4/INFO]: [Not Secure] [Peronistas] <xDogSaur> q onda locura
-[00:26:52] [Server thread/INFO]: xDogSaur issued server command: /enchant efficiency 2
-[00:26:55] [Server thread/INFO]: mams4 issued server command: /team echest
-[00:27:14] [Server thread/INFO]: mams4 issued server command: /team echest
-[00:28:18] [Async Chat Thread - #6/INFO]: [Not Secure] [Peronistas] <mams4> nashe
-[00:28:19] [Async Chat Thread - #7/INFO]: [Not Secure] [Peronistas] <mams4> nashe
-[00:28:21] [Server thread/INFO]: mams4 issued server command: /team echest
-[00:28:29] [Server thread/INFO]: Libertarios bananadunk has made the advancement [Not Today, Thank You]
-[00:28:30] [Server thread/INFO]: xDogSaur issued server command: /team chat
-[00:28:33] [Async Chat Thread - #7/INFO]: [BetterTeams]§b[Team]§f **Peronistas§f §4xDogSaur§r§f: entra ds
-[00:28:43] [Async Chat Thread - #6/INFO]: [Not Secure] [Libertarios] <bananadunk> hoy no gracias
-[00:28:48] [Server thread/INFO]: mams4 issued server command: /team echest
-[00:28:59] [Server thread/INFO]: mams4 issued server command: /team chat
-[00:29:01] [Async Chat Thread - #6/INFO]: [BetterTeams]§b[Team]§f mams4§f: voy
-[00:30:04] [Server thread/WARN]: Acacia Boat (vehicle of bananadunk) moved wrongly! 0.7353781037858711
-[00:31:18] [User Authenticator #6/INFO]: UUID of player santimax521 is 5c846ced-deb7-364e-b862-e5c64616ef3f
-[00:31:20] [Server thread/INFO]: santimax521 joined the game
-[00:31:20] [Server thread/INFO]: santimax521[/127.82.62.189:56641] logged in with entity id 18107 at ([world]1169.6364315127248, 111.0, -2965.0789352139154)
-[00:31:30] [Async Chat Thread - #8/INFO]: [Not Secure] [Libertarios] <bananadunk> el goat
-[00:31:31] [Craft Scheduler Thread - 50 - AuthMe/INFO]: [AuthMe] santimax521 logged in 127.82.62.189
-[00:32:07] [Async Chat Thread - #8/INFO]: [Not Secure] [Libertarios] <bananadunk> como se habla solo al team
-[00:32:09] [Async Chat Thread - #8/INFO]: [Not Secure] [Libertarios] <bananadunk> ?
-[00:32:13] [Async Chat Thread - #9/INFO]: [BetterTeams]§b[Team]§f **Peronistas§f §4xDogSaur§r§f: -/team chat
-[00:32:16] [Server thread/INFO]: mams4 issued server command: /team echest
-[00:32:16] [Server thread/INFO]: xDogSaur issued server command: /team chat
-[00:32:17] [Async Chat Thread - #9/INFO]: [Not Secure] [Peronistas] <xDogSaur> -/team chat
-[00:32:20] [Async Chat Thread - #9/INFO]: [Not Secure] [Libertarios] <UnPibee> ./team chat
-[00:32:51] [Server thread/INFO]: mams4 issued server command: /team echest
-[00:33:02] [Server thread/INFO]: Libertarios UnPibee has made the advancement [Hot Stuff]
-[00:33:18] [Server thread/INFO]: bananadunk issued server command: /team holiwis
-[00:33:32] [Server thread/INFO]: bananadunk issued server command: /team chat holiwis
-[00:33:32] [Craft Scheduler Thread - 55 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f bananadunk§f: holiwis 
-[00:33:37] [Server thread/INFO]: bananadunk lost connection: Disconnected
-[00:33:37] [Server thread/INFO]: Libertarios bananadunk left the game
-[00:34:08] [Async Chat Thread - #10/INFO]: [BetterTeams]§b[Team]§f mams4§f: nashe
-[00:34:17] [Async Chat Thread - #11/INFO]: [BetterTeams]§b[Team]§f mams4§f: -330 / 52 / -220
-[00:35:27] [User Authenticator #7/INFO]: UUID of player bolcarion is 5d22e4e7-7593-329b-91e8-bf4956477f5b
-[00:35:28] [Async Chat Thread - #12/INFO]: [Not Secure] [Libertarios] <UnPibee> 0/0/0
-[00:35:29] [Server thread/INFO]: bolcarion joined the game
-[00:35:29] [Server thread/INFO]: bolcarion[/127.82.62.189:58767] logged in with entity id 22561 at ([world]68.34574955907652, 90.0, 247.3482797887352)
-[00:35:33] [Craft Scheduler Thread - 60 - AuthMe/INFO]: [AuthMe] bolcarion used the wrong password
-[00:35:43] [Craft Scheduler Thread - 60 - AuthMe/INFO]: [AuthMe] The user bolcarion has 2 accounts:
-[00:35:43] [Craft Scheduler Thread - 60 - AuthMe/INFO]: [AuthMe] §7§asantimax521§7, §abolcarion§7.
-[00:35:43] [Craft Scheduler Thread - 60 - AuthMe/INFO]: [AuthMe] bolcarion logged in 127.82.62.189
-[00:35:56] [Server thread/INFO]: bolcarion issued server command: /skin farfadox
-[00:36:12] [Server thread/INFO]: xDogSaur issued server command: /gamemode creative
-[00:37:00] [Server thread/INFO]: bolcarion issued server command: /skin farfadox
-[00:37:00] [User Authenticator #8/INFO]: UUID of player bananadunk is 8fea8e32-9eaf-3803-80f6-384288240716
-[00:37:03] [Server thread/INFO]: Libertarios bananadunk joined the game
-[00:37:03] [Server thread/INFO]: bananadunk[/127.30.151.4:35483] logged in with entity id 23890 at ([world]-379.25290709266045, 102.0, 899.5020632171787)
-[00:37:10] [Craft Scheduler Thread - 63 - AuthMe/INFO]: [AuthMe] bananadunk logged in 127.30.151.4
-[00:37:23] [Server thread/INFO]: LaMercedez bolcarion was slain by Spider
-[00:37:27] [Server thread/INFO]: xDogSaur issued server command: /difficulty hard
-[00:37:27] [Server thread/INFO]: [Peronistas xDogSaur: The difficulty has been set to Hard]
-[00:37:47] [Server thread/INFO]: bolcarion issued server command: /team chat 1119 80 -2900
-[00:37:47] [Craft Scheduler Thread - 64 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f bolcarion§f: 1119 80 -2900 
-[00:37:51] [Server thread/INFO]: bananadunk lost connection: Disconnected
-[00:37:51] [Server thread/INFO]: Libertarios bananadunk left the game
-[00:38:18] [User Authenticator #9/INFO]: UUID of player bananadunk is 8fea8e32-9eaf-3803-80f6-384288240716
-[00:38:21] [Server thread/INFO]: Libertarios bananadunk joined the game
-[00:38:21] [Server thread/INFO]: bananadunk[/127.30.151.4:35545] logged in with entity id 25167 at ([world]-365.30000001192093, 99.9375, 880.3217637686895)
-[00:38:26] [Craft Scheduler Thread - 67 - AuthMe/INFO]: [AuthMe] bananadunk logged in 127.30.151.4
-[00:38:34] [Server thread/INFO]: bananadunk issued server command: /team chat tienen libreria
-[00:38:34] [Craft Scheduler Thread - 67 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f bananadunk§f: tienen libreria 
-[00:39:07] [Async Chat Thread - #14/INFO]: [Not Secure] [Libertarios] <Toppo_Z> unite al discord rodri ultramegagay
-[00:39:17] [Server thread/INFO]: bananadunk issued server command: /team chat subite reina
-[00:39:17] [Craft Scheduler Thread - 68 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f bananadunk§f: subite reina 
-[00:39:19] [Server thread/INFO]: mams4 issued server command: /team echest
-[00:39:26] [Server thread/INFO]: Peronistas mams4 has made the advancement [Enchanter]
-[00:39:33] [Server thread/INFO]: bolcarion issued server command: /team chat 1119 80 -2900
-[00:39:33] [Craft Scheduler Thread - 70 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f bolcarion§f: 1119 80 -2900 
-[00:39:34] [Server thread/INFO]: mams4 issued server command: /team echest
-[00:39:34] [Server thread/INFO]: bananadunk issued server command: /team chat aura
-[00:39:35] [Craft Scheduler Thread - 70 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f bananadunk§f: aura 
-[00:39:38] [Server thread/INFO]: bananadunk lost connection: Disconnected
-[00:39:39] [Server thread/INFO]: Libertarios bananadunk left the game
-[00:40:59] [Server thread/INFO]: mams4 lost connection: Disconnected
-[00:40:59] [Server thread/INFO]: Peronistas mams4 left the game
-[00:41:25] [User Authenticator #10/INFO]: UUID of player mams4 is c7391e30-02c4-3239-82b3-26af4e43464d
-[00:41:27] [Server thread/INFO]: Peronistas mams4 joined the game
-[00:41:27] [Server thread/INFO]: mams4[/127.129.19.124:57323] logged in with entity id 27723 at ([world_nether]-313.2389967747544, 28.19219061846859, -215.92747391307992)
-[00:41:32] [Server thread/INFO]: bolcarion issued server command: /team chat 1119 80 -2900
-[00:41:32] [Craft Scheduler Thread - 73 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f bolcarion§f: 1119 80 -2900 
-[00:41:43] [Server thread/INFO]: mams4 lost connection: Disconnected
-[00:41:43] [Server thread/INFO]: Peronistas mams4 left the game
-[00:42:29] [User Authenticator #11/INFO]: UUID of player bananadunk is 8fea8e32-9eaf-3803-80f6-384288240716
-[00:42:31] [Server thread/INFO]: Libertarios bananadunk joined the game
-[00:42:31] [Server thread/INFO]: bananadunk[/127.30.151.4:36479] logged in with entity id 28710 at ([world]-410.3002455305571, 92.9375, 886.1869282868596)
-[00:42:40] [Craft Scheduler Thread - 76 - AuthMe/INFO]: [AuthMe] bananadunk logged in 127.30.151.4
-[00:42:57] [User Authenticator #11/INFO]: UUID of player mams4 is c7391e30-02c4-3239-82b3-26af4e43464d
-[00:42:59] [Server thread/INFO]: Peronistas mams4 joined the game
-[00:42:59] [Server thread/INFO]: mams4[/127.129.19.124:42531] logged in with entity id 29148 at ([world_nether]-313.2389967747544, 23.0, -215.92747391307992)
-[00:43:06] [Server thread/INFO]: mams4 lost connection: Disconnected
-[00:43:06] [Server thread/INFO]: Peronistas mams4 left the game
-[00:43:35] [Server thread/INFO]: UnPibee issued server command: /team chest
-[00:43:35] [Server thread/INFO]: Toppo_Z issued server command: /team echest
-[00:46:29] [Server thread/INFO]: bananadunk issued server command: /team chat tienn caña de azucar
-[00:46:29] [Craft Scheduler Thread - 79 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f bananadunk§f: tienn caña de azucar 
-[00:46:30] [Server thread/INFO]: bolcarion issued server command: /team chat 1119 80 -2900
-[00:46:30] [Craft Scheduler Thread - 80 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f bolcarion§f: 1119 80 -2900 
-[00:46:42] [Server thread/INFO]: UnPibee issued server command: /team chat unite al ds
-[00:46:42] [Craft Scheduler Thread - 81 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f UnPibee§f: unite al ds 
-[00:46:58] [Server thread/INFO]: bananadunk issued server command: /team chat no puedo pq sino no me dejan juga
-[00:46:58] [Craft Scheduler Thread - 81 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f bananadunk§f: no puedo pq sino no me dejan juga 
-[00:47:14] [Server thread/INFO]: Toppo_Z issued server command: /team chat tienen obsidiana?
-[00:47:14] [Craft Scheduler Thread - 82 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f **Toppo_Z§f: tienen obsidiana? 
-[00:47:29] [Server thread/INFO]: UnPibee issued server command: /team chat se
-[00:47:29] [Craft Scheduler Thread - 83 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f UnPibee§f: se 
-[00:47:34] [Server thread/INFO]: UnPibee issued server command: /team chat 12 justas
-[00:47:34] [Craft Scheduler Thread - 84 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f UnPibee§f: 12 justas 
-[00:47:39] [Server thread/WARN]: Acacia Boat (vehicle of bananadunk) moved wrongly! 0.2778809180491635
-[00:47:39] [Server thread/WARN]: Acacia Boat (vehicle of bananadunk) moved wrongly! 0.33786710645358653
-[00:47:39] [Server thread/WARN]: Acacia Boat (vehicle of bananadunk) moved wrongly! 0.37385882092638667
-[00:47:39] [Server thread/WARN]: Acacia Boat (vehicle of bananadunk) moved wrongly! 0.3954538504681864
-[00:48:22] [Server thread/INFO]: Libertarios Toppo_Z has made the advancement [Ice Bucket Challenge]
-[00:48:34] [Server thread/INFO]: bolcarion issued server command: /team chat 1119 80 -2900
-[00:48:34] [Craft Scheduler Thread - 85 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f bolcarion§f: 1119 80 -2900 
-[00:49:12] [Server thread/INFO]: xDogSaur issued server command: /gamemode survival
-[00:49:14] [User Authenticator #12/INFO]: UUID of player mams4 is c7391e30-02c4-3239-82b3-26af4e43464d
-[00:49:16] [Server thread/INFO]: Peronistas mams4 joined the game
-[00:49:16] [Server thread/INFO]: mams4[/127.129.19.124:57925] logged in with entity id 35173 at ([world_nether]-313.2389967747544, 23.0, -215.92747391307992)
-[00:49:29] [Server thread/INFO]: mams4 lost connection: Disconnected
-[00:49:30] [Server thread/INFO]: Peronistas mams4 left the game
-[00:49:36] [Server thread/INFO]: xDogSaur issued server command: /gamemode creative
-[00:49:53] [Server thread/INFO]: Villager Villager['Villager'/4702, uuid='fb081d03-a2cb-423c-93f2-ce858436647c', l='ServerLevel[world]', x=-332.78, y=94.00, z=909.50, cpos=[-21, 56], tl=47161, v=true] died, message: 'Villager was slain by Zombie'
-[00:49:55] [Server thread/INFO]: xDogSaur issued server command: /gamemode spectator
-[00:50:03] [Server thread/INFO]: xDogSaur issued server command: /gamemode creative
-[00:50:06] [Server thread/INFO]: xDogSaur issued server command: /gamemode spectator
-[00:50:08] [Server thread/INFO]: xDogSaur issued server command: /gamemode creative
-[00:50:11] [Server thread/INFO]: xDogSaur issued server command: /gamemode creative
-[00:50:11] [Server thread/INFO]: xDogSaur issued server command: /gamemode spectator
-[00:50:13] [Server thread/INFO]: xDogSaur issued server command: /gamemode creative
-[00:50:16] [Server thread/INFO]: xDogSaur issued server command: /gamemode spectator
-[00:50:18] [Server thread/INFO]: xDogSaur issued server command: /gamemode creative
-[00:50:21] [Server thread/INFO]: xDogSaur issued server command: /gamemode spectator
-[00:50:23] [Server thread/INFO]: xDogSaur issued server command: /gamemode creative
-[00:50:25] [Server thread/INFO]: xDogSaur issued server command: /gamemode spectator
-[00:50:27] [Server thread/INFO]: xDogSaur issued server command: /gamemode spectator
-[00:50:29] [Server thread/INFO]: xDogSaur issued server command: /gamemode creative
-[00:50:29] [User Authenticator #13/INFO]: UUID of player mams4 is c7391e30-02c4-3239-82b3-26af4e43464d
-[00:50:30] [Server thread/INFO]: xDogSaur issued server command: /gamemode spectator
-[00:50:31] [Server thread/INFO]: Villager Villager['Butcher'/33424, uuid='0f2a7183-938f-4871-a2ef-70423adda7e3', l='ServerLevel[world]', x=1200.51, y=66.00, z=-2712.86, cpos=[75, -170], tl=172586, v=true] died, message: 'Butcher was slain by Zombie'
-[00:50:31] [Server thread/INFO]: Peronistas mams4 joined the game
-[00:50:31] [Server thread/INFO]: mams4[/127.129.19.124:50339] logged in with entity id 36328 at ([world_nether]-313.03899677475437, 23.0, -215.63059891307992)
-[00:50:38] [Server thread/INFO]: xDogSaur issued server command: /gamemode survival
-[00:50:42] [Craft Scheduler Thread - 91 - AuthMe/INFO]: [AuthMe] mams4 logged in 127.129.19.124
-[00:50:45] [Server thread/INFO]: mams4 lost connection: Disconnected
-[00:50:45] [Server thread/INFO]: Peronistas mams4 left the game
-[00:50:49] [Server thread/INFO]: xDogSaur issued server command: /gamemode spectator
-[00:50:52] [Server thread/INFO]: xDogSaur issued server command: /gamemode creative
-[00:50:57] [Server thread/INFO]: xDogSaur issued server command: /gamemode spectator
-[00:50:57] [Server thread/INFO]: Villager Villager['Armorer'/33425, uuid='d4390fb5-a8f5-4aa5-a104-b4477daff904', l='ServerLevel[world]', x=1210.79, y=67.19, z=-2703.52, cpos=[75, -169], tl=173839, v=true] died, message: 'Armorer was slain by Zombie'
-[00:51:00] [Server thread/INFO]: xDogSaur issued server command: /gamemode creative
-[00:51:01] [Server thread/INFO]: LaMercedez bolcarion was shot by Skeleton
-[00:51:04] [Server thread/INFO]: xDogSaur issued server command: /gamemode spectator
-[00:51:06] [Server thread/INFO]: xDogSaur issued server command: /gamemode creative
-[00:51:09] [Server thread/INFO]: xDogSaur issued server command: /gamemode spectator
-[00:51:11] [Server thread/INFO]: xDogSaur issued server command: /gamemode creative
-[00:51:13] [Server thread/INFO]: xDogSaur issued server command: /gamemode spectator
-[00:51:15] [Server thread/INFO]: xDogSaur issued server command: /gamemode creative
-[00:51:18] [Server thread/INFO]: xDogSaur issued server command: /gamemode spectator
-[00:51:19] [Server thread/INFO]: xDogSaur issued server command: /gamemode spectator
-[00:51:21] [Server thread/INFO]: xDogSaur issued server command: /gamemode creative
-[00:51:23] [Server thread/INFO]: xDogSaur issued server command: /gamemode spectator
-[00:51:25] [Server thread/INFO]: xDogSaur issued server command: /gamemode creative
-[00:51:26] [Server thread/INFO]: xDogSaur issued server command: /gamemode spectator
-[00:51:28] [Server thread/INFO]: xDogSaur issued server command: /gamemode creative
-[00:51:30] [Server thread/INFO]: xDogSaur issued server command: /gamemode spectator
-[00:51:32] [Server thread/INFO]: xDogSaur issued server command: /gamemode creative
-[00:51:34] [User Authenticator #14/INFO]: UUID of player mams4 is c7391e30-02c4-3239-82b3-26af4e43464d
-[00:51:36] [Server thread/INFO]: xDogSaur issued server command: /gamemode spectator
-[00:51:36] [Server thread/INFO]: Peronistas mams4 joined the game
-[00:51:36] [Server thread/INFO]: mams4[/127.129.19.124:37909] logged in with entity id 37422 at ([world_nether]-311.6497467747541, 23.0, -215.63059891307992)
-[00:51:44] [Server thread/INFO]: xDogSaur issued server command: /gamemode survival
-[00:51:48] [Server thread/INFO]: mams4 lost connection: Disconnected
-[00:51:48] [Server thread/INFO]: Peronistas mams4 left the game
-[00:51:51] [User Authenticator #14/INFO]: UUID of player mams4 is c7391e30-02c4-3239-82b3-26af4e43464d
-[00:51:52] [Server thread/INFO]: Peronistas mams4 joined the game
-[00:51:52] [Server thread/INFO]: mams4[/127.129.19.124:34821] logged in with entity id 37648 at ([world_nether]-311.6497467747541, 23.0, -215.63059891307992)
-[00:52:02] [Server thread/INFO]: LaMercedez bolcarion was slain by Spider
-[00:52:08] [Craft Scheduler Thread - 92 - AuthMe/INFO]: [AuthMe] mams4 logged in 127.129.19.124
-[00:52:20] [Server thread/INFO]: Villager Villager['Villager'/4714, uuid='d9d93961-f8fb-4fe5-9532-5e8cab34b78f', l='ServerLevel[world]', x=-386.13, y=97.00, z=854.50, cpos=[-25, 53], tl=46494, v=true] died, message: 'Villager was slain by Zombie'
-[00:53:03] [Server thread/INFO]: xDogSaur issued server command: /gamemode c
-[00:55:00] [Server thread/INFO]: Libertarios Toppo_Z has made the advancement [We Need to Go Deeper]
-[00:55:05] [Server thread/INFO]: Libertarios UnPibee has made the advancement [We Need to Go Deeper]
-[00:55:16] [Server thread/INFO]: bananadunk issued server command: /team chat he conseguido reparacion
-[00:55:16] [Craft Scheduler Thread - 96 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f bananadunk§f: he conseguido reparacion 
-[00:55:36] [Server thread/INFO]: bananadunk issued server command: /team chat un libro mas 36 de esmeralda
-[00:55:36] [Craft Scheduler Thread - 97 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f bananadunk§f: un libro mas 36 de esmeralda 
-[00:55:41] [Server thread/INFO]: Toppo_Z issued server command: /team chat bien
-[00:55:41] [Craft Scheduler Thread - 98 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f **Toppo_Z§f: bien 
-[00:56:04] [Async Chat Thread - #16/INFO]: [Not Secure] [Libertarios] <bananadunk> no vayan a romper nms el coso este q le hace trabajar
-[00:56:09] [Server thread/INFO]: xDogSaur issued server command: /gamemode survival
-[00:56:11] [Async Chat Thread - #16/INFO]: [Not Secure] [Libertarios] <bananadunk> uh
-[00:56:13] [Server thread/INFO]: Toppo_Z lost connection: Disconnected
-[00:56:13] [Server thread/INFO]: Libertarios Toppo_Z left the game
-[00:56:15] [Async Chat Thread - #16/INFO]: [Not Secure] [Libertarios] <bananadunk> f
-[00:58:28] [Server thread/INFO]: xDogSaur issued server command: /gamemode c
-[00:59:24] [Server thread/INFO]: bolcarion issued server command: /team chat 1119 80 -2900
-[00:59:24] [Craft Scheduler Thread - 101 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f bolcarion§f: 1119 80 -2900 
-[00:59:43] [Server thread/INFO]: mams4 lost connection: Timed out
-[00:59:43] [Server thread/INFO]: Peronistas mams4 left the game
-[01:00:05] [Server thread/INFO]: Peronistas xDogSaur has made the advancement [Hot Stuff]
-[01:00:06] [User Authenticator #15/INFO]: UUID of player mams4 is c7391e30-02c4-3239-82b3-26af4e43464d
-[01:00:07] [Server thread/INFO]: Peronistas mams4 joined the game
-[01:00:07] [Server thread/INFO]: mams4[/127.129.19.124:34581] logged in with entity id 48520 at ([world]-2657.744268874591, 63.0, -1795.0293020895917)
-[01:00:14] [Craft Scheduler Thread - 103 - AuthMe/INFO]: [AuthMe] mams4 logged in 127.129.19.124
-[01:01:37] [Server thread/INFO]: bolcarion issued server command: /team chat 1119 80 -2900
-[01:01:37] [Craft Scheduler Thread - 104 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f bolcarion§f: 1119 80 -2900 
-[01:02:59] [Server thread/WARN]: Acacia Boat (vehicle of bananadunk) moved wrongly! 1.017681686881133
-[01:02:59] [Server thread/WARN]: Acacia Boat (vehicle of bananadunk) moved wrongly! 0.6822318687134157
-[01:02:59] [Server thread/WARN]: Acacia Boat (vehicle of bananadunk) moved wrongly! 1.0275799946143707
-[01:02:59] [Server thread/WARN]: Acacia Boat (vehicle of bananadunk) moved wrongly! 0.6984177526144322
-[01:02:59] [Server thread/WARN]: Acacia Boat (vehicle of bananadunk) moved wrongly! 0.35164333568968686
-[01:03:37] [Server thread/INFO]: xDogSaur issued server command: /gamemode survival
-[01:03:49] [Server thread/INFO]: xDogSaur issued server command: /give xDogSaur bone_block 39
-[01:04:13] [Server thread/INFO]: xDogSaur issued server command: /team chat
-[01:04:15] [Async Chat Thread - #18/INFO]: [BetterTeams]§b[Team]§f **Peronistas§f §4xDogSaur§r§f: 0 60 0
-[01:04:26] [Server thread/INFO]: santimax521 lost connection: Timed out
-[01:04:26] [Server thread/INFO]: LaMercedez santimax521 left the game
-[01:04:38] [User Authenticator #16/INFO]: UUID of player santimax521 is 5c846ced-deb7-364e-b862-e5c64616ef3f
-[01:04:40] [Server thread/INFO]: LaMercedez santimax521 joined the game
-[01:04:40] [Server thread/INFO]: santimax521[/127.82.62.189:38661] logged in with entity id 55909 at ([world]1212.5370483015079, 66.0, -2701.2207775921142)
-[01:04:44] [Craft Scheduler Thread - 107 - AuthMe/INFO]: [AuthMe] The user santimax521 has 2 accounts:
-[01:04:44] [Craft Scheduler Thread - 107 - AuthMe/INFO]: [AuthMe] §7§asantimax521§7, §abolcarion§7.
-[01:04:44] [Craft Scheduler Thread - 107 - AuthMe/INFO]: [AuthMe] santimax521 logged in 127.82.62.189
-[01:05:10] [Server thread/INFO]: bolcarion lost connection: Disconnected
-[01:05:10] [Server thread/INFO]: LaMercedez bolcarion left the game
-[01:05:13] [User Authenticator #16/INFO]: UUID of player bolcarion is 5d22e4e7-7593-329b-91e8-bf4956477f5b
-[01:05:16] [Server thread/INFO]: LaMercedez bolcarion joined the game
-[01:05:16] [Server thread/INFO]: bolcarion[/127.82.62.189:49229] logged in with entity id 56732 at ([world]1210.7175329368265, 67.0, -2704.0518368691532)
-[01:05:30] [Craft Scheduler Thread - 110 - AuthMe/INFO]: [AuthMe] The user bolcarion has 2 accounts:
-[01:05:30] [Craft Scheduler Thread - 110 - AuthMe/INFO]: [AuthMe] §7§asantimax521§7, §abolcarion§7.
-[01:05:30] [Craft Scheduler Thread - 110 - AuthMe/INFO]: [AuthMe] bolcarion logged in 127.82.62.189
-[01:05:36] [Server thread/INFO]: mams4 lost connection: Disconnected
-[01:05:36] [Server thread/INFO]: Peronistas mams4 left the game
-[01:05:38] [User Authenticator #16/INFO]: UUID of player mams4 is c7391e30-02c4-3239-82b3-26af4e43464d
-[01:05:40] [Server thread/INFO]: Peronistas mams4 joined the game
-[01:05:40] [Server thread/INFO]: mams4[/127.129.19.124:49297] logged in with entity id 57168 at ([world]-2646.387735380263, 63.0, -1777.0598355608508)
-[01:05:46] [Craft Scheduler Thread - 109 - AuthMe/INFO]: [AuthMe] mams4 logged in 127.129.19.124
-[01:06:02] [Server thread/INFO]: bolcarion lost connection: Timed out
-[01:06:02] [Server thread/INFO]: LaMercedez bolcarion left the game
-[01:06:05] [User Authenticator #16/INFO]: UUID of player bolcarion is 5d22e4e7-7593-329b-91e8-bf4956477f5b
-[01:06:07] [Server thread/INFO]: LaMercedez bolcarion joined the game
-[01:06:07] [Server thread/INFO]: bolcarion[/127.82.62.189:39843] logged in with entity id 57715 at ([world]1210.7175329368265, 67.0, -2704.0518368691532)
-[01:06:10] [Craft Scheduler Thread - 110 - AuthMe/INFO]: [AuthMe] The user bolcarion has 2 accounts:
-[01:06:10] [Craft Scheduler Thread - 110 - AuthMe/INFO]: [AuthMe] §7§asantimax521§7, §abolcarion§7.
-[01:06:10] [Craft Scheduler Thread - 110 - AuthMe/INFO]: [AuthMe] bolcarion logged in 127.82.62.189
-[01:06:20] [Server thread/INFO]: bolcarion issued server command: /skin farfadox
-[01:06:25] [Server thread/INFO]: mams4 lost connection: Timed out
-[01:06:25] [Server thread/INFO]: Peronistas mams4 left the game
-[01:06:30] [User Authenticator #16/INFO]: UUID of player mams4 is c7391e30-02c4-3239-82b3-26af4e43464d
-[01:06:32] [Server thread/INFO]: Peronistas mams4 joined the game
-[01:06:32] [Server thread/INFO]: mams4[/127.129.19.124:40727] logged in with entity id 58064 at ([world]-2646.387735380263, 63.0, -1777.0598355608508)
-[01:06:35] [Server thread/INFO]: xDogSaur issued server command: /team info santimax521
-[01:06:37] [Craft Scheduler Thread - 109 - AuthMe/INFO]: [AuthMe] mams4 logged in 127.129.19.124
-[01:06:54] [Server thread/INFO]: xDogSaur issued server command: /gamemode creative
-[01:07:55] [Server thread/INFO]: bananadunk lost connection: Timed out
-[01:07:55] [Server thread/INFO]: Libertarios bananadunk left the game
-[01:08:03] [Server thread/INFO]: bolcarion lost connection: Disconnected
-[01:08:03] [Server thread/INFO]: LaMercedez bolcarion left the game
-[01:08:24] [Server thread/INFO]: xDogSaur issued server command: /gamerule playersSleepingPercentage 1
-[01:08:24] [Server thread/INFO]: [Peronistas xDogSaur: Gamerule playersSleepingPercentage is now set to: 1]
-[01:08:31] [Server thread/INFO]: xDogSaur issued server command: /gamerule playersSleepingPercentage 2
-[01:08:31] [Server thread/INFO]: [Peronistas xDogSaur: Gamerule playersSleepingPercentage is now set to: 2]
-[01:08:38] [Server thread/INFO]: xDogSaur issued server command: /gamerule playersSleepingPercentage 3
-[01:08:38] [Server thread/INFO]: [Peronistas xDogSaur: Gamerule playersSleepingPercentage is now set to: 3]
-[01:08:42] [Server thread/INFO]: xDogSaur issued server command: /gamerule playersSleepingPercentage 5
-[01:08:42] [Server thread/INFO]: [Peronistas xDogSaur: Gamerule playersSleepingPercentage is now set to: 5]
-[01:08:47] [Server thread/INFO]: xDogSaur issued server command: /gamerule playersSleepingPercentage 20
-[01:08:47] [Server thread/INFO]: [Peronistas xDogSaur: Gamerule playersSleepingPercentage is now set to: 20]
-[01:09:03] [Server thread/INFO]: xDogSaur issued server command: /gamerule playersSleepingPercentage 30
-[01:09:03] [Server thread/INFO]: [Peronistas xDogSaur: Gamerule playersSleepingPercentage is now set to: 30]
-[01:09:08] [User Authenticator #17/INFO]: UUID of player bolcarion is 5d22e4e7-7593-329b-91e8-bf4956477f5b
-[01:09:09] [Server thread/INFO]: xDogSaur issued server command: /effect clear xDogSaur
-[01:09:09] [Server thread/INFO]: [Peronistas xDogSaur: Removed every effect from Peronistas xDogSaur]
-[01:09:11] [Server thread/INFO]: LaMercedez bolcarion joined the game
-[01:09:11] [Server thread/INFO]: bolcarion[/127.82.62.189:58155] logged in with entity id 59549 at ([world]1210.1458188628364, 69.0, -2709.2760292619737)
-[01:09:16] [Server thread/INFO]: bolcarion issued server command: /skin farfadox
-[01:09:18] [Craft Scheduler Thread - 116 - AuthMe/INFO]: [AuthMe] The user bolcarion has 2 accounts:
-[01:09:18] [Craft Scheduler Thread - 116 - AuthMe/INFO]: [AuthMe] §7§asantimax521§7, §abolcarion§7.
-[01:09:18] [Craft Scheduler Thread - 116 - AuthMe/INFO]: [AuthMe] bolcarion logged in 127.82.62.189
-[01:09:22] [Server thread/INFO]: bolcarion issued server command: /skin farfadox
-[01:09:28] [Server thread/INFO]: xDogSaur issued server command: /gamemode survival
-[01:09:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3121ms or 62 ticks behind
-[01:10:00] [Server thread/INFO]: LaMercedez bolcarion has made the advancement [What a Deal!]
-[01:10:51] [Server thread/INFO]: LaMercedez bolcarion has made the advancement [Cover Me with Diamonds]
-[01:11:44] [Server thread/INFO]: xDogSaur issued server command: /give xDogSaur green_bed 3
-[01:12:55] [Server thread/INFO]: Villager Villager['Fisherman'/38376, uuid='4a8182d8-83cd-41f9-8675-6f83fcf92863', l='ServerLevel[world]', x=-2673.49, y=63.30, z=-1780.29, cpos=[-168, -112], tl=165931, v=true] died, message: 'Fisherman was slain by Peronistas mams4'
-[01:13:08] [Server thread/INFO]: Villager Villager['Farmer'/38381, uuid='ccec0c4b-073e-47fd-bccb-b80bc4ea5bfb', l='ServerLevel[world]', x=-2676.10, y=63.00, z=-1760.50, cpos=[-168, -111], tl=166047, v=true] died, message: 'Farmer was slain by Peronistas mams4'
-[01:13:55] [Server thread/INFO]: LaMercedez bolcarion has made the advancement [Enchanter]
-[01:14:20] [Server thread/INFO]: mams4 issued server command: /team echest
-[01:15:22] [Server thread/INFO]: xDogSaur issued server command: /gamemode c
-[01:15:33] [Server thread/INFO]: xDogSaur issued server command: /gamemode survival
-[01:15:49] [Server thread/INFO]: xDogSaur issued server command: /repair all
-[01:15:58] [Server thread/INFO]: xDogSaur issued server command: /enchant protect 4
-[01:16:03] [Server thread/INFO]: Villager Villager['Farmer'/38421, uuid='c772fe5e-e9d4-4d1b-8e74-480546731274', l='ServerLevel[world]', x=-2669.29, y=63.00, z=-1756.63, cpos=[-167, -110], tl=169307, v=true] died, message: 'Farmer was slain by Peronistas mams4'
-[01:17:21] [Server thread/INFO]: xDogSaur issued server command: /enchant protect 4
-[01:18:10] [Server thread/INFO]: xDogSaur issued server command: /team echest
-[01:19:51] [Server thread/INFO]: xDogSaur issued server command: /give xDogSaur water_bucket 1
-[01:19:57] [Server thread/INFO]: santimax521 lost connection: Disconnected
-[01:19:57] [Server thread/INFO]: LaMercedez santimax521 left the game
-[01:20:40] [Server thread/INFO]: mams4 issued server command: /team echest
-[01:23:25] [User Authenticator #18/INFO]: UUID of player santimax521 is 5c846ced-deb7-364e-b862-e5c64616ef3f
-[01:23:26] [Server thread/INFO]: LaMercedez santimax521 joined the game
-[01:23:26] [Server thread/INFO]: santimax521[/127.82.62.189:60209] logged in with entity id 67367 at ([world]1163.2577539514432, 113.0, -2935.777611148496)
-[01:23:33] [Craft Scheduler Thread - 126 - AuthMe/INFO]: [AuthMe] The user santimax521 has 2 accounts:
-[01:23:33] [Craft Scheduler Thread - 126 - AuthMe/INFO]: [AuthMe] §7§asantimax521§7, §abolcarion§7.
-[01:23:33] [Craft Scheduler Thread - 126 - AuthMe/INFO]: [AuthMe] santimax521 logged in 127.82.62.189
-[01:24:27] [Server thread/WARN]: Skeleton Horse (vehicle of santimax521) moved wrongly! 1.4701992967861865
-[01:24:27] [Server thread/WARN]: Skeleton Horse (vehicle of santimax521) moved wrongly! 1.5318181087587819
-[01:24:27] [Server thread/WARN]: Skeleton Horse (vehicle of santimax521) moved wrongly! 1.551058423927867
-[01:24:27] [Server thread/WARN]: Skeleton Horse (vehicle of santimax521) moved wrongly! 1.551058423927867
-[01:24:27] [Server thread/WARN]: Skeleton Horse (vehicle of santimax521) moved wrongly! 1.551058423927867
-[01:25:02] [Async Chat Thread - #20/INFO]: [Not Secure] [LaMercedez] <bolcarion> zzzz
-[01:27:31] [Server thread/INFO]: mams4 issued server command: /kill
-[01:27:31] [Server thread/INFO]: [Essentials] mams4 was denied access to command.
-[01:27:59] [Server thread/INFO]: xDogSaur issued server command: /team echest
-[01:28:16] [Server thread/INFO]: mams4 issued server command: /team echest
-[01:28:47] [Server thread/INFO]: mams4 issued server command: /team echest
-[01:29:17] [Server thread/INFO]: Peronistas mams4 has made the advancement [Hot Stuff]
-[01:32:38] [Server thread/INFO]: mams4 issued server command: /team echest
-[01:33:17] [Server thread/INFO]: Libertarios UnPibee was slain by Zombie
-[01:33:26] [Server thread/INFO]: mams4 issued server command: /team echest
-[01:33:45] [Server thread/INFO]: mams4 issued server command: /team echest
-[01:34:17] [Server thread/INFO]: mams4 issued server command: /team echest
-[01:34:24] [Server thread/INFO]: xDogSaur issued server command: /gamemode spectator
-[01:34:30] [Server thread/INFO]: mams4 issued server command: /team echest
-[01:34:42] [Server thread/INFO]: xDogSaur issued server command: /gamemode survival
-[01:34:58] [Async Chat Thread - #22/INFO]: [Not Secure] [Peronistas] <mams4> nashe
-[01:35:02] [Server thread/INFO]: mams4 issued server command: /team chat
-[01:35:03] [Async Chat Thread - #22/INFO]: [BetterTeams]§b[Team]§f mams4§f: nashe
-[01:35:16] [Async Chat Thread - #22/INFO]: [BetterTeams]§b[Team]§f mams4§f: -2648 / 63 / -1778
-[01:35:31] [Server thread/INFO]: mams4 issued server command: /msg
-[01:35:31] [Server thread/INFO]: [Essentials] mams4 was denied access to command.
-[01:37:41] [Server thread/INFO]: xDogSaur issued server command: /give xDogSaur tag 1
-[01:37:45] [Server thread/INFO]: xDogSaur issued server command: /give xDogSaur nametag 1
-[01:38:15] [Async Chat Thread - #25/INFO]: [Not Secure] [LaMercedez] <bolcarion> zzzz
-[01:40:12] [Server thread/INFO]: xDogSaur issued server command: /team
-[01:40:14] [Server thread/INFO]: UnPibee issued server command: /team e chest
-[01:40:15] [Server thread/INFO]: santimax521 issued server command: /team e chest
-[01:40:22] [User Authenticator #19/INFO]: UUID of player Toppo_Z is b05eba41-1809-3193-83d8-06393137f486
-[01:40:23] [Server thread/INFO]: xDogSaur issued server command: /team help 2
-[01:40:25] [Server thread/INFO]: Libertarios Toppo_Z joined the game
-[01:40:25] [Server thread/INFO]: Toppo_Z[/127.102.84.29:41897] logged in with entity id 78785 at ([world_nether]-14.248333074016289, 103.0, 141.17897436297545)
-[01:40:26] [Server thread/INFO]: UnPibee issued server command: /team chest
-[01:40:27] [Server thread/INFO]: xDogSaur issued server command: /team help 3
-[01:40:31] [Server thread/INFO]: UnPibee issued server command: /team echest
-[01:40:33] [Server thread/INFO]: xDogSaur issued server command: /team chest
-[01:40:35] [Craft Scheduler Thread - 142 - AuthMe/INFO]: [AuthMe] Toppo_Z logged in 127.102.84.29
-[01:40:41] [Server thread/INFO]: xDogSaur issued server command: /broadcast -/team echest
-[01:41:49] [Server thread/INFO]: xDogSaur issued server command: /repair all
-[01:43:04] [Server thread/INFO]: xDogSaur issued server command: /team chest
-[01:43:07] [Server thread/INFO]: xDogSaur issued server command: /team echest
-[01:43:48] [Server thread/INFO]: Libertarios Toppo_Z has made the advancement [Who is Cutting Onions?]
-[01:47:21] [Server thread/INFO]: LaMercedez bolcarion drowned
-[01:47:37] [Server thread/INFO]: xDogSaur issued server command: /team chat
-[01:47:43] [Async Chat Thread - #26/INFO]: [Not Secure] [Peronistas] <xDogSaur> encontro la ubicacion de loan y lo silenciamos
-[01:53:18] [Server thread/INFO]: xDogSaur issued server command: /gamemode c
-[01:55:35] [User Authenticator #20/INFO]: UUID of player bananadunk is 8fea8e32-9eaf-3803-80f6-384288240716
-[01:55:40] [Server thread/INFO]: Libertarios bananadunk joined the game
-[01:55:40] [Server thread/INFO]: bananadunk[/127.30.151.4:54167] logged in with entity id 90901 at ([world]-489.1047709160562, 86.0, 797.9080354062519)
-[01:55:53] [Craft Scheduler Thread - 154 - AuthMe/INFO]: [AuthMe] bananadunk logged in 127.30.151.4
-[01:59:09] [Server thread/INFO]: bananadunk lost connection: Disconnected
-[01:59:09] [Server thread/INFO]: Libertarios bananadunk left the game
-[01:59:37] [Server thread/INFO]: Libertarios Toppo_Z has made the advancement [Those Were the Days]
-[02:00:00] [Server thread/INFO]: bolcarion lost connection: Disconnected
-[02:00:00] [Server thread/INFO]: LaMercedez bolcarion left the game
-[02:00:42] [User Authenticator #21/INFO]: UUID of player bananadunk is 8fea8e32-9eaf-3803-80f6-384288240716
-[02:00:45] [Server thread/INFO]: Libertarios bananadunk joined the game
-[02:00:45] [Server thread/INFO]: bananadunk[/127.30.151.4:55025] logged in with entity id 95580 at ([world]-389.30952267895583, 97.0, 889.9646014020759)
-[02:00:52] [Craft Scheduler Thread - 162 - AuthMe/INFO]: [AuthMe] bananadunk logged in 127.30.151.4
-[02:01:08] [Server thread/INFO]: santimax521 lost connection: Disconnected
-[02:01:08] [Server thread/INFO]: LaMercedez santimax521 left the game
-[02:02:03] [Server thread/INFO]: mams4 lost connection: Timed out
-[02:02:03] [Server thread/INFO]: Peronistas mams4 left the game
-[02:02:03] [Server thread/INFO]: Libertarios Toppo_Z has made the advancement [War Pigs]
-[02:02:08] [User Authenticator #22/INFO]: UUID of player mams4 is c7391e30-02c4-3239-82b3-26af4e43464d
-[02:02:09] [Server thread/INFO]: Peronistas mams4 joined the game
-[02:02:09] [Server thread/INFO]: mams4[/127.129.19.124:60425] logged in with entity id 96269 at ([world]-2644.836487569205, 64.0, -1774.6675236301114)
-[02:02:15] [Craft Scheduler Thread - 164 - AuthMe/INFO]: [AuthMe] mams4 logged in 127.129.19.124
-[02:02:20] [Server thread/INFO]: bananadunk lost connection: Disconnected
-[02:02:20] [Server thread/INFO]: Libertarios bananadunk left the game
-[02:02:27] [Server thread/INFO]: Toppo_Z lost connection: Disconnected
-[02:02:27] [Server thread/INFO]: Libertarios Toppo_Z left the game
-[02:03:15] [Server thread/INFO]: UnPibee lost connection: Disconnected
-[02:03:15] [Server thread/INFO]: Libertarios UnPibee left the game
-[02:04:17] [User Authenticator #23/INFO]: UUID of player Toppo_Z is b05eba41-1809-3193-83d8-06393137f486
-[02:04:20] [Server thread/INFO]: Toppo_Z joined the game
-[02:04:20] [Server thread/INFO]: Toppo_Z[/127.102.84.29:41353] logged in with entity id 96726 at ([world_nether]-117.30000001192093, 72.0, -328.50019937874424)
-[02:04:27] [Craft Scheduler Thread - 170 - AuthMe/INFO]: [AuthMe] Toppo_Z logged in 127.102.84.29
-[02:07:49] [User Authenticator #24/INFO]: UUID of player bananadunk is 8fea8e32-9eaf-3803-80f6-384288240716
-[02:07:52] [Server thread/INFO]: bananadunk joined the game
-[02:07:52] [Server thread/INFO]: bananadunk[/127.30.151.4:45903] logged in with entity id 97637 at ([world]-391.5315799580702, 97.0, 890.7010532877742)
-[02:07:56] [Craft Scheduler Thread - 173 - AuthMe/INFO]: [AuthMe] bananadunk logged in 127.30.151.4
-[02:08:26] [Server thread/INFO]: xDogSaur issued server command: /gamemode s
-[02:08:40] [User Authenticator #24/INFO]: UUID of player bolcarion is 5d22e4e7-7593-329b-91e8-bf4956477f5b
-[02:08:42] [Server thread/INFO]: bolcarion joined the game
-[02:08:42] [Server thread/INFO]: bolcarion[/127.82.62.189:33619] logged in with entity id 98096 at ([world]1082.9594324698364, 69.0, -2638.7338813202914)
-[02:08:46] [Craft Scheduler Thread - 176 - AuthMe/INFO]: [AuthMe] The user bolcarion has 2 accounts:
-[02:08:46] [Craft Scheduler Thread - 176 - AuthMe/INFO]: [AuthMe] §7santimax521, §abolcarion§7.
-[02:08:46] [Craft Scheduler Thread - 176 - AuthMe/INFO]: [AuthMe] bolcarion logged in 127.82.62.189
-[02:09:44] [User Authenticator #25/INFO]: UUID of player benja0806 is 2bc131e5-b440-3fd2-b2fb-2c45cc6aaa3b
-[02:09:46] [Server thread/INFO]: benja0806 joined the game
-[02:09:46] [Server thread/INFO]: benja0806[/127.174.62.101:37249] logged in with entity id 98841 at ([world]1211.1064974566439, 66.0, -2717.4395057867414)
-[02:09:51] [Craft Scheduler Thread - 177 - AuthMe/INFO]: [AuthMe] benja0806 logged in 127.174.62.101
-[02:10:04] [Async Chat Thread - #28/INFO]: [Not Secure] [Libertarios] <Toppo_Z> como era para activar las hitbox?
-[02:10:09] [Async Chat Thread - #29/INFO]: [Not Secure] [Libertarios] <Toppo_Z> f3 no se cual
-[02:10:13] [Async Chat Thread - #29/INFO]: [Not Secure] [LaMercedez] <bolcarion> f3+b
-[02:10:25] [Async Chat Thread - #29/INFO]: [Not Secure] [Libertarios] <Toppo_Z> esta
-[02:10:40] [Async Chat Thread - #29/INFO]: [Not Secure] [LaMercedez] <benja0806> duerman
-[02:10:49] [Async Chat Thread - #29/INFO]: [Not Secure] [LaMercedez] <bolcarion> ok
-[02:11:01] [Async Chat Thread - #29/INFO]: [Not Secure] [Libertarios] <bananadunk> zz
-[02:11:01] [Async Chat Thread - #29/INFO]: [Not Secure] [Libertarios] <bananadunk> z
-[02:11:01] [Async Chat Thread - #29/INFO]: [Not Secure] [Libertarios] <bananadunk> z
-[02:11:02] [Async Chat Thread - #29/INFO]: [Not Secure] [Libertarios] <bananadunk> z
-[02:11:02] [Async Chat Thread - #29/INFO]: [Not Secure] [Libertarios] <bananadunk> z
-[02:11:02] [Async Chat Thread - #29/INFO]: [Not Secure] [Libertarios] <bananadunk> z
-[02:11:02] [Async Chat Thread - #28/INFO]: [Not Secure] [Libertarios] <bananadunk> z
-[02:11:02] [Async Chat Thread - #28/INFO]: [Not Secure] [Libertarios] <bananadunk> z
-[02:11:03] [Async Chat Thread - #28/INFO]: [Not Secure] [Libertarios] <bananadunk> z
-[02:11:03] [Async Chat Thread - #28/INFO]: [Not Secure] [Libertarios] <bananadunk> z
-[02:11:04] [Async Chat Thread - #28/INFO]: [Not Secure] [LaMercedez] <benja0806> z
-[02:11:06] [Async Chat Thread - #28/INFO]: [Not Secure] [LaMercedez] <benja0806> z
-[02:11:06] [Server thread/INFO]: Libertarios Toppo_Z has made the advancement [Hidden in the Depths]
-[02:11:29] [Server thread/INFO]: bolcarion issued server command: /team chat hola
-[02:11:29] [Craft Scheduler Thread - 180 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f bolcarion§f: hola 
-[02:11:35] [Server thread/INFO]: bananadunk lost connection: Disconnected
-[02:11:35] [Server thread/INFO]: Libertarios bananadunk left the game
-[02:12:47] [Server thread/INFO]: Libertarios Toppo_Z fell from a high place
-[02:12:53] [Async Chat Thread - #30/INFO]: [Not Secure] [Libertarios] <Toppo_Z> y bueno
-[02:13:01] [Async Chat Thread - #30/INFO]: [Not Secure] [Libertarios] <Toppo_Z> hasta aca mi participacion
-[02:13:13] [Async Chat Thread - #30/INFO]: [Not Secure] [Libertarios] <Toppo_Z> que viva boca
-[02:13:15] [Async Chat Thread - #30/INFO]: [Not Secure] [Libertarios] <Toppo_Z> y el porno
-[02:13:17] [Server thread/INFO]: Toppo_Z lost connection: Disconnected
-[02:13:17] [Server thread/INFO]: Libertarios Toppo_Z left the game
-[02:14:54] [Server thread/INFO]: LaMercedez bolcarion has made the advancement [Best Friends Forever]
-[02:18:28] [Server thread/INFO]: mams4 issued server command: /team echest
-[02:19:39] [Server thread/INFO]: mams4 issued server command: /team echest
-[02:19:47] [Server thread/INFO]: mams4 issued server command: /team echest
-[02:21:58] [User Authenticator #26/INFO]: UUID of player santimax521 is 5c846ced-deb7-364e-b862-e5c64616ef3f
-[02:22:00] [Server thread/INFO]: santimax521 joined the game
-[02:22:00] [Server thread/INFO]: santimax521[/127.82.62.189:37591] logged in with entity id 102913 at ([world]1212.6490638750322, 69.0, -2710.109598002666)
-[02:22:22] [Craft Scheduler Thread - 192 - AuthMe/INFO]: [AuthMe] The user santimax521 has 2 accounts:
-[02:22:22] [Craft Scheduler Thread - 192 - AuthMe/INFO]: [AuthMe] §7§asantimax521§7, §abolcarion§7.
-[02:22:22] [Craft Scheduler Thread - 192 - AuthMe/INFO]: [AuthMe] santimax521 logged in 127.82.62.189
-[02:22:57] [Async Chat Thread - #32/INFO]: [BetterTeams]§b[Team]§f benja0806§f: team chat no tenes redstone por las dudas?
-[02:23:25] [Server thread/INFO]: santimax521 issued server command: /team chat no- ahi consegui reparacion en la otra aldea
-[02:23:25] [Craft Scheduler Thread - 193 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f **santimax521§f: no- ahi consegui reparacion en la otra aldea 
-[02:23:44] [Server thread/INFO]: mams4 issued server command: /team echest
-[02:23:59] [Server thread/INFO]: mams4 issued server command: /team echest
-[02:24:03] [Async Chat Thread - #34/INFO]: [BetterTeams]§b[Team]§f benja0806§f: team chat que aldea?
-[02:24:14] [Server thread/INFO]: santimax521 issued server command: /team chat la de la montaña
-[02:24:14] [Craft Scheduler Thread - 196 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f **santimax521§f: la de la montaña 
-[02:24:15] [Server thread/INFO]: bolcarion issued server command: /skin farfadox
-[02:24:26] [Async Chat Thread - #34/INFO]: [BetterTeams]§b[Team]§f benja0806§f: team chat ahh cheto
-[02:24:56] [Server thread/INFO]: santimax521 issued server command: /team chat y en esta eficiencia 5
-[02:24:56] [Craft Scheduler Thread - 198 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f **santimax521§f: y en esta eficiencia 5 
-[02:25:05] [Async Chat Thread - #34/INFO]: [Not Secure] [LaMercedez] <bolcarion> lol xd skibidi
-[02:25:12] [Async Chat Thread - #34/INFO]: [Not Secure] [Peronistas] <mams4> nashe
-[02:27:11] [Async Chat Thread - #36/INFO]: [Not Secure] [LaMercedez] <bolcarion> zzzz
-[02:28:07] [Server thread/INFO]: Peronistas mams4 has made the advancement [What a Deal!]
-[02:29:51] [Server thread/INFO]: LaMercedez bolcarion drowned
-[02:29:56] [Async Chat Thread - #38/INFO]: [Not Secure] [Peronistas] <mams4> ahre pete
-[02:30:00] [Async Chat Thread - #39/INFO]: [Not Secure] [Peronistas] <mams4> nashe
-[02:30:51] [Server thread/INFO]: LaMercedez bolcarion has made the advancement [A Seedy Place]
-[02:32:31] [Server thread/WARN]: Player santimax521 just tried to change non-editable sign
-[02:37:16] [Server thread/INFO]: mams4 issued server command: /team echest
-[02:38:04] [Server thread/INFO]: mams4 issued server command: /team echest
-[02:38:07] [Async Chat Thread - #40/INFO]: [BetterTeams]§b[Team]§f benja0806§f: team chat tienen soga?
-[02:38:24] [Server thread/INFO]: santimax521 issued server command: /team chat nadie creo
-[02:38:24] [Craft Scheduler Thread - 204 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f **santimax521§f: nadie creo 
-[02:39:08] [Server thread/INFO]: mams4 issued server command: /team echest
-[02:39:12] [Async Chat Thread - #42/INFO]: [Not Secure] [LaMercedez] <bolcarion> lol xd skibidi
-[02:39:15] [Server thread/INFO]: mams4 issued server command: /team echest
-[02:40:40] [Async Chat Thread - #44/INFO]: [BetterTeams]§b[Team]§f benja0806§f: team chat la estructura de piedra es de algunos de ustedes?
-[02:40:50] [Server thread/INFO]: santimax521 issued server command: /team chat si de bolcarion
-[02:40:50] [Craft Scheduler Thread - 209 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f **santimax521§f: si de bolcarion 
-[02:40:58] [Async Chat Thread - #44/INFO]: [BetterTeams]§b[Team]§f benja0806§f: team chat oka
-[02:41:08] [Server thread/INFO]: santimax521 issued server command: /team chat eu ahi me salio prote4 en el aldeano chay
-[02:41:08] [Craft Scheduler Thread - 210 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f **santimax521§f: eu ahi me salio prote4 en el aldeano chay 
-[02:41:27] [Async Chat Thread - #44/INFO]: [BetterTeams]§b[Team]§f benja0806§f: team chat bien ahi
-[02:46:31] [Server thread/INFO]: mams4 lost connection: Disconnected
-[02:46:32] [Server thread/INFO]: Peronistas mams4 left the game
-[02:51:16] [Async Chat Thread - #46/INFO]: [Not Secure] [LaMercedez] <bolcarion> zz
-[02:51:18] [Async Chat Thread - #47/INFO]: [Not Secure] [LaMercedez] <bolcarion> zz
-[02:55:13] [User Authenticator #27/INFO]: UUID of player bananadunk is 8fea8e32-9eaf-3803-80f6-384288240716
-[02:55:16] [Server thread/INFO]: bananadunk joined the game
-[02:55:16] [Server thread/INFO]: bananadunk[/127.30.151.4:53357] logged in with entity id 116855 at ([world]-376.69999998807907, 98.0, 881.0500000119209)
-[02:55:49] [Craft Scheduler Thread - 220 - AuthMe/INFO]: [AuthMe] bananadunk logged in 127.30.151.4
-[02:56:16] [Server thread/INFO]: benja0806 lost connection: Timed out
-[02:56:16] [Server thread/INFO]: LaMercedez benja0806 left the game
-[02:56:27] [User Authenticator #28/INFO]: UUID of player benja0806 is 2bc131e5-b440-3fd2-b2fb-2c45cc6aaa3b
-[02:56:28] [Server thread/INFO]: LaMercedez benja0806 joined the game
-[02:56:28] [Server thread/INFO]: benja0806[/127.174.62.101:36469] logged in with entity id 117573 at ([world]1159.9769042883065, 114.9375, -2970.5245438812367)
-[02:57:06] [Craft Scheduler Thread - 223 - AuthMe/INFO]: [AuthMe] benja0806 logged in 127.174.62.101
-[02:58:14] [Server thread/INFO]: bananadunk lost connection: Timed out
-[02:58:14] [Server thread/INFO]: Libertarios bananadunk left the game
-[02:58:31] [User Authenticator #29/INFO]: UUID of player bananadunk is 8fea8e32-9eaf-3803-80f6-384288240716
-[02:58:33] [Server thread/INFO]: bananadunk joined the game
-[02:58:33] [Server thread/INFO]: bananadunk[/127.30.151.4:49429] logged in with entity id 118711 at ([world]-375.66384453687783, 98.0, 879.7803724494246)
-[02:59:09] [Async Chat Thread - #48/INFO]: [BetterTeams]§b[Team]§f benja0806§f: team chat vamos a tratar de conseguir fortuna
-[02:59:28] [Server thread/INFO]: santimax521 issued server command: /team chat Con los aldeano??
-[02:59:28] [Craft Scheduler Thread - 227 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f **santimax521§f: Con los aldeano?? 
-[02:59:35] [Async Chat Thread - #49/INFO]: [BetterTeams]§b[Team]§f benja0806§f: team chat si
-[03:01:12] [Server thread/INFO]: bolcarion lost connection: Timed out
-[03:01:12] [Server thread/INFO]: LaMercedez bolcarion left the game
-[03:01:54] [User Authenticator #30/INFO]: UUID of player bolcarion is 5d22e4e7-7593-329b-91e8-bf4956477f5b
-[03:01:55] [Server thread/INFO]: LaMercedez bolcarion joined the game
-[03:01:55] [Server thread/INFO]: bolcarion[/127.82.62.189:58409] logged in with entity id 120551 at ([world]1159.9499911112691, 69.0, -2710.4120736299938)
-[03:02:01] [Craft Scheduler Thread - 234 - AuthMe/INFO]: [AuthMe] The user bolcarion has 2 accounts:
-[03:02:01] [Craft Scheduler Thread - 234 - AuthMe/INFO]: [AuthMe] §7§asantimax521§7, §abolcarion§7.
-[03:02:01] [Craft Scheduler Thread - 234 - AuthMe/INFO]: [AuthMe] bolcarion logged in 127.82.62.189
-[03:02:16] [Server thread/INFO]: benja0806 lost connection: Disconnected
-[03:02:16] [Server thread/INFO]: LaMercedez benja0806 left the game
-[03:03:48] [Async Chat Thread - #50/INFO]: [Not Secure] [LaMercedez] <bolcarion> zzzzz
-[03:18:32] [Async Chat Thread - #52/INFO]: [Not Secure] [LaMercedez] <bolcarion> zz
-[03:18:32] [Async Chat Thread - #52/INFO]: [Not Secure] [LaMercedez] <bolcarion> z
-[03:18:32] [Async Chat Thread - #52/INFO]: [Not Secure] [LaMercedez] <bolcarion> z
-[03:18:32] [Async Chat Thread - #52/INFO]: [Not Secure] [LaMercedez] <bolcarion> z
-[03:18:33] [Async Chat Thread - #52/INFO]: [Not Secure] [LaMercedez] <bolcarion> z
-[03:18:33] [Async Chat Thread - #52/INFO]: [Not Secure] [LaMercedez] <bolcarion> zz
-[03:18:33] [Async Chat Thread - #52/INFO]: [Not Secure] [LaMercedez] <bolcarion> z
-[03:18:33] [Async Chat Thread - #52/INFO]: [Not Secure] [LaMercedez] <bolcarion> z
-[03:18:33] [Async Chat Thread - #52/INFO]: [Not Secure] [LaMercedez] <bolcarion> z
-[03:18:33] [Async Chat Thread - #52/INFO]: [Not Secure] [LaMercedez] <bolcarion> z
-[03:18:34] [Async Chat Thread - #53/INFO]: [Not Secure] [LaMercedez] <bolcarion> z
-[03:25:45] [User Authenticator #31/INFO]: UUID of player ZoreteDeCabra is 92c0483c-2ae4-347b-ad8e-b775597fbd04
-[03:25:47] [Server thread/INFO]: ZoreteDeCabra joined the game
-[03:25:48] [Server thread/INFO]: ZoreteDeCabra[/127.212.28.94:54353] logged in with entity id 129931 at ([world]-89.73548307288904, 67.0, 71.64688814984991)
-[03:25:55] [Craft Scheduler Thread - 245 - AuthMe/INFO]: [AuthMe] ZoreteDeCabra logged in 127.212.28.94
-[03:27:51] [Async Chat Thread - #54/INFO]: [Not Secure] [Peronistas] <ZoreteDeCabra> eu
-[03:27:56] [Async Chat Thread - #54/INFO]: [Not Secure] [Peronistas] <ZoreteDeCabra> alessio
-[03:27:57] [Async Chat Thread - #54/INFO]: [Not Secure] [LaMercedez] <bolcarion> Q
-[03:27:58] [Async Chat Thread - #54/INFO]: [Not Secure] [LaMercedez] <santimax521> q
-[03:28:12] [Async Chat Thread - #54/INFO]: [Not Secure] [Peronistas] <ZoreteDeCabra> nono alessio no me contesta
-[03:28:17] [Async Chat Thread - #54/INFO]: [Not Secure] [Peronistas] <ZoreteDeCabra> estoy en el dc
-[03:29:23] [Server thread/INFO]: ZoreteDeCabra lost connection: Disconnected
-[03:29:23] [Server thread/INFO]: Peronistas ZoreteDeCabra left the game
-[03:31:54] [Server thread/INFO]: Villager Villager['Fletcher'/100800, uuid='a8636992-b549-4207-bacf-52f438009d18', l='ServerLevel[world]', x=1159.62, y=115.00, z=-2935.93, cpos=[72, -184], tl=144640, v=true] died, message: 'Fletcher was blown up by Creeper'
-[03:32:23] [Server thread/INFO]: Villager Villager['Villager'/118734, uuid='ceb23579-7cbb-408f-879a-e23c49514954', l='ServerLevel[world]', x=-325.02, y=107.00, z=851.70, cpos=[-21, 53], tl=182486, v=true] died, message: 'Villager was slain by Zombie'
-[03:35:40] [Server thread/INFO]: santimax521 lost connection: Disconnected
-[03:35:40] [Server thread/INFO]: LaMercedez santimax521 left the game
-[03:35:44] [User Authenticator #32/INFO]: UUID of player benja0806 is 2bc131e5-b440-3fd2-b2fb-2c45cc6aaa3b
-[03:35:45] [Server thread/INFO]: com.mojang.authlib.GameProfile@30e5a1fe[id=2bc131e5-b440-3fd2-b2fb-2c45cc6aaa3b,name=benja0806,properties={textures=[Property[name=textures, value=ewogICJ0aW1lc3RhbXAiIDogMTYzMzU0MDg4Mzg4NywKICAicHJvZmlsZUlkIiA6ICI0ZWQ4MjMzNzFhMmU0YmI3YTVlYWJmY2ZmZGE4NDk1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaXJlYnlyZDg4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRhNmY1ZDQxYzdiMmNhNWIxZDEyOTAwNjVmNTM4NDlmMGZjN2FiOGY1ZWZiZTdjMmZiODE0MDk2ZmQyNDIxZDEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==, signature=tOJe27PZqw8YQmnJkxyoKZbSZYzkBEwBKG9OFPuUfgGCnHUgjOUzgjynfLoX4Hm/b26pHtbu8rzS3y6X41xtMPP9Zj77V1wUIkIUlRI1RMOIvDq5apCh5feEKy8opScTSmwtVwLN6Oz4xU5pPdviOXTFK9H3h+cKZ/aCi5H8qPeG/VAC4j6PQlF7pSLXbgX5hWn7WZcDXuGXF5+j5dLy4mfJcR2cxqs3zsVEB6xwzdQ2y9N0rd0jAclWsyWeqR/X8J6/QUO0l5SR6mnwhrNp1FAVSOKamOpmzr166/gONIXjwZgFNEWXzXSymm+HsMOY2okxL1K2dLTzQdzyEOHgVUqRddcXL2LNa/pu3orwts/KMdNH/P4XMe1p0YKEMlgW7AsvtgjRZBiDbFguLelObM+1TyXkic4gFirJuD2KtgIxiwNd97o7ngTLE5UElFHS+amyuF8VFRHRQaUmqnWReE01FOJBRTALlLcDj3jhxa7RGEG+xhIP4KgfqBNWC5G2IDXxSEJLEDI/nAD9O0GyqGo7n+IAp3+VGMVPrNZVFS8DoSjKRPKrJeRHoYsjeV9WhXtSOL57S92PGFUnErDbL7ROuRwFD/QaSQztRhX023pBPzt9Sg57vhK99Y4WVt7pwjQW6J487aSlMSMVGsSYmpVUURPuDLcv+6iXE2NkzOY=]]}] lost connection: Disconnected
-[03:37:15] [Server thread/INFO]: bananadunk lost connection: Timed out
-[03:37:15] [Server thread/INFO]: Libertarios bananadunk left the game
-[03:45:53] [User Authenticator #33/INFO]: UUID of player santimax521 is 5c846ced-deb7-364e-b862-e5c64616ef3f
-[03:45:57] [Server thread/INFO]: LaMercedez santimax521 joined the game
-[03:45:57] [Server thread/INFO]: santimax521[/127.82.62.189:49777] logged in with entity id 137385 at ([world]1158.8372310400598, 113.0, -2946.300000011921)
-[03:46:04] [Craft Scheduler Thread - 259 - AuthMe/INFO]: [AuthMe] The user santimax521 has 2 accounts:
-[03:46:04] [Craft Scheduler Thread - 259 - AuthMe/INFO]: [AuthMe] §7§asantimax521§7, §abolcarion§7.
-[03:46:04] [Craft Scheduler Thread - 259 - AuthMe/INFO]: [AuthMe] santimax521 logged in 127.82.62.189
-[03:48:19] [User Authenticator #34/INFO]: UUID of player nachoto227 is c436878c-0061-3ffb-8e60-7f9e3d49a017
-[03:48:21] [Server thread/INFO]: nachoto227 joined the game
-[03:48:21] [Server thread/INFO]: nachoto227[/127.203.4.180:50859] logged in with entity id 138332 at ([world]1168.9055081702147, 112.0, -2973.0401625061477)
-[03:48:30] [Craft Scheduler Thread - 262 - AuthMe/INFO]: [AuthMe] nachoto227 logged in 127.203.4.180
-[03:50:45] [Server thread/INFO]: santimax521 lost connection: Disconnected
-[03:50:45] [Server thread/INFO]: LaMercedez santimax521 left the game
-[03:51:07] [User Authenticator #35/INFO]: UUID of player santimax521 is 5c846ced-deb7-364e-b862-e5c64616ef3f
-[03:51:10] [Server thread/INFO]: LaMercedez santimax521 joined the game
-[03:51:10] [Server thread/INFO]: santimax521[/127.82.62.189:58425] logged in with entity id 139231 at ([world]1156.8529606696754, 113.0, -2984.491384630596)
-[03:51:19] [Craft Scheduler Thread - 267 - AuthMe/INFO]: [AuthMe] The user santimax521 has 2 accounts:
-[03:51:19] [Craft Scheduler Thread - 267 - AuthMe/INFO]: [AuthMe] §7§asantimax521§7, §abolcarion§7.
-[03:51:19] [Craft Scheduler Thread - 267 - AuthMe/INFO]: [AuthMe] santimax521 logged in 127.82.62.189
-[03:52:51] [Server thread/INFO]: nachoto227 issued server command: /skins
-[03:52:55] [Folia Async Scheduler Thread #3/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[03:53:19] [Server thread/INFO]: santimax521 issued server command: /skins
-[03:53:34] [Server thread/INFO]: bolcarion issued server command: /skins
-[03:54:20] [Server thread/INFO]: bolcarion issued server command: /skins
-[03:54:30] [Server thread/INFO]: bolcarion issued server command: /skin farfadox
-[03:54:33] [Server thread/INFO]: bolcarion issued server command: /skin farfadox
-[03:56:14] [Server thread/INFO]: bolcarion issued server command: /team chat tomo prestados los hornos
-[03:56:14] [Craft Scheduler Thread - 269 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f bolcarion§f: tomo prestados los hornos 
-[04:14:41] [Server thread/INFO]: LaMercedez nachoto227 has made the advancement [Local Brewery]
-[04:16:25] [Async Chat Thread - #56/INFO]: [Not Secure] [LaMercedez] <bolcarion> zzzzzzz
-[04:17:02] [Server thread/INFO]: LaMercedez nachoto227 was blown up by Creeper
-[04:17:53] [Async Chat Thread - #58/INFO]: [Not Secure] [LaMercedez] <bolcarion> zzzzzzzzzzzzzxzz
-[04:18:59] [Server thread/INFO]: Villager Villager['Nitwit'/110705, uuid='d1493233-9f2e-46e6-b060-e98bdccb081c', l='ServerLevel[world]', x=1141.70, y=107.00, z=-2943.65, cpos=[71, -184], tl=176011, v=true] died, message: 'Nitwit was slain by Zombie'
-[04:22:19] [User Authenticator #36/INFO]: UUID of player Toppo_Z is b05eba41-1809-3193-83d8-06393137f486
-[04:22:22] [Server thread/INFO]: Toppo_Z joined the game
-[04:22:22] [Server thread/INFO]: Toppo_Z[/127.102.84.29:33629] logged in with entity id 157159 at ([world]-395.8611635670637, 94.9375, 885.1747211310044)
-[04:22:32] [Craft Scheduler Thread - 281 - AuthMe/INFO]: [AuthMe] Toppo_Z logged in 127.102.84.29
-[04:22:37] [Async Chat Thread - #60/INFO]: [Not Secure] [Libertarios] <Toppo_Z> volvio Boca
-[04:22:50] [Async Chat Thread - #61/INFO]: [Not Secure] [Libertarios] <Toppo_Z> (perdi todas en el rocket y no tenía nada mas que hacer
-[04:23:01] [Async Chat Thread - #61/INFO]: [Not Secure] [LaMercedez] <bolcarion> xd
-[04:25:06] [Server thread/INFO]: Toppo_Z lost connection: Disconnected
-[04:25:06] [Server thread/INFO]: Libertarios Toppo_Z left the game
-[04:43:28] [Server thread/INFO]: santimax521 issued server command: /team echest
-[04:43:35] [Server thread/INFO]: nachoto227 issued server command: /team:team chest
-[04:43:38] [Server thread/INFO]: bolcarion issued server command: /team echest
-[04:43:51] [Server thread/INFO]: bolcarion issued server command: /team echest
-[04:43:53] [Server thread/INFO]: nachoto227 issued server command: /team:team claim
-[04:44:03] [Server thread/INFO]: santimax521 issued server command: /team echest
-[04:44:08] [Server thread/INFO]: santimax521 issued server command: /team echest
-[04:45:46] [Server thread/INFO]: bolcarion issued server command: /team echest
-[04:48:07] [Server thread/INFO]: LaMercedez bolcarion was slain by Iron Golem
-[05:00:14] [Server thread/INFO]: santimax521 lost connection: Disconnected
-[05:00:14] [Server thread/INFO]: LaMercedez santimax521 left the game
-[05:00:17] [Server thread/INFO]: bolcarion lost connection: Disconnected
-[05:00:17] [Server thread/INFO]: LaMercedez bolcarion left the game
-[05:00:27] [User Authenticator #37/INFO]: UUID of player santimax521 is 5c846ced-deb7-364e-b862-e5c64616ef3f
-[05:00:31] [Server thread/INFO]: LaMercedez santimax521 joined the game
-[05:00:31] [Server thread/INFO]: santimax521[/127.82.62.189:56625] logged in with entity id 175549 at ([world]1200.572263916053, 66.0, -2712.7957196729317)
-[05:00:40] [Craft Scheduler Thread - 302 - AuthMe/INFO]: [AuthMe] The user santimax521 has 2 accounts:
-[05:00:40] [Craft Scheduler Thread - 302 - AuthMe/INFO]: [AuthMe] §7§asantimax521§7, bolcarion.
-[05:00:40] [Craft Scheduler Thread - 302 - AuthMe/INFO]: [AuthMe] santimax521 logged in 127.82.62.189
-[05:03:01] [User Authenticator #38/INFO]: UUID of player bolcarion is 5d22e4e7-7593-329b-91e8-bf4956477f5b
-[05:03:03] [Server thread/INFO]: LaMercedez bolcarion joined the game
-[05:03:03] [Server thread/INFO]: bolcarion[/127.82.62.189:35301] logged in with entity id 176346 at ([world]1214.1438994064752, 69.0, -2710.2757230942116)
-[05:03:14] [Craft Scheduler Thread - 307 - AuthMe/INFO]: [AuthMe] The user bolcarion has 2 accounts:
-[05:03:14] [Craft Scheduler Thread - 307 - AuthMe/INFO]: [AuthMe] §7§asantimax521§7, §abolcarion§7.
-[05:03:14] [Craft Scheduler Thread - 307 - AuthMe/INFO]: [AuthMe] bolcarion logged in 127.82.62.189
-[05:12:32] [Server thread/INFO]: LaMercedez nachoto227 has made the advancement [Hidden in the Depths]
-[05:16:07] [Server thread/INFO]: bolcarion issued server command: /team chat esto es un lago
-[05:16:07] [Craft Scheduler Thread - 313 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f bolcarion§f: esto es un lago 
-[05:17:56] [Server thread/INFO]: LaMercedez santimax521 tried to swim in lava
-[05:23:44] [Server thread/INFO]: LaMercedez santimax521 was slain by Iron Golem
-[05:30:00] [Server thread/INFO]: LaMercedez bolcarion was slain by Iron Golem
-[05:30:37] [Server thread/INFO]: LaMercedez nachoto227 has made the advancement [Take Aim]
-[05:31:59] [Server thread/INFO]: LaMercedez santimax521 has made the advancement [Take Aim]
-[05:46:40] [User Authenticator #39/INFO]: UUID of player faculag4566 is bfec446e-b332-37dc-95bb-fc16b424021a
-[05:46:41] [Server thread/INFO]: faculag4566 joined the game
-[05:46:41] [Server thread/INFO]: faculag4566[/127.31.27.232:46909] logged in with entity id 189595 at ([world]1214.914854566552, 66.0, -2712.225726328737)
-[05:46:52] [Server thread/INFO]: LaMercedez bolcarion has completed the challenge [Hot Tourist Destinations]
-[05:46:54] [Craft Scheduler Thread - 325 - AuthMe/INFO]: [AuthMe] faculag4566 logged in 127.31.27.232
-[05:47:52] [Server thread/INFO]: nachoto227 issued server command: /team chat -300 85 -335
-[05:47:52] [Craft Scheduler Thread - 326 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f nachoto227§f: -300 85 -335 
-[05:58:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2804ms or 56 ticks behind
-[06:00:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3613ms or 72 ticks behind
-[06:04:15] [Server thread/INFO]: santimax521 issued server command: /team chat -9877 100 -70
-[06:04:15] [Craft Scheduler Thread - 332 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f **santimax521§f: -9877 100 -70 
-[06:08:04] [User Authenticator #40/INFO]: UUID of player UnPibee is 03502d61-75c0-3984-8dec-353fa3007fdf
-[06:08:06] [Server thread/INFO]: UnPibee joined the game
-[06:08:06] [Server thread/INFO]: UnPibee[/127.220.248.178:39633] logged in with entity id 199356 at ([world]-342.30000001192093, 75.0, 792.926080334852)
-[06:08:15] [Craft Scheduler Thread - 336 - AuthMe/INFO]: [AuthMe] UnPibee logged in 127.220.248.178
-[06:12:53] [Server thread/INFO]: LaMercedez nachoto227 has made the advancement [A Terrible Fortress]
-[06:12:57] [Server thread/INFO]: LaMercedez santimax521 fell from a high place
-[06:13:12] [Server thread/INFO]: LaMercedez bolcarion has made the advancement [A Terrible Fortress]
-[06:13:33] [Server thread/INFO]: LaMercedez nachoto227 has made the advancement [Into Fire]
-[06:15:06] [Server thread/INFO]: Libertarios UnPibee has made the advancement [Sneak 100]
-[06:15:23] [Server thread/INFO]: LaMercedez bolcarion has made the advancement [Into Fire]
-[06:18:41] [Server thread/INFO]: LaMercedez bolcarion has made the advancement [Ol' Betsy]
-[06:20:34] [Server thread/INFO]: UnPibee issued server command: /team echest
-[06:23:05] [Server thread/INFO]: bolcarion issued server command: /team echest
-[06:23:16] [Server thread/INFO]: bolcarion issued server command: /team echest
-[06:23:27] [Server thread/INFO]: santimax521 issued server command: /team echest
-[06:23:27] [Server thread/INFO]: nachoto227 issued server command: /team echest
-[06:23:28] [Server thread/INFO]: bolcarion issued server command: /team echest
-[06:23:50] [Server thread/INFO]: santimax521 issued server command: /team echest
-[06:23:56] [Server thread/INFO]: nachoto227 issued server command: /team echest
-[06:24:36] [Server thread/INFO]: UnPibee issued server command: /team echest
-[06:25:19] [Server thread/INFO]: santimax521 issued server command: /team echest
-[06:25:23] [Server thread/INFO]: bolcarion issued server command: /team echest
-[06:25:28] [Server thread/INFO]: bolcarion issued server command: /team echest
-[06:25:37] [Server thread/INFO]: santimax521 issued server command: /team echest
-[06:25:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2804ms or 56 ticks behind
-[06:25:59] [Server thread/WARN]: santimax521 moved too quickly! -3.275812119317152,-1.0,9.494625258363612
-[06:33:25] [Server thread/INFO]: santimax521 issued server command: /callback UnPibee eu
-[06:33:36] [Server thread/INFO]: santimax521 issued server command: /callback UnPibee santimax521
-[06:34:09] [Server thread/INFO]: santimax521 issued server command: /minecraft:msg UnPibee eu
-[06:34:37] [Server thread/INFO]: UnPibee issued server command: /msg a santimax521 q
-[06:34:37] [Server thread/INFO]: [Essentials] UnPibee was denied access to command.
-[06:35:08] [Server thread/INFO]: santimax521 issued server command: /minecraft:msg UnPibee eu me podes hablar poniendo /minecraft:msg (nombre) (mensaje)
-[06:37:15] [Server thread/WARN]: Oak Boat (vehicle of bolcarion) moved wrongly! 0.33880072331020017
-[06:37:29] [Server thread/INFO]: UnPibee issued server command: /minecraft:msg santimax521 ahi ta
-[06:37:43] [Server thread/INFO]: santimax521 issued server command: /minecraft:msg UnPibee GOD
-[06:40:21] [Server thread/INFO]: bolcarion lost connection: Timed out
-[06:40:22] [Server thread/INFO]: LaMercedez bolcarion left the game
-[06:41:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2512ms or 50 ticks behind
-[06:41:16] [User Authenticator #41/INFO]: UUID of player bolcarion is 5d22e4e7-7593-329b-91e8-bf4956477f5b
-[06:41:17] [Server thread/INFO]: LaMercedez bolcarion joined the game
-[06:41:17] [Server thread/INFO]: bolcarion[/127.82.62.189:55493] logged in with entity id 224571 at ([world]-9607.304597942357, 62.110764312744145, -71.92552534713079)
-[06:41:23] [Craft Scheduler Thread - 362 - AuthMe/INFO]: [AuthMe] The user bolcarion has 2 accounts:
-[06:41:23] [Craft Scheduler Thread - 362 - AuthMe/INFO]: [AuthMe] §7§asantimax521§7, §abolcarion§7.
-[06:41:23] [Craft Scheduler Thread - 362 - AuthMe/INFO]: [AuthMe] bolcarion logged in 127.82.62.189
-[06:43:02] [Server thread/INFO]: nachoto227 issued server command: /team chat -10000 73 -214
-[06:43:02] [Craft Scheduler Thread - 363 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f nachoto227§f: -10000 73 -214 
-[06:43:27] [Server thread/INFO]: UnPibee issued server command: /team echest
-[06:43:31] [Server thread/WARN]: Oak Boat (vehicle of bolcarion) moved wrongly! 0.3068031947655826
-[06:44:34] [Server thread/INFO]: santimax521 issued server command: /team echest
-[06:44:45] [Server thread/INFO]: bolcarion issued server command: /team echest
-[06:44:56] [Server thread/INFO]: bolcarion issued server command: /team echest
-[06:45:21] [Server thread/INFO]: bolcarion issued server command: /team echest
-[06:45:48] [Server thread/INFO]: bolcarion issued server command: /team echest
-[06:48:16] [Server thread/INFO]: UnPibee issued server command: /minecraft:msg santimax521 fueron hasta las coords?
-[06:49:07] [Server thread/INFO]: bolcarion issued server command: /team chat -300 85 -335
-[06:49:07] [Craft Scheduler Thread - 370 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f bolcarion§f: -300 85 -335 
-[06:49:32] [Server thread/INFO]: bolcarion issued server command: /team echest
-[06:49:37] [Server thread/INFO]: bolcarion issued server command: /team echest
-[06:49:42] [Server thread/INFO]: santimax521 issued server command: /team echest
-[06:50:08] [Server thread/INFO]: LaMercedez bolcarion tried to swim in lava
-[06:53:56] [Server thread/INFO]: bolcarion issued server command: /team echest
-[06:54:44] [Server thread/INFO]: bolcarion issued server command: /team echest
-[06:57:35] [Server thread/INFO]: bolcarion issued server command: /version
-[06:58:27] [Server thread/INFO]: UnPibee issued server command: /team echest
-[07:00:13] [Server thread/INFO]: bolcarion issued server command: /team echest
-[07:02:53] [Server thread/INFO]: UnPibee issued server command: /team echest
-[07:03:27] [Server thread/INFO]: UnPibee issued server command: /team echest
-[07:04:29] [Server thread/INFO]: UnPibee issued server command: /team echest
-[07:04:48] [Server thread/INFO]: bolcarion lost connection: Timed out
-[07:04:48] [Server thread/INFO]: LaMercedez bolcarion left the game
-[07:06:02] [Server thread/INFO]: UnPibee issued server command: /team echest
-[07:08:00] [Server thread/INFO]: UnPibee issued server command: /team echest
-[07:08:26] [Server thread/INFO]: santimax521 issued server command: /team chat 151 336
-[07:08:26] [Craft Scheduler Thread - 388 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f **santimax521§f: 151 336 
-[07:08:35] [Server thread/INFO]: santimax521 issued server command: /team chat 151 -336
-[07:08:35] [Craft Scheduler Thread - 389 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f **santimax521§f: 151 -336 
-[07:10:51] [Server thread/INFO]: UnPibee issued server command: /team echest
-[07:14:57] [Server thread/INFO]: LaMercedez nachoto227 has completed the challenge [Subspace Bubble]
-[07:15:32] [Server thread/INFO]: UnPibee issued server command: /team echest
-[07:15:57] [Server thread/INFO]: UnPibee issued server command: /team echest
-[07:17:19] [Server thread/INFO]: UnPibee issued server command: /team echest
-[07:18:57] [Server thread/INFO]: UnPibee issued server command: /team echest
-[07:22:39] [Server thread/INFO]: UnPibee issued server command: /team echest
-[07:25:06] [User Authenticator #42/INFO]: UUID of player benja0806 is 2bc131e5-b440-3fd2-b2fb-2c45cc6aaa3b
-[07:25:08] [Server thread/INFO]: LaMercedez benja0806 joined the game
-[07:25:08] [Server thread/INFO]: benja0806[/127.174.62.101:33803] logged in with entity id 252936 at ([world]1208.8678220927557, 68.0, -2700.699999988079)
-[07:25:14] [Craft Scheduler Thread - 404 - AuthMe/INFO]: [AuthMe] benja0806 logged in 127.174.62.101
-[07:26:46] [Server thread/INFO]: UnPibee issued server command: /team echest
-[07:30:19] [Server thread/WARN]: Oak Boat (vehicle of santimax521) moved wrongly! 0.7068921627454251
-[07:40:00] [Server thread/INFO]: UnPibee issued server command: /team echest
-[07:43:45] [Server thread/INFO]: UnPibee issued server command: /team echest
-[07:43:54] [Server thread/INFO]: UnPibee issued server command: /team echest
-[07:44:07] [Server thread/INFO]: UnPibee issued server command: /team echest
-[07:45:12] [Server thread/INFO]: Libertarios UnPibee has made the advancement [Voluntary Exile]
-[07:45:37] [Server thread/INFO]: LaMercedez nachoto227 fell from a high place
-[07:45:44] [Async Chat Thread - #68/INFO]: [Not Secure] [Libertarios] <UnPibee> jajakajaja malo
-[07:45:49] [Async Chat Thread - #68/INFO]: [Not Secure] [LaMercedez] <nachoto227> pasa cords
-[07:46:03] [Server thread/INFO]: santimax521 issued server command: /team echest
-[07:46:05] [Async Chat Thread - #68/INFO]: [BetterTeams]§b[Team]§f benja0806§f: team chat 1935 85 -185
-[07:46:13] [Async Chat Thread - #68/INFO]: [Not Secure] [Libertarios] <UnPibee> todos los negros sueltan la poti esta de mal presagio santimax?
-[07:46:20] [Async Chat Thread - #68/INFO]: [Not Secure] [Libertarios] <UnPibee> te paso banca
-[07:46:25] [Async Chat Thread - #68/INFO]: [Not Secure] [LaMercedez] <santimax521> no el que tiene bandera nomas
-[07:46:35] [Server thread/INFO]: nachoto227 issued server command: /team echest
-[07:46:47] [Server thread/INFO]: nachoto227 issued server command: /team echest
-[07:46:50] [Async Chat Thread - #68/INFO]: [Not Secure] [LaMercedez] <santimax521> no el que tiene bandera nomas
-[07:46:51] [Server thread/INFO]: santimax521 issued server command: /team echest
-[07:47:21] [Async Chat Thread - #68/INFO]: [BetterTeams]§b[Team]§f benja0806§f: team echest
-[07:47:33] [Server thread/INFO]: benja0806 issued server command: /team echest
-[07:47:47] [Server thread/INFO]: faculag4566 issued server command: /team echest
-[07:47:56] [Async Chat Thread - #68/INFO]: [Not Secure] [Libertarios] <UnPibee> 2904/543
-[07:48:16] [Async Chat Thread - #68/INFO]: [Not Secure] [Libertarios] <UnPibee> como vas equipado nachin?
-[07:48:22] [Async Chat Thread - #68/INFO]: [Not Secure] [Libertarios] <UnPibee> hijo de santi*
-[07:48:44] [Async Chat Thread - #68/INFO]: [Not Secure] [LaMercedez] <nachoto227> pq preguntas
-[07:48:49] [Async Chat Thread - #68/INFO]: [Not Secure] [LaMercedez] <nachoto227> miedo?¿
-[07:48:50] [Async Chat Thread - #68/INFO]: [Not Secure] [Libertarios] <UnPibee> te espero escuchando marama rey
-[07:49:08] [Async Chat Thread - #70/INFO]: [Not Secure] [Libertarios] <UnPibee> y x si pierdo para no perder mis cosas, logico
-[07:49:10] [Server thread/INFO]: nachoto227 issued server command: /team echest
-[07:49:13] [Async Chat Thread - #70/INFO]: [Not Secure] [Libertarios] <UnPibee> deci
-[07:50:40] [Server thread/INFO]: nachoto227 issued server command: /team chat 1651 70 -1752 arcilla
-[07:50:40] [Craft Scheduler Thread - 425 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f nachoto227§f: 1651 70 -1752 arcilla 
-[07:53:13] [Async Chat Thread - #71/INFO]: [Not Secure] [Libertarios] <UnPibee> bue nacho mi abuela llega antes q vos
-[07:53:21] [Async Chat Thread - #71/INFO]: [Not Secure] [LaMercedez] <nachoto227> no estas
-[07:53:37] [Async Chat Thread - #71/INFO]: [Not Secure] [Libertarios] <UnPibee> y si no me decis como venis
-[07:53:44] [Async Chat Thread - #71/INFO]: [Not Secure] [Libertarios] <UnPibee> estoy caminando
-[07:53:45] [Async Chat Thread - #71/INFO]: [Not Secure] [LaMercedez] <nachoto227> cagon
-[07:57:42] [User Authenticator #43/INFO]: UUID of player bolcarion is 5d22e4e7-7593-329b-91e8-bf4956477f5b
-[07:57:44] [Server thread/INFO]: LaMercedez bolcarion joined the game
-[07:57:44] [Server thread/INFO]: bolcarion[/127.82.62.189:43539] logged in with entity id 281059 at ([world]1076.880507852188, 69.0, -2647.206987222707)
-[07:57:51] [Craft Scheduler Thread - 429 - AuthMe/INFO]: [AuthMe] The user bolcarion has 2 accounts:
-[07:57:51] [Craft Scheduler Thread - 429 - AuthMe/INFO]: [AuthMe] §7§asantimax521§7, §abolcarion§7.
-[07:57:51] [Craft Scheduler Thread - 429 - AuthMe/INFO]: [AuthMe] bolcarion logged in 127.82.62.189
-[07:57:57] [Server thread/INFO]: santimax521 issued server command: /team echest
-[07:58:01] [Async Chat Thread - #73/INFO]: [Not Secure] [LaMercedez] <bolcarion> adivina quien a vuelto
-[07:58:03] [Server thread/INFO]: nachoto227 issued server command: /team echest
-[07:58:09] [Server thread/INFO]: bolcarion issued server command: /team echest
-[07:58:12] [Server thread/INFO]: LaMercedez santimax521 has made the advancement [Eye Spy]
-[07:58:38] [Server thread/INFO]: LaMercedez benja0806 has made the advancement [Eye Spy]
-[07:58:58] [Server thread/INFO]: LaMercedez faculag4566 has made the advancement [Eye Spy]
-[07:59:38] [Server thread/INFO]: benja0806 issued server command: /team echest
-[07:59:47] [Server thread/INFO]: nachoto227 issued server command: /team echest
-[08:00:54] [Server thread/INFO]: bolcarion issued server command: /team echest
-[08:01:33] [Server thread/INFO]: santimax521 issued server command: /team echest
-[08:01:36] [Server thread/INFO]: bolcarion issued server command: /team echest
-[08:01:37] [Server thread/INFO]: LaMercedez nachoto227 has made the advancement [Eye Spy]
-[08:02:33] [Server thread/INFO]: santimax521 issued server command: /team echest
-[08:02:49] [Server thread/INFO]: santimax521 issued server command: /team echest
-[08:02:52] [Server thread/INFO]: bolcarion issued server command: /team echest
-[08:03:02] [Async Chat Thread - #75/INFO]: [BetterTeams]§b[Team]§f benja0806§f: team echest
-[08:03:03] [Server thread/INFO]: bolcarion issued server command: /team echest
-[08:03:08] [Server thread/INFO]: benja0806 issued server command: /team echest
-[08:03:09] [Server thread/INFO]: santimax521 issued server command: /team echest
-[08:03:15] [Server thread/INFO]: faculag4566 issued server command: /team echest
-[08:03:17] [Server thread/INFO]: nachoto227 issued server command: /team chat seba pasa 2 de hierro
-[08:03:17] [Craft Scheduler Thread - 439 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f nachoto227§f: seba pasa 2 de hierro 
-[08:03:26] [Server thread/INFO]: bolcarion issued server command: /team echest
-[08:03:29] [Server thread/INFO]: nachoto227 issued server command: /team chat por el core
-[08:03:29] [Craft Scheduler Thread - 440 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f nachoto227§f: por el core 
-[08:03:35] [Server thread/INFO]: nachoto227 issued server command: /team echest cofre
-[08:03:45] [Server thread/INFO]: santimax521 issued server command: /team echest
-[08:03:53] [Server thread/INFO]: bolcarion issued server command: /team echest
-[08:04:21] [Server thread/INFO]: bolcarion issued server command: /team echest
-[08:04:24] [Server thread/INFO]: bolcarion issued server command: /team echest
-[08:04:27] [Server thread/INFO]: bolcarion issued server command: /team echest
-[08:04:38] [Server thread/INFO]: santimax521 issued server command: /team echest
-[08:05:28] [Server thread/INFO]: bolcarion issued server command: /team echest
-[08:05:40] [Server thread/INFO]: santimax521 issued server command: /team echest
-[08:05:45] [Server thread/INFO]: bolcarion issued server command: /team echest
-[08:06:19] [Server thread/INFO]: faculag4566 issued server command: /team echest
-[08:06:19] [Server thread/INFO]: santimax521 issued server command: /team echest
-[08:06:20] [Async Chat Thread - #77/INFO]: [BetterTeams]§b[Team]§f benja0806§f: team echest
-[08:06:25] [Server thread/INFO]: benja0806 issued server command: /team echest
-[08:06:28] [Server thread/INFO]: benja0806 issued server command: /team echest
-[08:07:11] [Async Chat Thread - #77/INFO]: [Not Secure] [LaMercedez] <bolcarion> z
-[08:07:11] [Async Chat Thread - #77/INFO]: [Not Secure] [LaMercedez] <bolcarion> z
-[08:07:12] [Async Chat Thread - #77/INFO]: [Not Secure] [LaMercedez] <bolcarion> z
-[08:07:12] [Async Chat Thread - #78/INFO]: [Not Secure] [LaMercedez] <bolcarion> z
-[08:07:12] [Async Chat Thread - #78/INFO]: [Not Secure] [LaMercedez] <bolcarion> z
-[08:07:25] [Async Chat Thread - #78/INFO]: [Not Secure] [LaMercedez] <bolcarion> z
-[08:07:25] [Async Chat Thread - #77/INFO]: [Not Secure] [LaMercedez] <bolcarion> z
-[08:07:25] [Async Chat Thread - #77/INFO]: [Not Secure] [LaMercedez] <bolcarion> z
-[08:07:25] [Async Chat Thread - #77/INFO]: [Not Secure] [LaMercedez] <bolcarion> z
-[08:07:25] [Async Chat Thread - #78/INFO]: [Not Secure] [LaMercedez] <bolcarion> z
-[08:07:27] [Async Chat Thread - #79/INFO]: [Not Secure] [LaMercedez] <bolcarion> z
-[08:08:10] [Async Chat Thread - #79/INFO]: [Not Secure] [LaMercedez] <bolcarion> lol
-[08:09:13] [Server thread/INFO]: santimax521 issued server command: /team echest
-[08:10:05] [Server thread/INFO]: LaMercedez nachoto227 has made the advancement [The End?]
-[08:10:06] [Server thread/INFO]: LaMercedez benja0806 has made the advancement [The End?]
-[08:10:06] [Server thread/INFO]: LaMercedez santimax521 has made the advancement [The End?]
-[08:10:06] [Server thread/INFO]: LaMercedez faculag4566 has made the advancement [The End?]
-[08:10:08] [Server thread/INFO]: Scanning for legacy world dragon fight...
-[08:10:08] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
-[08:10:16] [Async Chat Thread - #80/INFO]: [Not Secure] [LaMercedez] <bolcarion> se acabo
-[08:12:05] [Async Chat Thread - #82/INFO]: [Not Secure] [LaMercedez] <bolcarion> ese telefono parece carpintero
-[08:12:19] [Async Chat Thread - #83/INFO]: [Not Secure] [LaMercedez] <bolcarion> por que hace rin porque hace rin
-[08:12:49] [Server thread/INFO]: LaMercedez faculag4566 was doomed to fall by Ender Dragon
-[08:13:17] [Server thread/INFO]: UnPibee issued server command: /team echest
-[08:14:00] [Server thread/INFO]: UnPibee issued server command: /team echest
-[08:15:13] [Server thread/INFO]: LaMercedez benja0806 has made the advancement [Free the End]
-[08:15:36] [Server thread/INFO]: santimax521 issued server command: /team echest
-[08:15:40] [Server thread/INFO]: bolcarion issued server command: /team echest
-[08:15:55] [Server thread/INFO]: LaMercedez santimax521 has reached the goal [The Next Generation]
-[08:16:36] [Async Chat Thread - #84/INFO]: [Not Secure] [LaMercedez] <nachoto227> pasa cords
-[08:17:15] [Server thread/INFO]: LaMercedez santimax521 has made the advancement [Remote Getaway]
-[08:17:19] [Server thread/INFO]: LaMercedez benja0806 has made the advancement [Remote Getaway]
-[08:17:21] [Server thread/INFO]: LaMercedez faculag4566 has made the advancement [Remote Getaway]
-[08:17:26] [Server thread/INFO]: LaMercedez nachoto227 has made the advancement [Remote Getaway]
-[08:20:12] [Async Chat Thread - #86/INFO]: [Not Secure] [Libertarios] <UnPibee> ahora te haces el hombrecito pt
-[08:20:19] [Server thread/INFO]: LaMercedez bolcarion was blown up by Creeper
-[08:20:21] [Async Chat Thread - #86/INFO]: [Not Secure] [LaMercedez] <nachoto227> ahora de q
-[08:21:06] [Server thread/INFO]: LaMercedez benja0806 has made the advancement [The City at the End of the Game]
-[08:23:52] [Server thread/INFO]: LaMercedez bolcarion was shot by Skeleton
-[08:24:23] [Server thread/INFO]: UnPibee lost connection: Disconnected
-[08:24:23] [Server thread/INFO]: Libertarios UnPibee left the game
-[08:27:31] [Server thread/INFO]: nachoto227 issued server command: /team echest
-[08:27:32] [Server thread/INFO]: santimax521 issued server command: /team echest
-[08:29:24] [Server thread/INFO]: bolcarion lost connection: Timed out
-[08:29:24] [Server thread/INFO]: LaMercedez bolcarion left the game
-[08:29:28] [User Authenticator #44/INFO]: UUID of player bolcarion is 5d22e4e7-7593-329b-91e8-bf4956477f5b
-[08:29:30] [Server thread/INFO]: LaMercedez bolcarion joined the game
-[08:29:30] [Server thread/INFO]: bolcarion[/127.82.62.189:42947] logged in with entity id 300052 at ([world]1248.324420699479, 64.9660648360226, -2666.4947874507143)
-[08:29:35] [Craft Scheduler Thread - 471 - AuthMe/INFO]: [AuthMe] The user bolcarion has 2 accounts:
-[08:29:35] [Craft Scheduler Thread - 471 - AuthMe/INFO]: [AuthMe] §7§asantimax521§7, §abolcarion§7.
-[08:29:35] [Craft Scheduler Thread - 471 - AuthMe/INFO]: [AuthMe] bolcarion logged in 127.82.62.189
-[08:31:06] [Server thread/INFO]: bolcarion issued server command: /team echest
-[08:31:09] [Server thread/INFO]: santimax521 issued server command: /team echest
-[08:33:21] [Server thread/INFO]: santimax521 issued server command: /team echest
-[08:33:21] [Server thread/INFO]: bolcarion issued server command: /team echest
-[08:34:58] [Server thread/INFO]: LaMercedez benja0806 has made the advancement [Local Brewery]
-[08:35:16] [Server thread/WARN]: santimax521 moved too quickly! -14.248428568922236,1.130906499714527,4.3587266596905465
-[08:35:18] [Server thread/INFO]: LaMercedez benja0806 has reached the goal [Sky's the Limit]
-[08:36:43] [Server thread/INFO]: LaMercedez santimax521 has made the advancement [The City at the End of the Game]
-[08:36:48] [Server thread/INFO]: LaMercedez nachoto227 has made the advancement [The City at the End of the Game]
-[08:36:52] [Server thread/INFO]: LaMercedez faculag4566 has made the advancement [The City at the End of the Game]
-[08:38:31] [Server thread/INFO]: LaMercedez nachoto227 has reached the goal [Sky's the Limit]
-[08:45:41] [Server thread/WARN]: Spruce Boat (vehicle of benja0806) moved wrongly! 0.34824956230395243
-[08:46:55] [Server thread/WARN]: santimax521 moved wrongly!
-[08:54:53] [Server thread/INFO]: santimax521 issued server command: /team chat -384 59 2206
-[08:54:53] [Craft Scheduler Thread - 482 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f **santimax521§f: -384 59 2206 
-[08:55:00] [Server thread/INFO]: bolcarion lost connection: Timed out
-[08:55:00] [Server thread/INFO]: LaMercedez bolcarion left the game
-[08:56:00] [User Authenticator #45/INFO]: UUID of player bolcarion is 5d22e4e7-7593-329b-91e8-bf4956477f5b
-[08:56:02] [Server thread/INFO]: LaMercedez bolcarion joined the game
-[08:56:02] [Server thread/INFO]: bolcarion[/127.82.62.189:53029] logged in with entity id 320066 at ([world]1051.3119793273704, 65.0, -2659.8087779794378)
-[08:56:05] [Craft Scheduler Thread - 487 - AuthMe/INFO]: [AuthMe] The user bolcarion has 2 accounts:
-[08:56:05] [Craft Scheduler Thread - 487 - AuthMe/INFO]: [AuthMe] §7§asantimax521§7, §abolcarion§7.
-[08:56:05] [Craft Scheduler Thread - 487 - AuthMe/INFO]: [AuthMe] bolcarion logged in 127.82.62.189
-[08:58:26] [Server thread/INFO]: bolcarion lost connection: Disconnected
-[08:58:26] [Server thread/INFO]: LaMercedez bolcarion left the game
-[08:58:33] [User Authenticator #46/INFO]: UUID of player bolcarion is 5d22e4e7-7593-329b-91e8-bf4956477f5b
-[08:58:35] [Server thread/INFO]: LaMercedez bolcarion joined the game
-[08:58:35] [Server thread/INFO]: bolcarion[/127.82.62.189:41095] logged in with entity id 321719 at ([world]1093.6353243706583, 69.0, -2653.300000011921)
-[08:58:37] [Craft Scheduler Thread - 488 - AuthMe/INFO]: [AuthMe] The user bolcarion has 2 accounts:
-[08:58:37] [Craft Scheduler Thread - 488 - AuthMe/INFO]: [AuthMe] §7§asantimax521§7, §abolcarion§7.
-[08:58:37] [Craft Scheduler Thread - 488 - AuthMe/INFO]: [AuthMe] bolcarion logged in 127.82.62.189
-[08:59:56] [Server thread/INFO]: bolcarion issued server command: /team echest
-[09:00:04] [Server thread/INFO]: bolcarion issued server command: /team echest
-[09:00:05] [Server thread/INFO]: santimax521 issued server command: /team echest
-[09:02:08] [Server thread/INFO]: LaMercedez faculag4566 has reached the goal [Sky's the Limit]
-[09:03:04] [Server thread/INFO]: bolcarion issued server command: /team echest
-[09:03:07] [Server thread/INFO]: faculag4566 issued server command: /team echest
-[09:03:25] [Server thread/INFO]: benja0806 issued server command: /team echest
-[09:03:33] [Server thread/INFO]: bolcarion issued server command: /team echest
-[09:03:50] [Server thread/INFO]: faculag4566 issued server command: /team echest
-[09:04:19] [Server thread/INFO]: faculag4566 issued server command: /team echest
-[09:04:57] [Server thread/INFO]: bolcarion issued server command: /team echest
-[09:04:57] [Server thread/INFO]: santimax521 issued server command: /team echest
-[09:05:41] [Server thread/INFO]: LaMercedez faculag4566 has made the advancement [Local Brewery]
-[09:12:03] [Server thread/INFO]: LaMercedez santimax521 has made the advancement [Local Brewery]
-[09:12:24] [Server thread/INFO]: LaMercedez santimax521 has reached the goal [Sky's the Limit]
-[09:13:30] [Server thread/INFO]: faculag4566 issued server command: /team echest
-[09:14:14] [Server thread/INFO]: LaMercedez santimax521 has completed the challenge [Great View From Up Here]
-[09:14:52] [Server thread/INFO]: santimax521 issued server command: /team chat -384 59 2206
-[09:14:52] [Craft Scheduler Thread - 506 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f **santimax521§f: -384 59 2206 
-[09:16:47] [Server thread/INFO]: santimax521 lost connection: Disconnected
-[09:16:47] [Server thread/INFO]: LaMercedez santimax521 left the game
-[09:17:01] [Server thread/INFO]: bolcarion lost connection: Timed out
-[09:17:01] [Server thread/INFO]: LaMercedez bolcarion left the game
-[09:17:34] [Server thread/INFO]: faculag4566 issued server command: /team echest
-[09:18:38] [Server thread/INFO]: faculag4566 issued server command: /team echest
-[09:19:30] [Server thread/INFO]: faculag4566 issued server command: /team echest
-[09:19:54] [Server thread/INFO]: LaMercedez faculag4566 fell out of the world
-[09:20:06] [Server thread/INFO]: benja0806 issued server command: /team echest
-[09:21:01] [Server thread/INFO]: faculag4566 issued server command: /team eches
-[09:21:12] [Server thread/INFO]: faculag4566 issued server command: /esteam
-[09:21:27] [Server thread/INFO]: faculag4566 issued server command: /team echest
-[09:22:47] [Server thread/INFO]: benja0806 issued server command: /team chat 1213 69 -2710
-[09:22:47] [Craft Scheduler Thread - 519 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f benja0806§f: 1213 69 -2710 
-[09:31:13] [Server thread/WARN]: Oak Boat (vehicle of nachoto227) moved wrongly! 0.4673209489674264
-[09:31:13] [Server thread/WARN]: Oak Boat (vehicle of nachoto227) moved wrongly! 0.7011590166659971
-[09:31:13] [Server thread/WARN]: Oak Boat (vehicle of nachoto227) moved wrongly! 0.911613272019622
-[09:31:13] [Server thread/WARN]: Oak Boat (vehicle of nachoto227) moved wrongly! 1.0
-[09:35:05] [Server thread/INFO]: faculag4566 issued server command: /team echest
-[09:36:23] [Server thread/INFO]: benja0806 issued server command: /team echest
-[09:40:51] [Server thread/INFO]: LaMercedez nachoto227 has made the advancement [Enchanter]
-[09:45:51] [Server thread/INFO]: faculag4566 lost connection: Disconnected
-[09:45:52] [Server thread/INFO]: LaMercedez faculag4566 left the game
-[09:46:15] [Server thread/INFO]: benja0806 lost connection: Disconnected
-[09:46:15] [Server thread/INFO]: LaMercedez benja0806 left the game
-[09:48:30] [Server thread/INFO]: nachoto227 lost connection: Disconnected
-[09:48:30] [Server thread/INFO]: LaMercedez nachoto227 left the game
+[05:21:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[05:21:26] [ServerMain/INFO]: Loaded 1290 recipes
+[05:21:27] [ServerMain/INFO]: Loaded 1399 advancements
+[05:21:28] [Server thread/INFO]: Starting minecraft server version 1.21
+[05:21:28] [Server thread/INFO]: Loading properties
+[05:21:28] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[05:21:30] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[05:21:30] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:21:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:21:32] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[05:21:33] [Server thread/INFO]: Default game type: SURVIVAL
+[05:21:33] [Server thread/INFO]: Generating keypair
+[05:21:33] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:21:33] [Server thread/INFO]: Using epoll channel type
+[05:21:33] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[05:21:33] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[05:21:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loading 17 libraries... please wait
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/ch/jalu/injector/1.0/injector-1.0.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/javax/inject/javax.inject/1/javax.inject-1.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/net/ricecode/string-similarity/1.0.0/string-similarity-1.0.0.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/com/maxmind/geoip2/geoip2/4.2.0/geoip2-4.2.0.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/com/maxmind/db/maxmind-db/3.1.0/maxmind-db-3.1.0.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/com/fasterxml/jackson/core/jackson-databind/2.16.0/jackson-databind-2.16.0.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/com/fasterxml/jackson/core/jackson-core/2.16.0/jackson-core-2.16.0.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/com/fasterxml/jackson/core/jackson-annotations/2.16.0/jackson-annotations-2.16.0.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/javatar/javatar/2.5/javatar-2.5.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/org/apache/commons/commons-email/1.6.0/commons-email-1.6.0.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/com/zaxxer/HikariCP/5.1.0/HikariCP-5.1.0.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/ch/jalu/datasourcecolumns/0.1.2/datasourcecolumns-0.1.2.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/com/mysql/mysql-connector-j/8.4.0/mysql-connector-j-8.4.0.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/com/google/protobuf/protobuf-java/3.25.1/protobuf-java-3.25.1.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/org/mariadb/jdbc/mariadb-java-client/3.4.0/mariadb-java-client-3.4.0.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/com/github/waffle/waffle-jna/3.3.0/waffle-jna-3.3.0.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/org/slf4j/jcl-over-slf4j/2.0.7/jcl-over-slf4j-2.0.7.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/com/google/errorprone/error_prone_annotations/2.10.0/error_prone_annotations-2.10.0.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/org/postgresql/postgresql/42.7.3/postgresql-42.7.3.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/de/rtner/PBKDF2/1.1.4/PBKDF2-1.1.4.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/org/picketbox/picketbox/4.0.21.Final/picketbox-4.0.21.Final.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/de/mkammerer/argon2-jvm-nolibs/2.11/argon2-jvm-nolibs-2.11.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/at/favre/lib/bcrypt/0.10.2/bcrypt-0.10.2.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/at/favre/lib/bytes/1.5.0/bytes-1.5.0.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/com/warrenstrange/googleauth/1.5.0/googleauth-1.5.0.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/commons-codec/commons-codec/1.14/commons-codec-1.14.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/ch/jalu/configme/1.3.1/configme-1.3.1.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/org/bstats/bstats-bukkit/3.0.2/bstats-bukkit-3.0.2.jar
+[05:21:38] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/FPSFullGay/servidor_minecraft/libraries/org/bstats/bstats-base/3.0.2/bstats-base-3.0.2.jar
+[05:21:38] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
+[05:21:40] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+154-667b0f7
+[05:21:40] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.1
+[05:21:40] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.10.0
+[05:21:40] [Server thread/INFO]: [BetterTeams] Checking if the file config.yml is up to date
+[05:21:40] [Server thread/INFO]: [BetterTeams] File is up to date
+[05:21:40] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-SNAPSHOT-b2642
+[05:21:40] [Server thread/INFO]: [Orebfuscator] Loading server plugin Orebfuscator v5.5.2
+[05:21:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:21:40] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[05:21:40] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
+[05:21:42] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[05:21:44] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
+[05:21:46] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[05:21:47] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:21:47] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:21:47] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:21:47] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:21:47] [Server thread/INFO]: Preparing level "world"
+[05:21:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:21:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[05:21:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[05:21:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[05:21:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[05:21:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[05:21:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:21:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.1
+[05:21:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: d5d8613
+[05:21:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[05:21:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:21:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[05:21:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[05:21:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:21:52] [Server thread/INFO]: Time elapsed: 3844 ms
+[05:21:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[05:21:54] [Server thread/INFO]: Time elapsed: 2601 ms
+[05:21:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[05:21:55] [Server thread/INFO]: Time elapsed: 562 ms
+[05:21:55] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+154-667b0f7
+[05:21:58] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[05:21:59] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[05:21:59] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[05:22:00] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[05:22:00] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[05:22:00] [Server thread/INFO]: [Essentials] Selected Reflection Spawner Block Provider as the provider for SpawnerBlockProvider
+[05:22:00] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[05:22:00] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[05:22:00] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[05:22:00] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[05:22:00] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[05:22:00] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[05:22:00] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[05:22:00] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[05:22:00] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[05:22:00] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[05:22:00] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[05:22:00] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[05:22:00] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[05:22:00] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[05:22:00] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[05:22:00] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[05:22:00] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[05:22:00] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[05:22:01] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[05:22:01] [Server thread/INFO]: [Essentials] Using locale en
+[05:22:01] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[05:22:02] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[05:22:02] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[05:22:02] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.10.0
+[05:22:03] [Server thread/INFO]: [BetterTeams] Checking if the file messages.yml is up to date
+[05:22:03] [Server thread/INFO]: [BetterTeams] File is up to date
+[05:22:04] [Server thread/INFO]: Display team name config value: prefix
+[05:22:04] [Server thread/INFO]: Loading below name. Type: PREFIX
+[05:22:04] [Server thread/INFO]: teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@4facff21
+[05:22:04] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.7.0-SNAPSHOT-b2642
+[05:22:06] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[05:22:07] [Server thread/INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
+[05:22:07] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[05:22:07] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: '/workspaces/FPSFullGay/servidor_minecraft/plugins/Essentials/spawn.yml'
+[05:22:09] [Server thread/INFO]: [AuthMe] AuthMe 5.7.0-SNAPSHOT build n.2642 successfully enabled!
+[05:22:09] [Server thread/INFO]: [Orebfuscator] Enabling Orebfuscator v5.5.2
+[05:22:14] [Server thread/INFO]: [spark] Starting background profiler...
+[05:22:17] [Server thread/INFO]: Done preparing level "world" (29.895s)
+[05:22:17] [Server thread/INFO]: Running delayed init tasks
+[05:22:17] [Craft Scheduler Thread - 5 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[05:22:17] [Craft Scheduler Thread - 5 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[05:22:17] [Craft Scheduler Thread - 5 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[05:22:17] [Craft Scheduler Thread - 5 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[05:22:17] [Craft Scheduler Thread - 4 - Essentials/INFO]: [Essentials] Fetching version information...
+[05:22:17] [Server thread/INFO]: Done (72.801s)! For help, type "help"
+[05:22:17] [Server thread/INFO]: Timings Reset
+[05:22:29] [User Authenticator #0/INFO]: UUID of player Toppo_Z is b05eba41-1809-3193-83d8-06393137f486
+[05:22:34] [User Authenticator #0/INFO]: UUID of player Zeta is be28fd3d-fb50-364f-bc7e-3fff7e84e6f8
+[05:22:34] [Server thread/INFO]: Toppo_Z joined the game
+[05:22:35] [Server thread/INFO]: Toppo_Z[/127.102.84.29:48767] logged in with entity id 46 at ([world]-363.0995488384143, 101.0, 889.2044721529011)
+[05:22:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3057ms or 61 ticks behind
+[05:22:41] [Server thread/INFO]: Zeta joined the game
+[05:22:41] [Server thread/INFO]: Zeta[/127.115.136.31:38883] logged in with entity id 48 at ([world]-2675.699999988079, 63.0, -1776.5167284201964)
+[05:22:49] [User Authenticator #0/INFO]: UUID of player nachoto227 is c436878c-0061-3ffb-8e60-7f9e3d49a017
+[05:22:49] [Craft Scheduler Thread - 4 - AuthMe/INFO]: [AuthMe] Toppo_Z logged in 127.102.84.29
+[05:22:51] [Server thread/INFO]: nachoto227 joined the game
+[05:22:51] [Server thread/INFO]: nachoto227[/127.203.4.180:58103] logged in with entity id 359 at ([world]1210.237500011921, 67.0, -2700.7199175453734)
+[05:22:52] [Craft Scheduler Thread - 6 - AuthMe/INFO]: [AuthMe] The user Zeta has 2 accounts:
+[05:22:52] [Craft Scheduler Thread - 6 - AuthMe/INFO]: [AuthMe] §7zxta, §aZeta§7.
+[05:22:52] [Craft Scheduler Thread - 6 - AuthMe/INFO]: [AuthMe] Zeta logged in 127.115.136.31
+[05:22:57] [User Authenticator #0/INFO]: UUID of player UnPibee is 03502d61-75c0-3984-8dec-353fa3007fdf
+[05:22:59] [Server thread/INFO]: UnPibee joined the game
+[05:22:59] [Server thread/INFO]: UnPibee[/127.206.165.81:56937] logged in with entity id 507 at ([world]-345.2694013960186, 74.0, 793.4908376803817)
+[05:23:05] [Craft Scheduler Thread - 5 - AuthMe/INFO]: [AuthMe] nachoto227 logged in 127.203.4.180
+[05:23:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19342ms or 386 ticks behind
+[05:23:13] [User Authenticator #0/INFO]: UUID of player benja0806 is 2bc131e5-b440-3fd2-b2fb-2c45cc6aaa3b
+[05:23:15] [Server thread/INFO]: benja0806 joined the game
+[05:23:15] [Server thread/INFO]: benja0806[/127.174.62.101:46791] logged in with entity id 704 at ([world]1225.3680163746033, 69.0, -2713.1956614481123)
+[05:23:16] [Craft Scheduler Thread - 6 - AuthMe/INFO]: [AuthMe] UnPibee logged in 127.206.165.81
+[05:23:19] [Server thread/INFO]: Zeta lost connection: Disconnected
+[05:23:19] [Server thread/INFO]: Peronistas Zeta left the game
+[05:23:20] [Craft Scheduler Thread - 5 - AuthMe/INFO]: [AuthMe] benja0806 logged in 127.174.62.101
+[05:23:25] [Server thread/INFO]: nachoto227 issued server command: /team chat entra al ds
+[05:23:25] [Craft Scheduler Thread - 5 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f nachoto227§f: entra al ds 
+[05:23:31] [User Authenticator #0/INFO]: UUID of player Zeta is be28fd3d-fb50-364f-bc7e-3fff7e84e6f8
+[05:23:32] [Server thread/INFO]: Zeta joined the game
+[05:23:32] [Server thread/INFO]: Zeta[/127.115.136.31:42401] logged in with entity id 752 at ([world]-2676.464433219495, 63.0, -1776.5807928840695)
+[05:23:34] [Server thread/INFO]: benja0806 issued server command: /team ya estoy yo
+[05:23:40] [Craft Scheduler Thread - 4 - AuthMe/INFO]: [AuthMe] The user Zeta has 2 accounts:
+[05:23:40] [Craft Scheduler Thread - 4 - AuthMe/INFO]: [AuthMe] §7zxta, §aZeta§7.
+[05:23:40] [Craft Scheduler Thread - 4 - AuthMe/INFO]: [AuthMe] Zeta logged in 127.115.136.31
+[05:23:41] [Server thread/INFO]: benja0806 issued server command: /team chat ya estoy
+[05:23:42] [Craft Scheduler Thread - 4 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f benja0806§f: ya estoy 
+[05:24:27] [Server thread/INFO]: Zeta lost connection: Timed out
+[05:24:27] [Server thread/INFO]: Peronistas Zeta left the game
+[05:24:43] [User Authenticator #1/INFO]: UUID of player Zeta is be28fd3d-fb50-364f-bc7e-3fff7e84e6f8
+[05:24:45] [Server thread/INFO]: Zeta joined the game
+[05:24:45] [Server thread/INFO]: Zeta[/127.115.136.31:38947] logged in with entity id 1355 at ([world]-2675.7722119913315, 63.0, -1777.4583909514567)
+[05:24:57] [Craft Scheduler Thread - 12 - AuthMe/INFO]: [AuthMe] The user Zeta has 2 accounts:
+[05:24:57] [Craft Scheduler Thread - 12 - AuthMe/INFO]: [AuthMe] §7zxta, §aZeta§7.
+[05:24:57] [Craft Scheduler Thread - 12 - AuthMe/INFO]: [AuthMe] Zeta logged in 127.115.136.31
+[05:25:33] [Server thread/INFO]: nachoto227 issued server command: /team chat -9800 -70
+[05:25:33] [Craft Scheduler Thread - 13 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f nachoto227§f: -9800 -70 
+[05:25:59] [Server thread/INFO]: Toppo_Z issued server command: /team echest
+[05:26:07] [Server thread/INFO]: Zeta lost connection: Disconnected
+[05:26:07] [Server thread/INFO]: Peronistas Zeta left the game
+[05:26:13] [Server thread/INFO]: UnPibee issued server command: /team echest
+[05:26:14] [User Authenticator #2/INFO]: UUID of player Zeta is be28fd3d-fb50-364f-bc7e-3fff7e84e6f8
+[05:26:16] [Server thread/INFO]: Zeta joined the game
+[05:26:16] [Server thread/INFO]: Zeta[/127.115.136.31:52695] logged in with entity id 2051 at ([world]-2675.7722119913315, 63.0, -1777.4583909514567)
+[05:26:23] [Server thread/INFO]: nachoto227 issued server command: /team echest
+[05:27:13] [Craft Scheduler Thread - 18 - AuthMe/INFO]: [AuthMe] The user Zeta has 2 accounts:
+[05:27:13] [Craft Scheduler Thread - 18 - AuthMe/INFO]: [AuthMe] §7zxta, §aZeta§7.
+[05:27:13] [Craft Scheduler Thread - 18 - AuthMe/INFO]: [AuthMe] Zeta logged in 127.115.136.31
+[05:27:45] [Server thread/INFO]: UnPibee issued server command: /team echest
+[05:28:05] [Server thread/INFO]: Zeta lost connection: Timed out
+[05:28:05] [Server thread/INFO]: Peronistas Zeta left the game
+[05:28:17] [User Authenticator #3/INFO]: UUID of player Zeta is be28fd3d-fb50-364f-bc7e-3fff7e84e6f8
+[05:28:19] [Server thread/INFO]: Zeta joined the game
+[05:28:19] [Server thread/INFO]: Zeta[/127.115.136.31:46475] logged in with entity id 2953 at ([world]-2675.7722119913315, 63.0, -1777.4583909514567)
+[05:28:20] [User Authenticator #3/INFO]: UUID of player benja0806 is 2bc131e5-b440-3fd2-b2fb-2c45cc6aaa3b
+[05:28:20] [Server thread/INFO]: Disconnecting benja0806 (/127.174.62.101:42225): The same username is already playing on the server!
+[05:28:20] [Server thread/INFO]: benja0806 (/127.174.62.101:42225) lost connection: The same username is already playing on the server!
+[05:28:24] [Server thread/INFO]: benja0806 lost connection: Timed out
+[05:28:24] [Server thread/INFO]: LaMercedez benja0806 left the game
+[05:28:24] [User Authenticator #3/INFO]: UUID of player benja0806 is 2bc131e5-b440-3fd2-b2fb-2c45cc6aaa3b
+[05:28:25] [Server thread/INFO]: LaMercedez benja0806 joined the game
+[05:28:25] [Server thread/INFO]: benja0806[/127.174.62.101:34495] logged in with entity id 3166 at ([world]1250.6620741044908, 67.0, -2741.206294421937)
+[05:28:29] [Craft Scheduler Thread - 20 - AuthMe/INFO]: [AuthMe] benja0806 logged in 127.174.62.101
+[05:28:53] [Craft Scheduler Thread - 20 - AuthMe/INFO]: [AuthMe] The user Zeta has 2 accounts:
+[05:28:53] [Craft Scheduler Thread - 20 - AuthMe/INFO]: [AuthMe] §7zxta, §aZeta§7.
+[05:28:53] [Craft Scheduler Thread - 20 - AuthMe/INFO]: [AuthMe] Zeta logged in 127.115.136.31
+[05:31:04] [Server thread/INFO]: Zeta lost connection: Disconnected
+[05:31:05] [Server thread/INFO]: Peronistas Zeta left the game
+[05:32:52] [Server thread/INFO]: UnPibee issued server command: /team echest
+[05:33:35] [User Authenticator #4/INFO]: UUID of player Zeta is be28fd3d-fb50-364f-bc7e-3fff7e84e6f8
+[05:33:37] [Server thread/INFO]: Zeta joined the game
+[05:33:37] [Server thread/INFO]: Zeta[/127.115.136.31:43805] logged in with entity id 5233 at ([world]-2675.7722119913315, 63.0, -1777.4583909514567)
+[05:34:26] [Server thread/INFO]: LaMercedez benja0806 has made the advancement [Enchanter]
+[05:34:49] [Craft Scheduler Thread - 34 - AuthMe/INFO]: [AuthMe] The user Zeta has 2 accounts:
+[05:34:49] [Craft Scheduler Thread - 34 - AuthMe/INFO]: [AuthMe] §7zxta, §aZeta§7.
+[05:34:49] [Craft Scheduler Thread - 34 - AuthMe/INFO]: [AuthMe] Zeta logged in 127.115.136.31
+[05:36:00] [Server thread/INFO]: Libertarios Toppo_Z has made the advancement [What a Deal!]
+[05:36:07] [Async Chat Thread - #0/INFO]: [Not Secure] [LaMercedez] <benja0806> lz
+[05:36:07] [Async Chat Thread - #0/INFO]: [Not Secure] [LaMercedez] <benja0806> z
+[05:36:07] [Async Chat Thread - #0/INFO]: [Not Secure] [LaMercedez] <benja0806> z
+[05:36:07] [Async Chat Thread - #0/INFO]: [Not Secure] [LaMercedez] <benja0806> z
+[05:36:08] [Async Chat Thread - #0/INFO]: [Not Secure] [LaMercedez] <benja0806> z
+[05:36:08] [Async Chat Thread - #0/INFO]: [Not Secure] [LaMercedez] <benja0806> z
+[05:36:08] [Async Chat Thread - #0/INFO]: [Not Secure] [LaMercedez] <benja0806> z
+[05:36:08] [Async Chat Thread - #0/INFO]: [Not Secure] [LaMercedez] <benja0806> z
+[05:36:08] [Async Chat Thread - #0/INFO]: [Not Secure] [LaMercedez] <benja0806> z
+[05:36:08] [Async Chat Thread - #0/INFO]: [Not Secure] [LaMercedez] <benja0806> z
+[05:36:08] [Async Chat Thread - #0/INFO]: [Not Secure] [LaMercedez] <benja0806> z
+[05:36:09] [Async Chat Thread - #0/INFO]: [Not Secure] [LaMercedez] <benja0806> z
+[05:36:09] [Server thread/INFO]: benja0806 lost connection: Kicked for spamming
+[05:36:09] [Server thread/INFO]: LaMercedez benja0806 left the game
+[05:36:14] [User Authenticator #5/INFO]: UUID of player benja0806 is 2bc131e5-b440-3fd2-b2fb-2c45cc6aaa3b
+[05:36:14] [Server thread/INFO]: benja0806 (/127.174.62.101:49951) lost connection: Disconnected
+[05:36:25] [Server thread/INFO]: UnPibee issued server command: /team echest
+[05:36:25] [User Authenticator #5/INFO]: UUID of player benja0806 is 2bc131e5-b440-3fd2-b2fb-2c45cc6aaa3b
+[05:36:27] [Server thread/INFO]: LaMercedez benja0806 joined the game
+[05:36:27] [Server thread/INFO]: benja0806[/127.174.62.101:35535] logged in with entity id 6542 at ([world]1251.5, 67.0, -2739.5)
+[05:36:29] [Server thread/INFO]: UnPibee issued server command: /team echest
+[05:36:31] [Craft Scheduler Thread - 36 - AuthMe/INFO]: [AuthMe] benja0806 logged in 127.174.62.101
+[05:37:03] [User Authenticator #5/INFO]: UUID of player Zeta is be28fd3d-fb50-364f-bc7e-3fff7e84e6f8
+[05:37:03] [Server thread/INFO]: Disconnecting Zeta (/127.115.136.31:42327): The same username is already playing on the server!
+[05:37:03] [Server thread/INFO]: Zeta (/127.115.136.31:42327) lost connection: The same username is already playing on the server!
+[05:37:10] [User Authenticator #5/INFO]: UUID of player Zeta is be28fd3d-fb50-364f-bc7e-3fff7e84e6f8
+[05:37:10] [Server thread/INFO]: Disconnecting Zeta (/127.115.136.31:34947): The same username is already playing on the server!
+[05:37:10] [Server thread/INFO]: Zeta (/127.115.136.31:34947) lost connection: The same username is already playing on the server!
+[05:37:16] [Server thread/INFO]: Zeta lost connection: Timed out
+[05:37:16] [Server thread/INFO]: Peronistas Zeta left the game
+[05:37:17] [User Authenticator #5/INFO]: UUID of player Zeta is be28fd3d-fb50-364f-bc7e-3fff7e84e6f8
+[05:37:19] [Server thread/INFO]: Zeta joined the game
+[05:37:19] [Server thread/INFO]: Zeta[/127.115.136.31:36563] logged in with entity id 6880 at ([world]-2675.7722119913315, 63.0, -1777.4583909514567)
+[05:37:25] [Craft Scheduler Thread - 40 - AuthMe/INFO]: [AuthMe] The user Zeta has 2 accounts:
+[05:37:25] [Craft Scheduler Thread - 40 - AuthMe/INFO]: [AuthMe] §7zxta, §aZeta§7.
+[05:37:25] [Craft Scheduler Thread - 40 - AuthMe/INFO]: [AuthMe] Zeta logged in 127.115.136.31
+[05:38:33] [Server thread/INFO]: Zeta lost connection: Disconnected
+[05:38:33] [Server thread/INFO]: Peronistas Zeta left the game
+[05:38:40] [Async Chat Thread - #2/INFO]: [Not Secure] [LaMercedez] <nachoto227> siguen ahi?
+[05:39:03] [Async Chat Thread - #2/INFO]: [Not Secure] [Libertarios] <UnPibee> nos alejamos un poquito mas
+[05:39:10] [Async Chat Thread - #2/INFO]: [Not Secure] [Libertarios] <UnPibee> xq tardaban banda
+[05:39:20] [Async Chat Thread - #2/INFO]: [Not Secure] [LaMercedez] <nachoto227> bueno despues pasen
+[05:39:25] [Async Chat Thread - #2/INFO]: [Not Secure] [Libertarios] <UnPibee> cagon
+[05:39:30] [Async Chat Thread - #2/INFO]: [Not Secure] [Libertarios] <UnPibee> alpedo te espero
+[05:39:40] [Async Chat Thread - #2/INFO]: [Not Secure] [LaMercedez] <nachoto227> estas re lejos chupapija
+[05:39:41] [User Authenticator #6/INFO]: UUID of player Zeta is be28fd3d-fb50-364f-bc7e-3fff7e84e6f8
+[05:39:43] [Server thread/INFO]: Zeta joined the game
+[05:39:43] [Server thread/INFO]: Zeta[/127.115.136.31:43105] logged in with entity id 7860 at ([world]-2676.4502742311256, 63.0, -1777.5291780641855)
+[05:40:02] [Async Chat Thread - #2/INFO]: [Not Secure] [Libertarios] <UnPibee> nacho
+[05:40:03] [Craft Scheduler Thread - 46 - AuthMe/INFO]: [AuthMe] The user Zeta has 2 accounts:
+[05:40:03] [Craft Scheduler Thread - 46 - AuthMe/INFO]: [AuthMe] §7zxta, §aZeta§7.
+[05:40:03] [Craft Scheduler Thread - 46 - AuthMe/INFO]: [AuthMe] Zeta logged in 127.115.136.31
+[05:40:19] [Async Chat Thread - #2/INFO]: [Not Secure] [Libertarios] <UnPibee> eu
+[05:40:23] [Async Chat Thread - #2/INFO]: [Not Secure] [LaMercedez] <nachoto227> q
+[05:40:32] [Async Chat Thread - #2/INFO]: [Not Secure] [Libertarios] <Toppo_Z> chupame el pitilin
+[05:40:38] [Server thread/INFO]: Zeta lost connection: Disconnected
+[05:40:38] [Server thread/INFO]: Peronistas Zeta left the game
+[05:43:29] [Server thread/INFO]: UnPibee issued server command: /team echest
+[05:46:17] [User Authenticator #7/INFO]: UUID of player Zeta is be28fd3d-fb50-364f-bc7e-3fff7e84e6f8
+[05:46:19] [Server thread/INFO]: Zeta joined the game
+[05:46:19] [Server thread/INFO]: Zeta[/127.115.136.31:40429] logged in with entity id 11559 at ([world]-2676.4502742311256, 63.0, -1777.5291780641855)
+[05:46:27] [Craft Scheduler Thread - 55 - AuthMe/INFO]: [AuthMe] The user Zeta has 2 accounts:
+[05:46:27] [Craft Scheduler Thread - 55 - AuthMe/INFO]: [AuthMe] §7zxta, §aZeta§7.
+[05:46:27] [Craft Scheduler Thread - 55 - AuthMe/INFO]: [AuthMe] Zeta logged in 127.115.136.31
+[05:46:51] [Async Chat Thread - #4/INFO]: [Not Secure] [Libertarios] <Toppo_Z> zzz
+[05:47:11] [Async Chat Thread - #5/INFO]: [Not Secure] [Peronistas] <Zeta> zzzzz
+[05:48:13] [Server thread/INFO]: UnPibee issued server command: /team echest
+[05:49:31] [Server thread/INFO]: Zeta issued server command: /team echest
+[05:51:19] [Server thread/INFO]: Toppo_Z lost connection: Timed out
+[05:51:19] [Server thread/INFO]: Libertarios Toppo_Z left the game
+[05:51:44] [Server thread/INFO]: Libertarios UnPibee was killed by Witch using magic
+[05:52:00] [Async Chat Thread - #6/INFO]: [Not Secure] [LaMercedez] <nachoto227> y asi queres pvpear
+[05:52:01] [Async Chat Thread - #7/INFO]: [Not Secure] [LaMercedez] <nachoto227> JAJAJA
+[05:52:09] [Async Chat Thread - #7/INFO]: [Not Secure] [Peronistas] <Zeta> te dijo nomas
+[05:52:21] [Async Chat Thread - #7/INFO]: [Not Secure] [Libertarios] <UnPibee> vos sos el cagon, yo no
+[05:52:26] [Async Chat Thread - #7/INFO]: [Not Secure] [LaMercedez] <nachoto227> pasa cords
+[05:52:40] [Async Chat Thread - #7/INFO]: [Not Secure] [Libertarios] <UnPibee> te pase 6 veces man
+[05:52:51] [Async Chat Thread - #6/INFO]: [Not Secure] [LaMercedez] <nachoto227> y si me decis q se van yendo un poco mas
+[05:52:55] [Async Chat Thread - #6/INFO]: [Not Secure] [LaMercedez] <nachoto227> llego y no estan
+[05:52:57] [Async Chat Thread - #6/INFO]: [Not Secure] [LaMercedez] <nachoto227> como siempre
+[05:53:01] [Server thread/INFO]: Peronistas Zeta has made the advancement [Hot Stuff]
+[05:53:03] [Async Chat Thread - #6/INFO]: [Not Secure] [Libertarios] <UnPibee> y no voy a esperar como trolita
+[05:53:33] [Async Chat Thread - #6/INFO]: [Not Secure] [LaMercedez] <nachoto227> bueno te espero ahi
+[05:53:44] [Async Chat Thread - #6/INFO]: [Not Secure] [Libertarios] <UnPibee> yo no voy
+[05:53:48] [Async Chat Thread - #6/INFO]: [Not Secure] [Libertarios] <UnPibee> vengan ustee
+[05:53:52] [Async Chat Thread - #6/INFO]: [Not Secure] [LaMercedez] <nachoto227> eh
+[05:53:56] [Async Chat Thread - #6/INFO]: [Not Secure] [LaMercedez] <nachoto227> entonces donde mierda estas
+[05:53:57] [Async Chat Thread - #6/INFO]: [Not Secure] [Libertarios] <UnPibee> en un toque te paso las coords
+[05:54:02] [Async Chat Thread - #6/INFO]: [Not Secure] [LaMercedez] <nachoto227> si te estoy diciendo q voy alas cords
+[05:54:02] [Async Chat Thread - #6/INFO]: [Not Secure] [Libertarios] <UnPibee> para q recupere algo
+[05:56:11] [Async Chat Thread - #8/INFO]: [Not Secure] [Libertarios] <UnPibee> mientras pasa coords
+[05:57:40] [Async Chat Thread - #10/INFO]: [Not Secure] [LaMercedez] <benja0806> zzzz
+[05:59:11] [Async Chat Thread - #12/INFO]: [Not Secure] [LaMercedez] <nachoto227> topo pelea?
+[05:59:14] [Async Chat Thread - #12/INFO]: [Not Secure] [LaMercedez] <nachoto227> el falsito ese
+[05:59:18] [Async Chat Thread - #12/INFO]: [Not Secure] [LaMercedez] <nachoto227> doble cara
+[06:00:11] [Async Chat Thread - #12/INFO]: [Not Secure] [Libertarios] <UnPibee> ni el tab sabe usar el q me quiere pelear
+[06:00:34] [Async Chat Thread - #12/INFO]: [Not Secure] [LaMercedez] <nachoto227> y si se une y se va a cada rato
+[06:00:47] [Server thread/INFO]: Zeta issued server command: /team echest
+[06:00:57] [Server thread/INFO]: Zeta issued server command: /team echest
+[06:00:59] [Async Chat Thread - #12/INFO]: [Not Secure] [Libertarios] <UnPibee> 1vs1 en rl y te cojo ahi
+[06:01:00] [Server thread/INFO]: Zeta issued server command: /team e
+[06:01:04] [Server thread/INFO]: Zeta issued server command: /team echest
+[06:01:11] [Async Chat Thread - #12/INFO]: [Not Secure] [LaMercedez] <nachoto227> tenes mas chances aca salamin
+[06:01:17] [Async Chat Thread - #12/INFO]: [Not Secure] [Libertarios] <UnPibee> na
+[06:01:22] [Server thread/INFO]: Peronistas Zeta has made the advancement [Cover Me with Diamonds]
+[06:01:28] [Async Chat Thread - #12/INFO]: [Not Secure] [Libertarios] <UnPibee> gran champ 2 soy maquina
+[06:01:38] [Async Chat Thread - #12/INFO]: [Not Secure] [LaMercedez] <nachoto227> de papel rey
+[06:01:42] [Async Chat Thread - #12/INFO]: [Not Secure] [Libertarios] <UnPibee> te cojo todita
+[06:01:49] [Server thread/INFO]: Zeta issued server command: /team echest
+[06:03:01] [Async Chat Thread - #14/INFO]: [Not Secure] [Libertarios] <UnPibee> no queres aca no queres en rl en nd queres
+[06:03:10] [Async Chat Thread - #14/INFO]: [Not Secure] [Libertarios] <UnPibee> este no es el nachoto del anterior sv
+[06:03:40] [Server thread/INFO]: nachoto227 lost connection: Disconnected
+[06:03:40] [Server thread/INFO]: LaMercedez nachoto227 left the game
+[06:03:46] [User Authenticator #8/INFO]: UUID of player nachoto227 is c436878c-0061-3ffb-8e60-7f9e3d49a017
+[06:03:48] [Server thread/INFO]: LaMercedez nachoto227 joined the game
+[06:03:48] [Server thread/INFO]: nachoto227[/127.203.4.180:56667] logged in with entity id 23733 at ([world]1131.4248475042486, 67.0, -2710.842037015806)
+[06:03:54] [Craft Scheduler Thread - 72 - AuthMe/INFO]: [AuthMe] nachoto227 logged in 127.203.4.180
+[06:09:14] [Server thread/INFO]: UnPibee lost connection: Disconnected
+[06:09:14] [Server thread/INFO]: Libertarios UnPibee left the game
+[06:10:06] [Async Chat Thread - #16/INFO]: [Not Secure] [LaMercedez] <nachoto227> se cago??
+[06:13:38] [User Authenticator #9/INFO]: UUID of player faculag4566 is bfec446e-b332-37dc-95bb-fc16b424021a
+[06:13:39] [Server thread/INFO]: faculag4566 joined the game
+[06:13:39] [Server thread/INFO]: faculag4566[/127.31.27.232:40869] logged in with entity id 28268 at ([world]1219.300000011921, 64.0, -2678.6917199003365)
+[06:14:06] [Craft Scheduler Thread - 80 - AuthMe/INFO]: [AuthMe] faculag4566 logged in 127.31.27.232
+[06:14:56] [Server thread/WARN]: benja0806 moved wrongly!
+[06:15:32] [Server thread/WARN]: benja0806 moved wrongly!
+[06:21:22] [Server thread/INFO]: Zeta lost connection: Disconnected
+[06:21:22] [Server thread/INFO]: Peronistas Zeta left the game
+[06:25:38] [Async Chat Thread - #18/INFO]: [Not Secure] [LaMercedez] <nachoto227> voooooooooooo
+[06:31:03] [Server thread/INFO]: benja0806 lost connection: Timed out
+[06:31:04] [Server thread/INFO]: LaMercedez benja0806 left the game
+[06:31:06] [User Authenticator #10/INFO]: UUID of player benja0806 is 2bc131e5-b440-3fd2-b2fb-2c45cc6aaa3b
+[06:31:07] [Server thread/INFO]: com.mojang.authlib.GameProfile@1478d095[id=2bc131e5-b440-3fd2-b2fb-2c45cc6aaa3b,name=benja0806,properties={textures=[Property[name=textures, value=ewogICJ0aW1lc3RhbXAiIDogMTYzMzU0MDg4Mzg4NywKICAicHJvZmlsZUlkIiA6ICI0ZWQ4MjMzNzFhMmU0YmI3YTVlYWJmY2ZmZGE4NDk1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaXJlYnlyZDg4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRhNmY1ZDQxYzdiMmNhNWIxZDEyOTAwNjVmNTM4NDlmMGZjN2FiOGY1ZWZiZTdjMmZiODE0MDk2ZmQyNDIxZDEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==, signature=tOJe27PZqw8YQmnJkxyoKZbSZYzkBEwBKG9OFPuUfgGCnHUgjOUzgjynfLoX4Hm/b26pHtbu8rzS3y6X41xtMPP9Zj77V1wUIkIUlRI1RMOIvDq5apCh5feEKy8opScTSmwtVwLN6Oz4xU5pPdviOXTFK9H3h+cKZ/aCi5H8qPeG/VAC4j6PQlF7pSLXbgX5hWn7WZcDXuGXF5+j5dLy4mfJcR2cxqs3zsVEB6xwzdQ2y9N0rd0jAclWsyWeqR/X8J6/QUO0l5SR6mnwhrNp1FAVSOKamOpmzr166/gONIXjwZgFNEWXzXSymm+HsMOY2okxL1K2dLTzQdzyEOHgVUqRddcXL2LNa/pu3orwts/KMdNH/P4XMe1p0YKEMlgW7AsvtgjRZBiDbFguLelObM+1TyXkic4gFirJuD2KtgIxiwNd97o7ngTLE5UElFHS+amyuF8VFRHRQaUmqnWReE01FOJBRTALlLcDj3jhxa7RGEG+xhIP4KgfqBNWC5G2IDXxSEJLEDI/nAD9O0GyqGo7n+IAp3+VGMVPrNZVFS8DoSjKRPKrJeRHoYsjeV9WhXtSOL57S92PGFUnErDbL7ROuRwFD/QaSQztRhX023pBPzt9Sg57vhK99Y4WVt7pwjQW6J487aSlMSMVGsSYmpVUURPuDLcv+6iXE2NkzOY=]]}] lost connection: Disconnected
+[06:31:14] [User Authenticator #10/INFO]: UUID of player benja0806 is 2bc131e5-b440-3fd2-b2fb-2c45cc6aaa3b
+[06:31:15] [Server thread/INFO]: LaMercedez benja0806 joined the game
+[06:31:15] [Server thread/INFO]: benja0806[/127.174.62.101:49253] logged in with entity id 34939 at ([world]1178.5706488546632, 59.0, -2713.4056314067384)
+[06:31:20] [Craft Scheduler Thread - 90 - AuthMe/INFO]: [AuthMe] benja0806 logged in 127.174.62.101
+[06:58:19] [Server thread/INFO]: nachoto227 issued server command: /help
+[06:58:19] [Server thread/INFO]: [Essentials] nachoto227 was denied access to command.
+[06:59:38] [Server thread/INFO]: nachoto227 issued server command: /team chat 1675 90 -2070
+[06:59:38] [Craft Scheduler Thread - 100 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f nachoto227§f: 1675 90 -2070 
+[06:59:46] [Server thread/INFO]: nachoto227 issued server command: /team chat mansion
+[06:59:46] [Craft Scheduler Thread - 101 - BetterTeams/INFO]: [BetterTeams]§b[Team]§f nachoto227§f: mansion 
