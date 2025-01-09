@@ -950,6 +950,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-01-07 06:18:26 +0000",
+      "minecraft:phantom": "2025-01-09 08:06:54 +0000",
       "minecraft:zombified_piglin": "2025-01-07 08:28:54 +0000",
       "minecraft:ghast": "2025-01-07 07:46:50 +0000",
       "minecraft:ender_dragon": "2025-01-08 08:15:13 +0000",
